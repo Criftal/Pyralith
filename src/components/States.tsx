@@ -1,10 +1,10 @@
 import type { ReactNode } from 'react';
 import type { FileKey } from '../lib/data';
+import { MaskLines } from './Motion';
 
 export function Loading({ label = 'Loading data' }: { label?: string }) {
   return (
-    <div className="flex items-center gap-3 py-10 font-mono text-sm text-muted" role="status">
-      <span className="inline-block h-2 w-2 animate-pulse rounded-full bg-cool" />
+    <div className="py-16 font-mono text-[13px] text-ink-2" role="status">
       {label}…
     </div>
   );
@@ -13,13 +13,13 @@ export function Loading({ label = 'Loading data' }: { label?: string }) {
 /** Honest empty state: says which exported data file is absent instead of showing zeros. */
 export function MissingData({ files, what }: { files: FileKey[]; what: string }) {
   return (
-    <div className="hatch rounded-lg border border-dashed border-line-strong p-6 text-sm text-muted">
-      <div className="font-mono text-xs uppercase tracking-[0.2em] text-faint">No data yet</div>
+    <div className="hatch border-y border-ink px-5 py-6 text-[15px] text-ink">
+      <div className="label">No data yet</div>
       <p className="mt-2">
         {what} will appear once the pipeline exports{' '}
         {files.map((f, i) => (
           <span key={f}>
-            <code className="font-mono text-text/80">public/data/{f}.json</code>
+            <code className="font-mono text-[13px]">public/data/{f}.json</code>
             {i < files.length - 1 ? ', ' : ''}
           </span>
         ))}
@@ -30,15 +30,28 @@ export function MissingData({ files, what }: { files: FileKey[]; what: string })
 }
 
 export function EmptyNote({ children }: { children: ReactNode }) {
-  return <div className="rounded-lg border border-dashed border-line-strong p-4 text-sm text-muted">{children}</div>;
+  return <div className="border-y border-rule py-4 text-[15px] text-ink-2">{children}</div>;
 }
 
-export function ScreenHeader({ kicker, title, children }: { kicker: string; title: ReactNode; children?: ReactNode }) {
+/** Numbered section label in mono, e.g. "03 — Gap Map". */
+export function SectionLabel({ index, children, tone = 'paper' }: { index?: string; children: ReactNode; tone?: 'paper' | 'night' }) {
   return (
-    <header className="mb-6">
-      <div className="font-mono text-xs uppercase tracking-[0.25em] text-flame">{kicker}</div>
-      <h1 className="mt-2 text-2xl font-semibold leading-tight text-text sm:text-3xl lg:text-4xl">{title}</h1>
-      {children && <div className="mt-3 max-w-3xl text-sm leading-relaxed text-muted sm:text-base">{children}</div>}
+    <div className={`font-mono text-[12px] uppercase tracking-[0.08em] ${tone === 'night' ? 'text-night-2' : 'text-ink-3'}`}>
+      {index && <span className={tone === 'night' ? 'text-night-ink' : 'text-ink'}>{index}</span>}
+      {index && ' — '}
+      {children}
+    </div>
+  );
+}
+
+export function ScreenHeader({ kicker, title, children, index }: { kicker: string; title: ReactNode; children?: ReactNode; index?: string }) {
+  return (
+    <header className="mb-10 grid grid-cols-12 gap-x-6 border-b border-ink pb-8 pt-4">
+      <div className="col-span-12">
+        <SectionLabel index={index}>{kicker}</SectionLabel>
+      </div>
+      <MaskLines as="h1" lines={[title]} className="col-span-12 mt-4 font-display text-[clamp(2.4rem,5.6vw,4.75rem)] font-normal leading-[1.02] tracking-[-0.02em] text-ink lg:col-span-10" />
+      {children && <div className="col-span-12 mt-5 max-w-[46rem] text-[17px] leading-relaxed text-ink-2 lg:col-span-8">{children}</div>}
     </header>
   );
 }

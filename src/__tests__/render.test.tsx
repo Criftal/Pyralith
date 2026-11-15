@@ -9,7 +9,7 @@ import { WeightsProvider } from '../lib/weights';
 import { CiteProvider } from '../components/Cite';
 import TopBar from '../components/TopBar';
 import Footer from '../components/Footer';
-import Hook from '../screens/Hook';
+import Landing from '../screens/Landing';
 import MissionSelect from '../screens/MissionSelect';
 import Investigations from '../screens/Investigations';
 import GapMap from '../screens/GapMap';
@@ -36,7 +36,7 @@ function render(node: ReactNode, state: DataState): string {
 const SCREENS: Array<[string, ReactNode]> = [
   ['TopBar', <TopBar route="/" />],
   ['Footer', <Footer />],
-  ['Hook', <Hook />],
+  ['Landing', <Landing />],
   ['MissionSelect', <MissionSelect />],
   ['Investigations', <Investigations />],
   ['GapMap', <GapMap />],
@@ -57,7 +57,7 @@ describe('screens with no data files', () => {
     const html = render(<GapMap />, empty);
     expect(html).not.toContain('PSI holds');
     expect(html).toContain('public/data/findings.json');
-    const hook = render(<Hook />, empty);
+    const hook = render(<Landing />, empty);
     expect(hook).toContain('findings.json not exported yet');
   });
 
@@ -142,11 +142,13 @@ describe('screens with a synthetic dataset', () => {
     expect(html).toContain('Why the Moon may fall outside this range');
   });
 
-  it('Hook computes stats from data', () => {
-    const html = render(<Hook />, full);
+  it('Landing computes stats from data and cites the incident timeline', () => {
+    const html = render(<Landing />, full);
     expect(html).toContain('verified findings');
-    expect(html).toContain('Event (1967)');
+    expect(html).toContain('1967'); // year parsed from the incident label "Event (1967)"
+    expect(html).toContain('synthetic incident claim');
     expect(html).toContain('4 verified');
+    expect(html).toContain('Passed on Earth.');
   });
 
   it('Mission selector lists presets with citations', () => {

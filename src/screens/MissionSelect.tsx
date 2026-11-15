@@ -4,7 +4,15 @@ import { useMission } from '../lib/mission';
 import { citedDisplay } from '../lib/format';
 import { navigate } from '../lib/router';
 import { Cite, citedValueTarget } from '../components/Cite';
+import { Wipe } from '../components/Motion';
 import { Loading, MissingData, ScreenHeader } from '../components/States';
+
+const COLS: Array<[keyof Pick<Mission, 'gravity' | 'o2' | 'pressure' | 'flow'>, string]> = [
+  ['gravity', 'Gravity'],
+  ['o2', 'O₂'],
+  ['pressure', 'Pressure'],
+  ['flow', 'Flow'],
+];
 
 export default function MissionSelect() {
   const { data, loading, missing } = useData();
@@ -12,78 +20,80 @@ export default function MissionSelect() {
   if (loading) return <Loading />;
   return (
     <div>
-      <ScreenHeader kicker="Mission environment" title="Where will the fire happen?">
-        Each preset sets the gravity, oxygen, pressure and flow that the Gap Map, investigation relevance and rankings score against. Every value opens the
-        verified quote it comes from.
+      <ScreenHeader index="02" kicker="Mission environment" title="Where will the fire happen?">
+        Each preset sets the gravity, oxygen, pressure and flow that the Gap Map, investigation relevance and rankings score against. Every value opens the verified quote it
+        comes from.
       </ScreenHeader>
       {missing.includes('missions') ? (
         <MissingData files={['missions']} what="Mission presets" />
       ) : (
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-          {data.missions.map((m) => (
-            <MissionCard
-              key={m.id}
-              m={m}
-              selected={m.id === id}
-              onSelect={() => {
-                setId(m.id);
-                navigate('/gap');
-              }}
-            />
-          ))}
-        </div>
+        <Wipe>
+          <div className="scroll-thin overflow-x-auto">
+            <table className="table-ed min-w-[52rem]">
+              <thead>
+                <tr>
+                  <th scope="col">Mission</th>
+                  {COLS.map(([, label]) => (
+                    <th key={label} scope="col">
+                      {label}
+                    </th>
+                  ))}
+                  <th scope="col">
+                    <span className="sr-only">Select</span>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {data.missions.map((m) => {
+                  const selected = m.id === id;
+                  return (
+                    <tr key={m.id} className={selected ? 'bg-paper-2' : ''}>
+                      <th scope="row" className="text-left align-top">
+                        <div className={`font-display text-[24px] font-normal leading-tight ${selected ? 'underline decoration-signal decoration-2 underline-offset-[6px]' : ''}`}>{m.name}</div>
+                        {selected && <div className="label mt-1 text-ink">Selected</div>}
+                      </th>
+                      {COLS.map(([k, label]) => (
+                        <ValueCell key={k} v={m[k] as CitedValue | null} title={`${m.name}: ${label}`} />
+                      ))}
+                      <td className="text-right align-top">
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setId(m.id);
+                            navigate('/gap');
+                          }}
+                          className={`btn btn-sm ${selected ? 'btn-primary' : ''}`}
+                        >
+                          {selected ? 'Open Gap Map →' : 'Select →'}
+                        </button>
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </Wipe>
       )}
     </div>
   );
 }
 
-function MissionCard({ m, selected, onSelect }: { m: Mission; selected: boolean; onSelect: () => void }) {
-  const rows: Array<[string, CitedValue | null]> = [
-    ['Gravity', m.gravity],
-    ['O₂', m.o2],
-    ['Pressure', m.pressure],
-    ['Flow', m.flow],
-  ];
+function ValueCell({ v, title }: { v: CitedValue | null; title: string }) {
+  if (!v)
+    return (
+      <td className="align-top font-mono text-ink-3" title="No source in the corpus gives a value for this preset">
+        —
+      </td>
+    );
   return (
-    <article className={`flex flex-col rounded-xl border p-5 transition-colors ${selected ? 'border-flame bg-flame/[0.06]' : 'border-line bg-panel hover:border-line-strong'}`}>
-      <div className="flex items-start justify-between gap-3">
-        <h2 className="text-lg font-semibold leading-snug">{m.name}</h2>
-        {selected && <span className="rounded border border-flame/60 px-1.5 py-0.5 font-mono text-[0.65rem] uppercase tracking-wider text-flame">Selected</span>}
+    <td className="align-top">
+      <div className="font-mono text-[14px] tabular">{citedDisplay(v)}</div>
+      <div className="mt-1 flex flex-wrap items-baseline gap-x-2">
+        {v.qualifier === 'assumed' && <span className="label text-ink">assumed</span>}
+        <Cite target={citedValueTarget(v, title)} />
       </div>
-      <dl className="mt-4 space-y-3">
-        {rows.map(([label, v]) => (
-          <div key={label} className="border-t border-line pt-3 first:border-t-0 first:pt-0">
-            <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-              <dt className="text-sm text-muted">{label}</dt>
-              <dd className="flex flex-wrap items-center justify-end gap-2 text-right">
-                {v ? (
-                  <>
-                    <span className="font-mono text-text">{citedDisplay(v)}</span>
-                    {v.qualifier === 'assumed' && (
-                      <span className="rounded border border-flame/50 px-1 py-0.5 font-mono text-[0.62rem] uppercase tracking-wider text-flame-soft">assumed</span>
-                    )}
-                    <Cite target={citedValueTarget(v, `${m.name}: ${label}`)} />
-                  </>
-                ) : (
-                  <span className="font-mono text-faint" title="No source in the corpus gives a value for this preset">
-                    —
-                  </span>
-                )}
-              </dd>
-            </div>
-            {v?.note && <p className="mt-1 text-xs leading-snug text-flame-soft/90">{v.note}</p>}
-          </div>
-        ))}
-      </dl>
-      <button
-        type="button"
-        onClick={onSelect}
-        className={`mt-5 rounded-md px-4 py-2.5 text-sm font-semibold transition-colors ${
-          selected ? 'bg-flame text-black hover:bg-flame-soft' : 'border border-line-strong text-text hover:border-flame hover:text-flame'
-        }`}
-      >
-        {selected ? 'Open the Gap Map →' : 'Select this mission →'}
-      </button>
-    </article>
+      {v.note && <p className="mt-1 max-w-[16rem] text-[12px] leading-snug text-ink-2">{v.note}</p>}
+    </td>
   );
 }

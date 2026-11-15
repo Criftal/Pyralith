@@ -4,11 +4,11 @@
 
 ## 60-second spoken pitch (live presentation)
 
-**[0:00, Overview screen] Hook**
+**[0:00, Landing: the headline, then start scrolling] Hook**
 Every material that flies with NASA astronauts has passed Test 1, a burn test done here, in Earth gravity. The question nobody can answer yet is simple: *it passed on Earth, but will it burn on the Moon?*
 
-**[0:10, Mission → Artemis lunar habitat, then Gap Map]**
-We pulled NASA's PSI combustion investigations and 38 NASA technical reports into one map of gravity against oxygen. Artemis habitats will run at 34% oxygen and lunar gravity: this glowing cell. It's empty. PSI holds zero partial-gravity combustion data. Only 8 of our 174 verified findings come from an Artemis-like atmosphere at all.
+**[0:10, keep scrolling: the 0 g cloud, the lunar slab, the Artemis ring, then the flat Gap Map]**
+We placed every verified finding from NASA's PSI combustion investigations and 38 NASA technical reports in gravity, oxygen and pressure. Here's decades of microgravity data. Here's lunar gravity: almost nothing. And Artemis habitats will run right here, at 34% oxygen and lunar gravity. On the flat map, that cell is empty. PSI holds zero partial-gravity combustion data. Only 8 of our 174 verified findings come from an Artemis-like atmosphere at all.
 
 **[0:25, "Can we bound the Moon?" panel]**
 The obvious fix is to bound the Moon between 0 g and 1 g. NASA's own research says you can't. The flammability boundary is U-shaped: flames quench at low flow and blow off at high flow, and lunar gravity sits near the most flammable point. On the ISS, a PMMA rod burned at 13.6% oxygen. On Earth it blows off at 16%.
@@ -33,7 +33,7 @@ Then FIREBREAK says where NASA should light the next fire: lunar gravity, 30 to 
 
 ## 30-second video script (if submitting video; add English subtitles)
 
-1. **(0–5 s)** Overview screen: "It passed NASA's flammability test on Earth. Will it burn on the Moon?"
+1. **(0–5 s)** Landing headline: "It passed NASA's flammability test on Earth. Will it burn on the Moon?"
 2. **(5–14 s)** Gap Map with Artemis selected: "NASA's PSI archive holds zero partial-gravity combustion data, and Artemis will live right here."
 3. **(14–22 s)** Bound panel: "You can't interpolate. NASA's research says lunar gravity is near the most flammable point."
 4. **(22–30 s)** Next fire: "FIREBREAK ranks where to light the next fire. Every claim has a verified NASA quote."

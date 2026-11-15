@@ -3,6 +3,7 @@ import type { Claim, CitedValue } from '../types';
 import { useData } from '../lib/data';
 import { authorsShort, pdfPageUrl, sourceLabel, tidy } from '../lib/format';
 import { VerifiedBadge } from './Badges';
+import { sub2 } from './Typo';
 
 export interface CiteTarget {
   title: string | null;
@@ -32,91 +33,85 @@ export function CiteProvider({ children }: { children: ReactNode }) {
   return (
     <CiteContext.Provider value={open}>
       {children}
-      {target && <CiteDialog target={target} onClose={close} />}
+      {target && <CiteDrawer target={target} onClose={close} />}
     </CiteContext.Provider>
   );
 }
 
-function CiteDialog({ target, onClose }: { target: CiteTarget; onClose: () => void }) {
+/** Right-side drawer: square, hairline border, no shadow. */
+function CiteDrawer({ target, onClose }: { target: CiteTarget; onClose: () => void }) {
   const { data } = useData();
   const src = data.sources[target.source_id];
   const closeRef = useRef<HTMLButtonElement>(null);
   useEffect(() => {
+    const prev = document.activeElement as HTMLElement | null;
     closeRef.current?.focus();
     const onKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
     };
     window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
+    return () => {
+      window.removeEventListener('keydown', onKey);
+      prev?.focus?.();
+    };
   }, [onClose]);
   const pdf = pdfPageUrl(src, target.page);
   const byline = src ? [authorsShort(src.authors), src.year, src.doc_type].filter(Boolean).join(' · ') : '';
   return (
-    <div
-      className="fixed inset-0 z-50 flex items-end justify-center bg-black/70 sm:items-center sm:p-6"
-      onClick={onClose}
-      role="presentation"
-    >
-      <div
+    <div className="fixed inset-0 z-[60]" role="presentation">
+      <div className="absolute inset-0 bg-ink/20" onClick={onClose} />
+      <aside
         role="dialog"
         aria-modal="true"
         aria-label="Source citation"
-        className="max-h-[88dvh] w-full overflow-y-auto rounded-t-xl border border-line-strong bg-panel p-5 shadow-2xl sm:max-w-xl sm:rounded-xl"
-        onClick={(e) => e.stopPropagation()}
+        className="absolute inset-y-0 right-0 flex w-full max-w-[30rem] flex-col overflow-y-auto border-l border-ink bg-paper text-ink"
       >
-        <div className="flex items-start justify-between gap-4">
-          <div>
-            <div className="font-mono text-[0.7rem] uppercase tracking-[0.2em] text-muted">Citation</div>
-            {target.title && <div className="mt-1 font-semibold text-text">{target.title}</div>}
-          </div>
-          <button
-            ref={closeRef}
-            onClick={onClose}
-            className="rounded border border-line-strong px-2 py-1 font-mono text-xs text-muted hover:border-text hover:text-text"
-            aria-label="Close citation"
-          >
-            Esc
+        <div className="flex items-center justify-between border-b border-ink px-6 py-4">
+          <span className="label">Source</span>
+          <button ref={closeRef} onClick={onClose} className="font-mono text-[12px] text-ink-2 hover:text-ink" aria-label="Close citation">
+            Close · Esc
           </button>
         </div>
-        {target.text && <p className="mt-3 text-sm text-text/90">{tidy(target.text)}</p>}
-        <blockquote className="mt-4 border-l-2 border-cool pl-4 text-[0.95rem] leading-relaxed text-text">
-          “{tidy(target.quote)}”
-        </blockquote>
-        <div className="mt-3 flex flex-wrap items-center gap-2 text-xs">
-          <VerifiedBadge />
-          <span className="font-mono text-muted">
-            {sourceLabel(target.source_id, data.sources)} · p. {target.page}
-          </span>
-        </div>
-        {target.note && <p className="mt-3 text-xs text-flame-soft">{target.note}</p>}
-        <div className="mt-4 rounded-md border border-line bg-panel-2 p-3 text-sm">
-          <div className="text-text">{src?.title ?? target.source_id}</div>
-          {byline && <div className="mt-1 text-xs text-muted">{byline}</div>}
-          <div className="mt-2 flex flex-wrap gap-4 font-mono text-xs">
-            {src?.url && (
-              <a className="text-cool hover:underline" href={src.url} target="_blank" rel="noreferrer">
-                Open source ↗
-              </a>
-            )}
-            {pdf && (
-              <a className="text-cool hover:underline" href={pdf} target="_blank" rel="noreferrer">
-                PDF p. {target.page} ↗
-              </a>
-            )}
-            {target.link && (
-              <a className="text-cool hover:underline" href={target.link} target="_blank" rel="noreferrer">
-                Related page ↗
-              </a>
-            )}
+        <div className="space-y-5 px-6 py-6">
+          {target.title && <h2 className="font-display text-[28px] leading-[1.05]">{sub2(target.title)}</h2>}
+          {target.text && <p className="text-[15px] leading-relaxed text-ink">{tidy(target.text)}</p>}
+          <blockquote className="border-l border-ink pl-4 font-display text-[19px] italic leading-snug text-ink">“{sub2(tidy(target.quote))}”</blockquote>
+          <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
+            <VerifiedBadge />
+            <span className="font-mono text-[12px] text-ink-2">
+              {sourceLabel(target.source_id, data.sources)} · p. {target.page}
+            </span>
+          </div>
+          {target.note && <p className="border-t border-rule pt-3 text-[13px] text-ink-2">{target.note}</p>}
+          <div className="border-t border-ink pt-4">
+            <div className="text-[15px] leading-snug">{src?.title ?? target.source_id}</div>
+            {byline && <div className="mt-1 font-mono text-[12px] text-ink-2">{byline}</div>}
+            <div className="mt-3 flex flex-wrap gap-x-5 gap-y-2 font-mono text-[12px]">
+              {src?.url && (
+                <a className="link-draw text-ink" href={src.url} target="_blank" rel="noreferrer">
+                  Open source ↗
+                </a>
+              )}
+              {pdf && (
+                <a className="link-draw text-ink" href={pdf} target="_blank" rel="noreferrer">
+                  PDF p. {target.page} ↗
+                </a>
+              )}
+              {target.link && (
+                <a className="link-draw text-ink" href={target.link} target="_blank" rel="noreferrer">
+                  Related page ↗
+                </a>
+              )}
+            </div>
           </div>
         </div>
-      </div>
+      </aside>
     </div>
   );
 }
 
-/** Small chip that opens the verified quote, page and source for a claim or cited value. */
-export function Cite({ target, children, className = '' }: { target: CiteTarget; children?: ReactNode; className?: string }) {
+/** Compact mono citation marker; opens the source drawer. */
+export function Cite({ target, children, className = '', tone = 'paper' }: { target: CiteTarget; children?: ReactNode; className?: string; tone?: 'paper' | 'night' }) {
   const open = useCite();
   const { data } = useData();
   return (
@@ -127,22 +122,24 @@ export function Cite({ target, children, className = '' }: { target: CiteTarget;
         open(target);
       }}
       title="Show the verified source quote"
-      className={`inline-flex items-center gap-1 rounded border border-line-strong px-1.5 py-0.5 align-middle font-mono text-[0.72rem] leading-none text-cool transition-colors hover:border-cool hover:bg-cool/10 ${className}`}
+      className={`inline align-baseline font-mono text-[11px] leading-none underline decoration-1 underline-offset-2 ${
+        tone === 'night' ? 'text-night-2 decoration-night-2/50 hover:text-night-ink' : 'text-ink-2 decoration-rule-mid hover:text-ink hover:decoration-ink'
+      } ${className}`}
     >
       {children ?? (
         <>
-          {sourceLabel(target.source_id, data.sources)} · p.{target.page}
+          [{sourceLabel(target.source_id, data.sources)} p.{target.page}]
         </>
       )}
     </button>
   );
 }
 
-/** Render a claim as a sentence followed by its citation chip. */
-export function ClaimLine({ claim, className = '' }: { claim: Claim; className?: string }) {
+/** A claim as a sentence followed by its citation marker. */
+export function ClaimLine({ claim, className = '', tone = 'paper' }: { claim: Claim; className?: string; tone?: 'paper' | 'night' }) {
   return (
     <span className={className}>
-      {tidy(claim.text)} <Cite target={claimTarget(claim)} />
+      {tidy(claim.text)} <Cite target={claimTarget(claim)} tone={tone} />
     </span>
   );
 }

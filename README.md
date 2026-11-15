@@ -23,7 +23,7 @@ FIREBREAK's argument: you can't simply interpolate. NASA's flammability boundary
 
 | Screen | What it shows | Brief objective |
 |---|---|---|
-| Overview | The Test 1 hook, corpus statistics, and Apollo 1 / Apollo 13 / Mir as cited context | — |
+| Landing | A scroll-driven three.js fly-through of **condition space**: every verified finding placed by gravity × O₂ × pressure, from the dense 0 g cloud to the empty lunar slab where Artemis will operate, in six cited chapters. Then corpus statistics and a cited 1967 / 1970 / 1997 incident timeline. A static projection replaces it on phones and with reduced motion | 1 |
 | Mission | Six presets (ISS, Artemis habitat, pressurized rover, EVA suit, Mars transit, Mars habitat). Every value is cited; assumptions are labelled | 1 |
 | Investigations | All 24 PSI combustion investigations with hardware, fuels, O₂ / pressure / flow ranges, sensors, safety area and data files. Pick 2–3 to compare side by side | 1 |
 | Gap Map | Verified findings by gravity × O₂ (or pressure, or flow), weighted by evidence tier. Empty cells are hatched, and your mission's cell is marked. Includes the "Can we bound the Moon?" panel and a labelled schematic of the flammability boundary | 1, 2 |
@@ -151,15 +151,21 @@ How live mode behaves:
 
 ## Tests
 
-54 pytest tests (unit conversion, the quote gate, exported-data contract) and 126 vitest tests (scoring, bins, null rendering, export CSV, next-fire ranking, search, red-team, live-mode grounding) pass. Run `.venv/bin/python -m pytest -q` and `npm test`.
+54 pytest tests (unit conversion, the quote gate, exported-data contract) and 129 vitest tests (scoring, bins, null rendering, export CSV, next-fire ranking, search, red-team, live-mode grounding, Gap Map readouts) pass. Run `.venv/bin/python -m pytest -q` and `npm test`.
+
+## Design
+
+A technical-editorial system: warm paper and ink, square corners, hairline rules, Newsreader headlines over Inter Tight, JetBrains Mono for every number, one vermilion signal colour for the mission marker and cobalt for PSI flight data. The landing's 3D scene (three.js, lazy-loaded so the tool screens never pay for it) uses fog and point attenuation instead of glow; smooth scrolling is Lenis. Everything respects `prefers-reduced-motion`.
 
 ## Screenshots
 
-| Overview | Ranked findings | Next fire |
+| Landing | Condition space (3D) | Gap Map |
 |---|---|---|
-| ![Overview](docs/overview.png) | ![Ranked findings](docs/ranked.png) | ![Next fire](docs/next-fire.png) |
-| **Investigations** | **Ask** | **Phone** |
-| ![Investigations](docs/investigations.png) | ![Ask](docs/ask.png) | ![Gap Map on a phone](docs/mobile-gap-map.png) |
+| ![Landing](docs/overview.png) | ![3D condition space at the Artemis chapter](docs/scene.png) | ![Gap Map](docs/gap-map.png) |
+| **Ranked findings** | **Next fire** | **Investigations** |
+| ![Ranked findings](docs/ranked.png) | ![Next fire](docs/next-fire.png) | ![Investigations](docs/investigations.png) |
+| **Ask** | **Phone: landing** | **Phone: Gap Map** |
+| ![Ask](docs/ask.png) | ![Landing on a phone](docs/mobile-landing.png) | ![Gap Map on a phone](docs/mobile-gap-map.png) |
 
 ## Team
 

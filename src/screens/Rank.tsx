@@ -49,82 +49,89 @@ export default function Rank() {
 
   return (
     <div>
-      <ScreenHeader kicker="Ranked findings · decision value" title="What should this mission’s engineers know?">
-        Every verified finding, ranked for <span className="text-text">{mission ? mission.name : 'the selected mission'}</span> by how much it should change a design decision.
+      <ScreenHeader index="05" kicker="Ranked findings · decision value" title="What should this mission’s engineers know?">
+        Every verified finding, ranked for <span className="text-ink">{mission ? mission.name : 'the selected mission'}</span> by how much it should change a design decision.
       </ScreenHeader>
 
-      <div className="mb-4 rounded-lg border border-line bg-panel-2 p-4 font-mono text-xs leading-relaxed text-muted sm:text-sm">
-        <div className="text-text">score = relevance × tier weight × actionability × (1 + bonus if more flammable than 1 g)</div>
+      <div className="mb-8 border-l-2 border-ink pl-5 font-mono text-[13px] leading-relaxed text-ink-2">
+        <div className="text-ink">score = relevance × tier weight × actionability × (1 + bonus if more flammable than 1 g)</div>
         <div className="mt-1">relevance = exp(−½ Σ (gap ÷ scale)²) × penalty^(dimensions the finding does not state); a mission value that is not stated is ignored</div>
-        <div className="mt-1 text-flame">Editorial weights, not physics. Hover or tap a score to see every term.</div>
-      </div>
-
-      <div className="mb-5">
-        <WeightsPanel />
+        <div className="mt-1 text-ink">Editorial weights, not physics. Hover or tap a score to see every term.</div>
       </div>
 
       {missing.includes('findings') ? (
         <MissingData files={['findings']} what="Ranked findings" />
       ) : (
-        <>
-          <div className="mb-4 flex flex-col gap-3 lg:flex-row lg:flex-wrap lg:items-center lg:gap-x-6">
-            <Chips label="Safety" options={SAFETY} active={safety} onChange={setSafety} />
-            <Chips label="Tier" options={TIERS} active={tiers} onChange={setTiers} render={(t) => `T${t}`} />
-            <Chips label="Platform" options={presentPlatforms} active={platforms} onChange={setPlatforms} render={platformLabel} />
-            <label className="inline-flex items-center gap-2 font-mono text-xs text-muted">
-              <input type="checkbox" checked={psiOnly} onChange={(e) => setPsiOnly(e.target.checked)} className="h-4 w-4 accent-[#4FC3F7]" />
-              PSI-backed only
-            </label>
-          </div>
+        <div className="grid grid-cols-12 gap-x-8 gap-y-8">
+          <aside className="col-span-12 lg:col-span-3">
+            <div className="scroll-thin hidden lg:sticky lg:top-28 lg:block lg:max-h-[calc(100dvh-8rem)] lg:overflow-y-auto lg:pr-2">
+              <WeightsPanel variant="sidebar" />
+            </div>
+            <div className="lg:hidden">
+              <WeightsPanel />
+            </div>
+          </aside>
+          <div className="col-span-12 lg:col-span-9">
+            <div className="flex flex-col gap-3 border-b border-rule pb-4">
+              <Chips label="Safety" options={SAFETY} active={safety} onChange={setSafety} />
+              <Chips label="Tier" options={TIERS} active={tiers} onChange={setTiers} render={(t) => `T${t}`} />
+              <Chips label="Platform" options={presentPlatforms} active={platforms} onChange={setPlatforms} render={platformLabel} />
+              <label className="inline-flex items-center gap-2 font-mono text-[12px] text-ink-2">
+                <input type="checkbox" checked={psiOnly} onChange={(e) => setPsiOnly(e.target.checked)} className="h-4 w-4" />
+                PSI-backed only
+              </label>
+            </div>
+            <p className="mt-3 font-mono text-[12px] text-ink-3">
+              {filtered.length} of {ranked.length} verified findings match
+            </p>
 
-          <p className="mb-3 font-mono text-xs text-muted">
-            {filtered.length} of {ranked.length} verified findings match
-          </p>
-
-          {filtered.length === 0 ? (
-            <EmptyNote>No finding matches these filters.</EmptyNote>
-          ) : (
-            <ol className="space-y-4">
-              {filtered.slice(0, limit).map(({ f, d }, i) => (
-                <li key={f.id}>
-                  {i === 0 && (
-                    <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-                      <span className="font-mono text-xs uppercase tracking-[0.2em] text-flame">Top finding for this mission</span>
-                      <button
-                        type="button"
-                        onClick={() => setRedTeam((v) => !v)}
-                        aria-expanded={redTeam}
-                        title="Retrieve counter-evidence for this finding (no AI); in live mode Claude can argue against it using only those records."
-                        className={`rounded-md border px-3 py-1.5 font-mono text-xs transition-colors ${redTeam ? 'border-flame bg-flame/10 text-flame' : 'border-flame/60 text-flame hover:bg-flame/10'}`}
-                      >
-                        {redTeam ? 'Hide red team' : 'Red-team this'}
-                      </button>
-                    </div>
-                  )}
-                  <div className="grid gap-3 sm:grid-cols-[7.5rem_minmax(0,1fr)]">
-                    <div className="flex items-start gap-3 sm:flex-col">
-                      <div className="w-10 pt-1 font-mono text-lg text-muted sm:w-auto sm:pt-0">#{i + 1}</div>
-                      <div className="w-36 sm:w-full">
+            {filtered.length === 0 ? (
+              <div className="mt-4">
+                <EmptyNote>No finding matches these filters.</EmptyNote>
+              </div>
+            ) : (
+              <ol className="mt-2">
+                {filtered.slice(0, limit).map(({ f, d }, i) => (
+                  <li key={f.id} className={i === 0 ? 'border-t-2 border-ink' : ''}>
+                    {i === 0 && (
+                      <div className="flex flex-wrap items-center justify-between gap-2 pt-3">
+                        <span className="label text-ink">Top finding for this mission</span>
+                        <button
+                          type="button"
+                          onClick={() => setRedTeam((v) => !v)}
+                          aria-expanded={redTeam}
+                          title="Retrieve counter-evidence for this finding (no AI); in live mode Claude can argue against it using only those records."
+                          className={`btn btn-sm ${redTeam ? 'btn-primary' : ''}`}
+                        >
+                          {redTeam ? 'Hide red team' : 'Red-team this'}
+                        </button>
+                      </div>
+                    )}
+                    <div className="grid grid-cols-[3rem_minmax(0,1fr)] gap-x-4 sm:grid-cols-[3rem_8rem_minmax(0,1fr)]">
+                      <div className="pt-5 font-mono text-[13px] text-ink-3 tabular">{String(i + 1).padStart(2, '0')}</div>
+                      <div className="pt-4 sm:pr-2">
                         <ScoreChip d={d} f={f} params={params} max={max} />
                       </div>
+                      <div className="col-span-2 sm:col-span-1">
+                        <FindingCard f={f} />
+                      </div>
                     </div>
-                    <FindingCard f={f} />
-                  </div>
-                  {i === 0 && redTeam && (
-                    <div className="mt-3 sm:ml-[8.25rem]">
-                      <RedTeamPanel target={f} scope="rt-rank" onClose={() => setRedTeam(false)} />
-                    </div>
-                  )}
-                </li>
-              ))}
-            </ol>
-          )}
-          {filtered.length > limit && (
-            <button type="button" onClick={() => setLimit((l) => l + PAGE)} className="mt-5 rounded-md border border-line-strong px-4 py-2 font-mono text-sm text-text hover:border-text">
-              Show {Math.min(PAGE, filtered.length - limit)} more
-            </button>
-          )}
-        </>
+                    {i === 0 && redTeam && (
+                      <div className="mb-4 sm:ml-[12rem]">
+                        <RedTeamPanel target={f} scope="rt-rank" onClose={() => setRedTeam(false)} />
+                      </div>
+                    )}
+                  </li>
+                ))}
+              </ol>
+            )}
+            {filtered.length > limit && (
+              <button type="button" onClick={() => setLimit((l) => l + PAGE)} className="btn mt-6">
+                Show {Math.min(PAGE, filtered.length - limit)} more
+              </button>
+            )}
+          </div>
+        </div>
       )}
     </div>
   );

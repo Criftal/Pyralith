@@ -43,7 +43,7 @@ export default function Ask() {
 
   return (
     <div>
-      <ScreenHeader kicker="Ask FIREBREAK" title="Ask the corpus">
+      <ScreenHeader index="08" kicker="Ask FIREBREAK" title="Ask the corpus">
         Keyword retrieval over {data.findings.length} verified findings and {data.claims.length} cited claims, ranked in your browser with no AI. When live mode is
         configured, Claude may summarise only the retrieved records, and every sentence must cite one.
       </ScreenHeader>
@@ -52,39 +52,35 @@ export default function Ask() {
         <MissingData files={['findings', 'claims']} what="Search" />
       ) : (
         <>
-          <form onSubmit={onSubmit} className="flex flex-col gap-2 sm:flex-row" role="search">
+          <form onSubmit={onSubmit} className="flex items-end gap-4" role="search">
             <input
               type="search"
               value={input}
               onChange={(e) => setInput(e.target.value)}
               placeholder="Ask about flammability, gravity, oxygen, suppression…"
               aria-label="Question"
-              className="w-full rounded-md border border-line-strong bg-panel px-4 py-3 text-base text-text placeholder:text-faint"
+              className="input-line font-display text-[clamp(1.6rem,3.6vw,2.8rem)] leading-tight"
             />
-            <button type="submit" className="rounded-md bg-flame px-5 py-3 font-semibold text-black transition-colors hover:bg-flame-soft">
+            <button type="submit" className="btn btn-primary shrink-0">
               Search
             </button>
           </form>
-          <div className="mt-3 flex flex-wrap gap-2">
+          <div className="mt-4 flex flex-wrap items-baseline gap-x-6 gap-y-2">
+            <span className="label">Try</span>
             {SUGGESTIONS.map((s) => (
-              <button
-                key={s}
-                type="button"
-                onClick={() => run(s)}
-                className="rounded-full border border-line-strong px-3 py-1.5 text-left text-xs text-muted transition-colors hover:border-cool hover:text-text"
-              >
+              <button key={s} type="button" onClick={() => run(s)} className="link-draw text-left text-[15px] text-ink-2 hover:text-ink">
                 {s}
               </button>
             ))}
           </div>
 
           {query && (
-            <div className="mt-8">
+            <div className="mt-12">
               {hits.length === 0 ? (
-                <p className="rounded-lg border border-dashed border-line-strong p-4 text-sm text-text">{NO_EVIDENCE}</p>
+                <p className="border-y border-ink py-5 font-display text-[24px] text-ink">{NO_EVIDENCE}</p>
               ) : (
                 <>
-                  <div className="mb-4">
+                  <div className="mb-6">
                     <LiveControls
                       live={live}
                       label="Ask Claude (cites only these records)"
@@ -94,14 +90,14 @@ export default function Ask() {
                     />
                   </div>
                   {ai.status === 'done' && ai.res && (
-                    <div className="mb-6">
+                    <div className="mb-10">
                       <AiAnswer res={ai.res} onCite={go} />
                     </div>
                   )}
-                  <h2 className="font-mono text-xs uppercase tracking-[0.2em] text-muted">
+                  <h2 className="border-b border-ink pb-2 font-mono text-[12px] uppercase tracking-[0.08em] text-ink">
                     Evidence retrieved (no AI) · top {hits.length} for “{query}”
                   </h2>
-                  <ol className="mt-3 space-y-5">
+                  <ol>
                     {hits.map((h, i) => {
                       const isFinding = h.kind === 'finding';
                       const open = redId === h.id;
@@ -115,19 +111,14 @@ export default function Ask() {
                             rank={i + 1}
                             action={
                               isFinding ? (
-                                <button
-                                  type="button"
-                                  onClick={() => setRedId(open ? null : h.id)}
-                                  aria-expanded={open}
-                                  className={`rounded border px-2 py-0.5 font-mono text-[0.68rem] transition-colors ${open ? 'border-flame text-flame' : 'border-line-strong text-muted hover:border-flame hover:text-flame'}`}
-                                >
+                                <button type="button" onClick={() => setRedId(open ? null : h.id)} aria-expanded={open} className={`btn btn-sm ${open ? 'btn-primary' : ''}`}>
                                   {open ? 'Hide red team' : 'Red-team this'}
                                 </button>
                               ) : undefined
                             }
                           />
                           {open && target && (
-                            <div className="mt-3 sm:ml-6">
+                            <div className="mb-6 sm:ml-[11.5rem]">
                               <RedTeamPanel target={target} scope={`rt-${h.id}`} onClose={() => setRedId(null)} />
                             </div>
                           )}

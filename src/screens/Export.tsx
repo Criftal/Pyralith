@@ -19,6 +19,7 @@ import {
 } from '../lib/exporters';
 import { Chips } from '../components/Chips';
 import { Loading, MissingData, ScreenHeader } from '../components/States';
+import { Wipe } from '../components/Motion';
 
 const SAFETY: SafetyArea[] = ['prevention', 'detection', 'suppression'];
 const GBINS = [...GRAVITY_BINS.map((b) => b.key), UNSTATED];
@@ -97,124 +98,114 @@ export default function Export() {
 
   return (
     <div>
-      <ScreenHeader kicker="Model-ready export" title="Download for modelling">
+      <ScreenHeader index="06" kicker="Model-ready export" title="Download for modelling">
         Tidy CSV and JSON with explicit units (g, % O₂, kPa, cm/s), source ids, pages and quote-verified flags. Missing values stay missing: an empty CSV cell or a JSON
-        null, never 0. Relevance is computed against <span className="text-text">{mission ? mission.name : 'the selected mission'}</span> with the current weights.
+        null, never 0. Relevance is computed against <span className="text-ink">{mission ? mission.name : 'the selected mission'}</span> with the current weights.
       </ScreenHeader>
 
       {missing.includes('findings') && (
-        <div className="mb-4">
+        <div className="mb-6">
           <MissingData files={['findings']} what="Finding exports" />
         </div>
       )}
 
-      <section className="rounded-lg border border-line bg-panel p-4">
-        <div className="flex flex-col gap-3 lg:flex-row lg:flex-wrap lg:items-center lg:gap-x-6">
+      <section aria-label="Filters and downloads">
+        <div className="flex flex-col gap-3 border-b border-rule pb-4">
           <Chips label="Safety" options={SAFETY} active={safety} onChange={setSafety} />
           <Chips label="Gravity" options={GBINS} active={gbins} onChange={setGbins} render={(k) => GLABEL[k] ?? k} />
-          <label className="flex min-w-[16rem] flex-1 items-center gap-3 font-mono text-xs text-muted">
-            <span className="whitespace-nowrap uppercase tracking-wider text-faint">Min relevance</span>
-            <input type="range" min={0} max={1} step={0.05} value={minRel} onChange={(e) => setMinRel(Number(e.target.value))} className="w-full accent-[#FF6B1A]" aria-label="Minimum relevance to the mission" />
-            <span className="w-10 text-right text-text tabular">{minRel.toFixed(2)}</span>
+          <label className="flex max-w-xl items-center gap-4">
+            <span className="label whitespace-nowrap">Min relevance</span>
+            <input type="range" min={0} max={1} step={0.05} value={minRel} onChange={(e) => setMinRel(Number(e.target.value))} className="w-full" aria-label="Minimum relevance to the mission" />
+            <span className="w-10 text-right font-mono text-[13px] tabular">{minRel.toFixed(2)}</span>
           </label>
         </div>
-        <p className="mt-3 font-mono text-xs text-muted">
+        <p className="mt-3 font-mono text-[12px] text-ink-3">
           {filtered.length} of {rows.length} verified findings match these filters.
         </p>
-        <div className="mt-4 grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-5">
-          {downloads.map((d) => (
-            <button
-              key={d.name}
-              type="button"
-              onClick={d.run}
-              disabled={d.disabled}
-              className="flex flex-col items-start gap-1 rounded-md border border-line-strong bg-panel-2 p-3 text-left transition-colors hover:border-flame disabled:cursor-not-allowed disabled:opacity-40"
-            >
-              <span className="font-mono text-sm text-flame">↓ {d.name}</span>
-              <span className="text-xs text-muted">{d.desc}</span>
-            </button>
+        <div className="mt-5 grid grid-cols-1 border-t border-ink sm:grid-cols-2 xl:grid-cols-5">
+          {downloads.map((d, i) => (
+            <div key={d.name} className={`flex flex-col items-start gap-3 border-b border-rule py-5 xl:border-b-0 ${i > 0 ? 'xl:border-l xl:border-rule xl:pl-5' : ''} sm:pr-5`}>
+              <button type="button" onClick={d.run} disabled={d.disabled} className={`btn ${i === 0 ? 'btn-primary' : ''}`}>
+                ↓ {d.name}
+              </button>
+              <span className="font-mono text-[12px] text-ink-2">{d.desc}</span>
+            </div>
           ))}
         </div>
       </section>
 
-      <section className="mt-10" aria-labelledby="dictionary">
-        <h2 id="dictionary" className="text-xl font-semibold">
+      <section className="mt-16" aria-labelledby="dictionary">
+        <h2 id="dictionary" className="font-display text-[clamp(2rem,4vw,3rem)] leading-[1.03]">
           Data dictionary
         </h2>
-        <p className="mt-1 text-sm text-muted">
-          <span className="font-mono text-text">null = not stated in source; empty cell in CSV.</span> Canonical units: gravity in g (Earth = 1), oxygen in % by volume,
+        <p className="mt-2 max-w-[46rem] text-[16px] text-ink-2">
+          <span className="font-mono text-[14px] text-ink">null = not stated in source; empty cell in CSV.</span> Canonical units: gravity in g (Earth = 1), oxygen in % by volume,
           pressure in kPa (absolute), flow in cm/s.
         </p>
         {(['findings', 'investigations'] as const).map((file) => (
-          <div key={file} className="mt-4">
-            <h3 className="font-mono text-sm text-cool">{file}.csv</h3>
-            <div className="scroll-thin mt-2 overflow-x-auto rounded-lg border border-line">
-              <table className="w-full min-w-[40rem] border-collapse text-sm">
-                <thead className="bg-panel text-left text-xs text-muted">
+          <Wipe key={file} className="mt-8">
+            <h3 className="font-mono text-[13px] uppercase tracking-[0.08em]">{file}.csv</h3>
+            <div className="scroll-thin mt-2 overflow-x-auto">
+              <table className="table-ed min-w-[40rem]">
+                <thead>
                   <tr>
-                    <th className="p-2 font-medium" scope="col">
-                      Column
-                    </th>
-                    <th className="p-2 font-medium" scope="col">
-                      Unit
-                    </th>
-                    <th className="p-2 font-medium" scope="col">
-                      Definition
-                    </th>
+                    <th scope="col">Column</th>
+                    <th scope="col">Unit</th>
+                    <th scope="col">Definition</th>
                   </tr>
                 </thead>
                 <tbody>
                   {DATA_DICTIONARY.filter((d) => d.file === file).map((d) => (
-                    <tr key={d.column} className="border-t border-line align-top">
-                      <td className="p-2 font-mono text-xs whitespace-nowrap text-text">{d.column}</td>
-                      <td className="p-2 font-mono text-xs whitespace-nowrap text-muted">{d.unit}</td>
-                      <td className="p-2 text-xs leading-relaxed text-text/85">{d.definition}</td>
+                    <tr key={d.column}>
+                      <td className="whitespace-nowrap font-mono text-[12.5px]">{d.column}</td>
+                      <td className="whitespace-nowrap font-mono text-[12px] text-ink-2">{d.unit}</td>
+                      <td className="text-[14px] leading-relaxed">{d.definition}</td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
-          </div>
+          </Wipe>
         ))}
       </section>
 
-      <section className="mt-10" aria-labelledby="psi-sources">
-        <h2 id="psi-sources" className="text-xl font-semibold">
+      <section className="mt-16" aria-labelledby="psi-sources">
+        <h2 id="psi-sources" className="font-display text-[clamp(2rem,4vw,3rem)] leading-[1.03]">
           Original PSI data
         </h2>
-        <p className="mt-1 text-sm text-muted">Each investigation’s PSI record and its experiment tables (one row per test run), for going straight to the raw data.</p>
+        <p className="mt-2 max-w-[46rem] text-[16px] text-ink-2">Each investigation’s PSI record and its experiment tables (one row per test run), for going straight to the raw data.</p>
         {missing.includes('investigations') ? (
-          <div className="mt-3">
+          <div className="mt-4">
             <MissingData files={['investigations']} what="PSI links" />
           </div>
         ) : (
-          <ul className="mt-3 grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
+          <ul className="mt-6 grid grid-cols-1 border-t border-ink md:grid-cols-2 xl:grid-cols-3">
             {data.investigations.map((inv) => {
               const tables = experimentTables(inv);
               return (
-                <li key={inv.psi_id} className="min-w-0 rounded-lg border border-line bg-panel p-3">
-                  <div className="flex flex-wrap items-baseline gap-x-2">
-                    <a href={inv.source_url} target="_blank" rel="noreferrer" className="font-mono text-sm text-cool hover:underline">
+                <li key={inv.psi_id} className="min-w-0 border-b border-rule py-4 md:pr-6">
+                  <div className="flex flex-wrap items-baseline gap-x-3">
+                    <a href={inv.source_url} target="_blank" rel="noreferrer" className="link-draw font-mono text-[13px] text-flight">
                       {inv.psi_id} ↗
                     </a>
-                    <span className="text-sm text-text">{inv.acronym ?? inv.name}</span>
+                    <span className="text-[15px] font-medium">{inv.acronym ?? inv.name}</span>
                   </div>
-                  {inv.acronym && <div className="mt-0.5 truncate text-xs text-muted">{inv.name}</div>}
-                  <div className="mt-2 font-mono text-[0.68rem] uppercase tracking-wider text-faint">
+                  {inv.acronym && <div className="mt-0.5 truncate text-[13px] text-ink-2">{inv.name}</div>}
+                  <div className="label mt-2">
                     Experiment tables ({tables.length}) · all files ({inv.data_files.length})
                   </div>
                   {tables.length ? (
-                    <ul className="mt-1 space-y-0.5 font-mono text-xs">
+                    <ul className="mt-1 space-y-0.5 font-mono text-[12px]">
                       {tables.map((t) => (
                         <li key={t.url + t.name} className="truncate">
-                          <a href={t.url} target="_blank" rel="noreferrer" className="text-cool hover:underline" title={t.name}>
+                          <a href={t.url} target="_blank" rel="noreferrer" className="link-draw" title={t.name}>
                             {t.name}
                           </a>
                         </li>
                       ))}
                     </ul>
                   ) : (
-                    <p className="mt-1 text-xs text-faint">No experiment table listed on the PSI record.</p>
+                    <p className="mt-1 text-[13px] text-ink-3">No experiment table listed on the PSI record.</p>
                   )}
                 </li>
               );

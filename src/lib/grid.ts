@@ -1,5 +1,5 @@
 import type { Finding, Mission } from '../types';
-import { GRAVITY_BINS, ROW_AXES, binOf, type RowAxis } from './bins';
+import { GRAVITY_BINS, ROW_AXES, UNSTATED, binOf, type RowAxis } from './bins';
 
 /** Gap Map cell colour weight per evidence tier. */
 export const TIER_WEIGHT: Record<number, number> = { 1: 1, 2: 0.6, 3: 0.35, 4: 0.2 };
@@ -53,4 +53,16 @@ export function buildCells(findings: Finding[], axis: RowAxis): Map<string, Cell
     }
   }
   return cells;
+}
+
+/** Clean mono readout for a Gap Map cell, e.g. "Lunar · 0.05–0.27 g × 30–40% O₂ · 0 verified findings". */
+export function cellReadout(col: string | null, row: string | null, axis: RowAxis, cell: Cell | undefined): string {
+  const g = GRAVITY_BINS.find((b) => b.key === col);
+  const colPart = col === UNSTATED || !g ? 'Unstated gravity' : `${g.label} · ${g.sub}`;
+  const r = ROW_AXES[axis].bands.find((b) => b.key === row);
+  const notStated = axis === 'o2' ? 'O₂ not stated' : axis === 'pressure' ? 'pressure not stated' : 'flow not stated';
+  const rowPart = row === UNSTATED || !r ? notStated : axis === 'o2' ? `${r.label} O₂` : r.label;
+  const n = cell?.findings.length ?? 0;
+  const a = cell?.analogues.length ?? 0;
+  return `${colPart} × ${rowPart} · ${n} verified finding${n === 1 ? '' : 's'}${a > 0 ? ` · ${a} analogue` : ''}`;
 }

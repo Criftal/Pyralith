@@ -1,4 +1,4 @@
-/** Multi-select chip facet (OR within the facet). */
+/** Multi-select facet as text toggles (underline when active; OR within the facet). */
 export function Chips<T extends string | number>({
   label,
   options,
@@ -19,22 +19,13 @@ export function Chips<T extends string | number>({
     onChange(next);
   };
   return (
-    <div className="flex flex-wrap items-center gap-1.5" role="group" aria-label={label}>
-      <span className="mr-1 font-mono text-[0.65rem] uppercase tracking-wider text-faint">{label}</span>
-      {options.map((o) => {
-        const on = active.has(o);
-        return (
-          <button
-            key={String(o)}
-            type="button"
-            aria-pressed={on}
-            onClick={() => toggle(o)}
-            className={`rounded-full border px-2.5 py-1 font-mono text-xs transition-colors ${on ? 'border-cool bg-cool/15 text-cool' : 'border-line-strong text-muted hover:text-text'}`}
-          >
-            {render(o)}
-          </button>
-        );
-      })}
+    <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1" role="group" aria-label={label}>
+      <span className="label mr-1">{label}</span>
+      {options.map((o) => (
+        <button key={String(o)} type="button" aria-pressed={active.has(o)} onClick={() => toggle(o)} className="toggle">
+          {render(o)}
+        </button>
+      ))}
     </div>
   );
 }

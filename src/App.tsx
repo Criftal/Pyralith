@@ -6,7 +6,7 @@ import { href, useRoute } from './lib/router';
 import { CiteProvider } from './components/Cite';
 import TopBar from './components/TopBar';
 import Footer from './components/Footer';
-import Hook from './screens/Hook';
+import Landing from './screens/Landing';
 import MissionSelect from './screens/MissionSelect';
 import Investigations from './screens/Investigations';
 import GapMap from './screens/GapMap';
@@ -39,7 +39,7 @@ function Shell() {
   let screen;
   switch (route) {
     case '/':
-      screen = <Hook />;
+      screen = <Landing />;
       break;
     case '/mission':
       screen = <MissionSelect />;
@@ -65,15 +65,23 @@ function Shell() {
     default:
       screen = (
         <EmptyNote>
-          No screen at this address. <a className="text-cool hover:underline" href={href('/')}>Go to the overview</a>.
+          No screen at this address. <a className="link-draw text-ink" href={href("/")}>Go to the overview</a>.
         </EmptyNote>
       );
   }
 
+  if (route === '/') {
+    return (
+      <div className="flex min-h-dvh flex-col">
+        <main className="flex-1">{screen}</main>
+        <Footer />
+      </div>
+    );
+  }
   return (
     <div className="flex min-h-dvh flex-col">
       <TopBar route={route} />
-      <main className="mx-auto w-full max-w-[1600px] flex-1 px-4 py-6 sm:px-6 lg:px-8">{screen}</main>
+      <main className="mx-auto w-full max-w-[1440px] flex-1 px-4 py-8 sm:px-6">{screen}</main>
       <Footer />
     </div>
   );

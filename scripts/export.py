@@ -27,8 +27,9 @@ LIBRARIES = [
     # (name, role, licence)
     ("React", "UI", "MIT"), ("Vite", "build tool", "MIT"), ("TypeScript", "language", "Apache-2.0"),
     ("Tailwind CSS", "styling", "MIT"), ("MiniSearch", "client-side search", "MIT"), ("Vitest", "tests", "MIT"),
+    ("three.js", "3D condition-space scene on the landing page", "MIT"), ("Lenis", "smooth scrolling", "MIT"),
     ("Anthropic TypeScript SDK", "optional live AI mode (api/ask.ts, model claude-opus-5-5)", "MIT"),
-    ("IBM Plex Sans / Mono (via @fontsource)", "fonts", "SIL Open Font License 1.1"),
+    ("Newsreader, Inter Tight, JetBrains Mono (via @fontsource)", "fonts", "SIL Open Font License 1.1"),
     ("PyMuPDF", "PDF text extraction (offline pipeline only, not shipped in the app)", "AGPL-3.0"),
     ("requests", "HTTP client (pipeline)", "Apache-2.0"), ("Beautiful Soup 4", "HTML text extraction (pipeline)", "MIT"),
     ("pytest", "tests", "MIT"), ("jsonschema", "schema checks", "MIT"),

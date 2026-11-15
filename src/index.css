@@ -1,98 +1,511 @@
 @import "tailwindcss";
 
-/* Design tokens (emitted as CSS variables on :root by Tailwind v4). */
-@theme {
-  --color-bg: #07090c;
-  --color-panel: #0c1016;
-  --color-panel-2: #111720;
-  --color-line: #1b232d;
-  --color-line-strong: #2a3542;
-  --color-text: #e6edf3;
-  --color-muted: #8b98a5;
-  --color-faint: #5d6976;
-  --color-flame: #ff6b1a;
-  --color-flame-soft: #ff9a5e;
-  --color-cool: #4fc3f7;
-  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+/*
+ * FIREBREAK, technical editorial.
+ * Paper and ink; vermilion (signal) is reserved for the mission marker, key numerals, focus rings and the
+ * active nav underline; cobalt (flight) marks PSI/flight evidence; night is only for the 3D scene.
+ */
+@theme static {
+  --color-paper: #f3f0e8;
+  --color-paper-2: #e9e5da;
+  --color-ink: #141413;
+  --color-ink-2: #4a4843;
+  --color-ink-3: #6b675f;
+  --color-rule: rgba(20, 20, 19, 0.14);
+  --color-rule-mid: rgba(20, 20, 19, 0.32);
+  --color-rule-strong: #141413;
+  --color-signal: #e34a1e;
+  --color-flight: #1f3a93;
+  --color-night: #0d0d0c;
+  --color-night-ink: #ece8de;
+  --color-night-2: #8f8a7e;
+  --color-flight-night: #8ea2f0;
+
+  /* Five evidence-density tints for the Gap Map (a data ramp). */
+  --color-tint-1: #dcd7c9;
+  --color-tint-2: #bdb6a5;
+  --color-tint-3: #8f897b;
+  --color-tint-4: #545049;
+  --color-tint-5: #141413;
+
+  /* Legacy names from the first build, remapped onto the editorial palette. */
+  --color-bg: #f3f0e8;
+  --color-panel: #f3f0e8;
+  --color-panel-2: #e9e5da;
+  --color-line: rgba(20, 20, 19, 0.14);
+  --color-line-strong: rgba(20, 20, 19, 0.32);
+  --color-text: #141413;
+  --color-muted: #4a4843;
+  --color-faint: #6b675f;
+  --color-flame: #141413;
+  --color-flame-soft: #4a4843;
+  --color-cool: #1f3a93;
+
+  --font-display: "Newsreader Variable", "Newsreader", Georgia, "Times New Roman", serif;
+  --font-sans: "Inter Tight Variable", "Inter Tight", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono Variable", "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
 
 :root {
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 html,
 body {
-  background: var(--color-bg);
-  color: var(--color-text);
+  background: var(--color-paper);
+  color: var(--color-ink);
 }
 
 body {
   font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
+  font-feature-settings: "ss01";
 }
 
-/* Projector: bump the base size on very wide screens. */
 @media (min-width: 1600px) {
   html {
-    font-size: 18px;
+    font-size: 17px;
   }
 }
 
+/* No rounded boxes, shadows or glows anywhere. Only data dots are round. */
+*:not(.dot) {
+  border-radius: 0 !important;
+}
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+.dot {
+  border-radius: 9999px;
+}
+
 ::selection {
-  background: rgba(255, 107, 26, 0.35);
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-signal);
+  outline-offset: 2px;
 }
 
 a {
   text-underline-offset: 3px;
 }
 
-:focus-visible {
-  outline: 2px solid var(--color-cool);
-  outline-offset: 2px;
+.font-display {
+  font-family: var(--font-display);
+  font-optical-sizing: auto;
+  letter-spacing: -0.02em;
 }
 
-/* Empty Gap Map cells: visibly hatched. */
-.hatch {
-  background-image: repeating-linear-gradient(
-    135deg,
-    rgba(139, 152, 165, 0.16) 0 1px,
-    transparent 1px 7px
-  );
-}
-
-/* Mission marker glow. */
-@keyframes mission-pulse {
-  0% {
-    box-shadow: inset 0 0 0 3px var(--color-flame), inset 0 0 22px rgba(255, 107, 26, 0.35), 0 0 0 0 rgba(255, 107, 26, 0.65);
-  }
-  70% {
-    box-shadow: inset 0 0 0 3px var(--color-flame), inset 0 0 22px rgba(255, 107, 26, 0.35), 0 0 0 14px rgba(255, 107, 26, 0);
-  }
-  100% {
-    box-shadow: inset 0 0 0 3px var(--color-flame), inset 0 0 22px rgba(255, 107, 26, 0.35), 0 0 0 0 rgba(255, 107, 26, 0);
-  }
-}
-
-.mission-glow {
-  box-shadow: inset 0 0 0 3px var(--color-flame), inset 0 0 22px rgba(255, 107, 26, 0.35), 0 0 18px rgba(255, 107, 26, 0.4);
-  animation: mission-pulse 2.2s ease-out infinite;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .mission-glow {
-    animation: none;
-  }
-}
-
-.tabular {
+.tabular,
+.font-mono {
   font-variant-numeric: tabular-nums;
 }
 
-/* Thin scrollbars inside scroll containers (Gap Map, tables, nav). */
+/* Labels: 12–13px uppercase, tracked. */
+.label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  line-height: 1.3;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink-3);
+}
+
+.smallcaps {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Buttons: rectangular, 1px ink border, uppercase; hover inverts; primary is ink-filled. */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border: 1px solid var(--color-ink);
+  background: transparent;
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.7rem 1.1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: background-color 120ms linear, color 120ms linear;
+}
+.btn:hover:not(:disabled) {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+.btn-primary {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--color-paper);
+  color: var(--color-ink);
+}
+.btn-sm {
+  font-size: 11px;
+  padding: 0.45rem 0.7rem;
+}
+.btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+.btn-night {
+  border-color: var(--color-night-ink);
+  color: var(--color-night-ink);
+}
+.btn-night:hover:not(:disabled) {
+  background: var(--color-night-ink);
+  color: var(--color-night);
+}
+
+/* Text toggles (facets): underline when active, no pills. */
+.toggle {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-ink-2);
+  padding: 0.15rem 0;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+}
+.toggle:hover {
+  color: var(--color-ink);
+}
+.toggle[aria-pressed="true"],
+.toggle[aria-checked="true"] {
+  color: var(--color-ink);
+  border-bottom-color: var(--color-ink);
+}
+
+/* Underline inputs. */
+.input-line {
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--color-ink);
+  background: transparent;
+  color: var(--color-ink);
+  padding: 0.5rem 0;
+  outline: none;
+}
+.input-line::placeholder {
+  color: var(--color-ink-3);
+}
+.input-line:focus-visible {
+  outline: 2px solid var(--color-signal);
+  outline-offset: 4px;
+}
+
+/* Text links. */
+.link {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-rule-mid);
+  text-decoration-thickness: 1px;
+}
+.link:hover {
+  text-decoration-color: var(--color-ink);
+}
+
+/* Editorial tables: hairline rows, sticky header, numerals right-aligned. */
+.table-ed {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.table-ed thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--color-paper);
+  text-align: left;
+  font-weight: 500;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink-3);
+  border-bottom: 1px solid var(--color-ink);
+  padding: 0.6rem 0.75rem 0.5rem;
+  white-space: nowrap;
+}
+.table-ed tbody td,
+.table-ed tbody th {
+  border-bottom: 1px solid var(--color-rule);
+  padding: 0.6rem 0.75rem;
+  vertical-align: top;
+}
+.table-ed tbody tr:hover {
+  background: var(--color-paper-2);
+}
+.table-ed .num {
+  text-align: right;
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* Empty Gap Map cells: fine diagonal hatching (a pattern, not a gradient). */
+.hatch {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='7' height='7'%3E%3Cpath d='M-1 1l2-2M0 7l7-7M6 8l2-2' stroke='%23141413' stroke-opacity='.28' stroke-width='.7'/%3E%3C/svg%3E");
+}
+
+/* Square-thumb sliders. */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  height: 18px;
+  cursor: pointer;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 1px;
+  background: var(--color-ink);
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  margin-top: -5.5px;
+  background: var(--color-ink);
+  border: 0;
+}
+input[type="range"]::-moz-range-track {
+  height: 1px;
+  background: var(--color-ink);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: var(--color-ink);
+  border: 0;
+}
+input[type="checkbox"] {
+  accent-color: var(--color-ink);
+}
+
+/* Line-by-line reveal. */
+.reveal > * {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 400ms ease, transform 400ms ease;
+  transition-delay: calc(var(--i, 0) * 70ms);
+}
+.reveal.is-in > * {
+  opacity: 1;
+  transform: none;
+}
+
+/* Cross-fades in the scroll scene. */
+.fade {
+  transition: opacity 450ms ease, transform 450ms ease;
+}
+
 .scroll-thin {
   scrollbar-width: thin;
-  scrollbar-color: var(--color-line-strong) transparent;
+  scrollbar-color: var(--color-rule-mid) transparent;
+}
+
+.nav-underline {
+  transition: transform 260ms cubic-bezier(0.2, 0.7, 0.2, 1), width 260ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal > * {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Lenis smooth scroll (landing only). */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Links: underline draws left to right. */
+.link-draw {
+  position: relative;
+  text-decoration: none;
+}
+.link-draw::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 300ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.link-draw:hover::after,
+.link-draw:focus-visible::after {
+  transform: scaleX(1);
+}
+
+/* Buttons invert with a quick vertical fill. */
+.btn {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: var(--color-ink);
+  transform: scaleY(0);
+  transform-origin: bottom center;
+  transition: transform 180ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.btn:hover:not(:disabled)::before {
+  transform: scaleY(1);
+}
+.btn:hover:not(:disabled) {
+  background: transparent;
+  color: var(--color-paper);
+}
+.btn-primary::before {
+  background: var(--color-paper);
+}
+.btn-primary:hover:not(:disabled) {
+  background: var(--color-ink);
+  color: var(--color-ink);
+}
+.btn-night::before {
+  background: var(--color-night-ink);
+}
+.btn-night:hover:not(:disabled) {
+  color: var(--color-night);
+}
+
+/* Headline line masks: each line slides up from 100%. */
+.mask-line {
+  display: block;
+  overflow: hidden;
+  padding-bottom: 0.08em;
+  margin-bottom: -0.08em;
+}
+.mask-line > span {
+  display: block;
+  transform: translateY(105%);
+  transition: transform 700ms cubic-bezier(0.2, 0.7, 0.2, 1);
+  transition-delay: calc(var(--i, 0) * 90ms);
+}
+.is-in > .mask-line > span,
+.mask-line.is-in > span {
+  transform: none;
+}
+
+/* Figures and tables: one horizontal wipe. */
+.wipe {
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path 800ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.wipe.is-in {
+  clip-path: inset(0 0 0 0);
+}
+
+/* Marquee band. */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 60s linear infinite;
+}
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Film grain for the dark scene (static SVG noise, ~3.5%). */
+.grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.035;
+  pointer-events: none;
+}
+
+/* Preloader exit: upward wipe. */
+.preloader {
+  clip-path: inset(0 0 0 0);
+  transition: clip-path 700ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.preloader.is-out {
+  clip-path: inset(0 0 100% 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mask-line > span {
+    transform: none;
+  }
+  .wipe {
+    clip-path: none;
+  }
+}
+
+/* Scroll-scene chapters: fully on or fully off, with a short cross-fade. */
+.chapter-panel {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate3d(0, 12px, 0);
+  transition: opacity 320ms ease, transform 320ms ease, visibility 0s linear 320ms;
+}
+.chapter-panel[data-active="1"] {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: none;
+  transition: opacity 320ms ease, transform 320ms ease, visibility 0s linear 0s;
+}
+
+/* Subscript two inside Newsreader (it has no U+2082 glyph). */
+.sub2 {
+  font-size: 0.62em;
+  line-height: 0;
+  vertical-align: -0.2em;
+}
+
+/* Anchors and scrollIntoView clear the fixed top band. */
+html {
+  scroll-padding-top: 64px;
+}
+
+/* Bottom-left section index: fade out, swap, fade in. */
+.index-swap {
+  transition: opacity 160ms ease;
 }
