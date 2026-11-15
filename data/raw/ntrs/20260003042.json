@@ -1,0 +1,177 @@
+{
+ "copyright": {
+  "disclosedInvention": false,
+  "submissionId": 20260003042,
+  "containsThirdPartyMaterial": false,
+  "containsIndication": false,
+  "id": "e4cde36abc3848f2b21ac8170029166f",
+  "determinationType": "PUBLIC_USE_PERMITTED",
+  "thirdPartyContentCondition": "NOT_SET"
+ },
+ "subjectCategories": [
+  "Man/System Technology and Life Support"
+ ],
+ "exportControl": {
+  "isExportControl": "NO",
+  "submissionId": 20260003042,
+  "ear": "NO",
+  "id": "21ef5822b3884575903810c9abd1be98",
+  "category": [
+   {
+    "submissionExportControlId": "21ef5822b3884575903810c9abd1be98",
+    "id": "2e39773383164113bf7599fb742626ef",
+    "category": 0
+   }
+  ],
+  "itar": "NO"
+ },
+ "distributionDate": "2026-07-01T05:00:00.0000000+00:00",
+ "otherReportNumbers": [
+  "ICES-2026-301"
+ ],
+ "fundingNumbers": [
+  {
+   "number": "089407.02.20.72",
+   "submissionId": 20260003042,
+   "id": "6dfbadf74aab4ab38ee5b66acba3647b",
+   "type": "WBS"
+  }
+ ],
+ "title": "Fire-Resistant Textile Development for Exploration Vehicles With Enriched-Oxygen Cabin Environments",
+ "stiType": "CONFERENCE_PAPER",
+ "distribution": "PUBLIC",
+ "submittedDate": "2026-04-13T21:15:17.9431180+00:00",
+ "authorAffiliations": [
+  {
+   "organizationId": "4ffd83b3f2e84205a18cdaadbfb2139f",
+   "sequence": 0,
+   "submissionId": 20260003042,
+   "meta": {
+    "author": {
+     "name": "Karim Aly"
+    },
+    "organization": {
+     "name": "Bastion Technologies",
+     "location": "Houston, TX, United States"
+    }
+   },
+   "id": "29936fdb4f494527b9c1c6107cd7c3f7",
+   "userType": "OTHER",
+   "userId": "52f83394999e4415822de77527aecb94"
+  },
+  {
+   "organizationId": "d7ca75575d34470aa8b3115ddef6df68",
+   "sequence": 1,
+   "submissionId": 20260003042,
+   "meta": {
+    "author": {
+     "name": "Tianqi Gao"
+    },
+    "organization": {
+     "name": "Amentum (United States)",
+     "location": "Chantilly, France"
+    }
+   },
+   "id": "13d959b3b9554595b20e318baf3fbb88",
+   "userType": "OTHER",
+   "userId": "35858ecc7a0341e08ddca33f35c92cf3"
+  },
+  {
+   "organizationId": "3121da5a1c4c53c28395ed95a7833020",
+   "sequence": 2,
+   "submissionId": 20260003042,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Kamili Shaw"
+    },
+    "organization": {
+     "name": "Stennis Space Center",
+     "location": "Bay Saint Louis, United States"
+    }
+   },
+   "id": "14d3970daa6345f388cf1694269c6fd8",
+   "userType": "CIVIL",
+   "userId": "ac5e3e7c09734df0964f11b8ed39e17d"
+  },
+  {
+   "organizationId": "4c6a2b878d76521da887cdcb2564bf90",
+   "sequence": 3,
+   "submissionId": 20260003042,
+   "meta": {
+    "author": {
+     "orcidId": "",
+     "name": "Mary L Walker"
+    },
+    "organization": {
+     "name": "Johnson Space Center",
+     "location": "Houston, United States"
+    }
+   },
+   "id": "9d38ba1afe774475a2e5b5877f9ee027",
+   "userType": "CIVIL",
+   "userId": "374c6445532342989f599e25488cb7f0"
+  }
+ ],
+ "stiTypeDetails": "Conference Paper",
+ "technicalReviewType": "NASA_PEER_COMMITTEE",
+ "modified": "2026-04-22T20:24:08.4399110+00:00",
+ "id": 20260003042,
+ "created": "2026-04-13T21:10:13.2763230+00:00",
+ "center": {
+  "code": "JSC",
+  "name": "Johnson Space Center",
+  "id": "dd46994b91a94cb2a2722617cbbadc55"
+ },
+ "onlyAbstract": false,
+ "sensitiveInformation": 2,
+ "abstract": "Material selection is a key part of the National Aeronautics and Space Administration (NASA) spacecraft fire safety management plan. Non-flammable textiles are necessary to ensure large-scale flame propagation events do not occur inside a spacecraft. An increased use of textiles and other softgood material is crucial to the pursuit of exploration spaceflight to reduce mass and volume. Exploration spaceflight missions benefit from enriched oxygen cabin environments (>21% O2) by allowing a reduced prebreathe protocol before Extravehicular Activity (EVA). However, materials become exponentially more flammable the higher the O2 levels become. Recent testing within the agency has revealed the lack of commercial-off-the-shelf (COTS) materials that can meet safety requirements in oxygen-enriched environments. Most of the fibers and textiles developed during Apollo (100% O2 cabin environment) and Skylab (>70% O2 cabin environment) are no longer commercially available due to those Programs ending and the discontinuation of raw materials or closure of the original manufacturers. As NASA returns to higher oxygen concentrations inside spacecraft, non-flammable textile development efforts have begun to meet the agency\u2019s needs. This paper discusses those efforts including overall fire safety approach, priorities, interactions with industry, flammability testing and expected challenges.",
+ "isLessonsLearned": false,
+ "disseminated": "DOCUMENT_AND_METADATA",
+ "cui": {
+  "isCui": false,
+  "submissionId": 20260003042,
+  "id": "82eac04cee214d3dbbca841a4dabca27"
+ },
+ "meetings": [
+  {
+   "country": "PR",
+   "submissionId": 20260003042,
+   "sponsors": [
+    {
+     "organizationId": "66b67eba2c4d5e26a027207aa676a051",
+     "meta": {
+      "organization": {
+       "name": "Collins Aerospace (United States)",
+       "location": "Charlotte, United States"
+      }
+     },
+     "meetingId": "6cf71cbb31564e88abe0e65b4caecc1b",
+     "id": "ae05fe85d5b64eb494699ea3f19e19da"
+    }
+   ],
+   "name": "55th International Conference on Environmental Systems (ICES)",
+   "location": "Rio Grande",
+   "id": "6cf71cbb31564e88abe0e65b4caecc1b",
+   "url": "https://ices.space/",
+   "startDate": "2026-07-12T05:00:00.0000000+00:00"
+  }
+ ],
+ "status": "CURATED",
+ "related": [],
+ "downloads": [
+  {
+   "draft": false,
+   "mimetype": "application/pdf",
+   "name": "301-ICES_Paper_2026-FR-Textiles_Final_04-13-2026.pdf",
+   "type": "STI",
+   "links": {
+    "original": "/api/citations/20260003042/downloads/301-ICES_Paper_2026-FR-Textiles_Final_04-13-2026.pdf",
+    "pdf": "/api/citations/20260003042/downloads/301-ICES_Paper_2026-FR-Textiles_Final_04-13-2026.pdf",
+    "fulltext": "/api/citations/20260003042/downloads/301-ICES_Paper_2026-FR-Textiles_Final_04-13-2026.pdf.txt"
+   }
+  }
+ ],
+ "downloadsAvailable": true,
+ "index": "submissions-2026-11-12-06-24"
+}

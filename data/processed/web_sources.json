@@ -1,0 +1,74 @@
+[
+ {
+  "id": "WEB:brief",
+  "kind": "web",
+  "title": "Flame in Freefall: SI-Powered Fire Safety Insights from Microgravity Combustion Data (NASA Space Apps 2026 challenge)",
+  "authors": [
+   "NASA"
+  ],
+  "year": 2026,
+  "url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/",
+  "pdf_url": null,
+  "doc_type": "Challenge brief"
+ },
+ {
+  "id": "WEB:apollo-1",
+  "kind": "web",
+  "title": "Apollo 1 (NASA Safety & Mission Assurance, Lessons Learned)",
+  "authors": [
+   "NASA"
+  ],
+  "year": null,
+  "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-1",
+  "pdf_url": null,
+  "doc_type": "Web page"
+ },
+ {
+  "id": "WEB:apollo-13",
+  "kind": "web",
+  "title": "Apollo 13 (NASA Safety & Mission Assurance, Lessons Learned)",
+  "authors": [
+   "NASA"
+  ],
+  "year": null,
+  "url": "https://sma.nasa.gov/sma-disciplines/accllp/apollo-13",
+  "pdf_url": null,
+  "doc_type": "Web page"
+ },
+ {
+  "id": "WEB:mir-fire",
+  "kind": "web",
+  "title": "25 Years Ago: Fire Aboard Space Station Mir (NASA History)",
+  "authors": [
+   "NASA"
+  ],
+  "year": 2022,
+  "url": "https://www.nasa.gov/history/25-years-ago-fire-aboard-space-station-mir/",
+  "pdf_url": null,
+  "doc_type": "Web page"
+ },
+ {
+  "id": "WEB:nasa-combustion-science",
+  "kind": "web",
+  "title": "Combustion Science (NASA Glenn Research Center)",
+  "authors": [
+   "NASA"
+  ],
+  "year": null,
+  "url": "https://www.nasa.gov/glenn/glenn-expertise-space-exploration/physical-sciences-program/combustion-science/",
+  "pdf_url": null,
+  "doc_type": "Web page"
+ },
+ {
+  "id": "WEB:researchers-guide",
+  "kind": "web",
+  "title": "A Researcher's Guide to: Combustion Science (NASA ISS)",
+  "authors": [
+   "NASA"
+  ],
+  "year": null,
+  "url": "https://www.nasa.gov/missions/station/a-researchers-guide-to-combustion-science/",
+  "pdf_url": null,
+  "doc_type": "Web page"
+ }
+]

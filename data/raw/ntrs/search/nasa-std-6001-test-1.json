@@ -1,0 +1,169 @@
+{
+ "q": "NASA-STD-6001 Test 1",
+ "total": 14,
+ "results": [
+  {
+   "id": "20150004099",
+   "title": "Applying Flammability Limit Probabilities and the Normoxic Upward Limiting Pressure Concept to NASA STD-6001 Test 1",
+   "year": "2014",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, Sandra L.",
+    "Beeson, Harold",
+    "Fernandez-Pello, A. Carlos"
+   ]
+  },
+  {
+   "id": "20170004705",
+   "title": "NASA-STD-6001B Test 7: Impact of Test Methodology and Detection Advancements on the Obsolescence of Historical Offgas Data",
+   "year": "2017",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Buchanan, Vanessa D.",
+    "Woods, Brenton",
+    "Harper, Susana A.",
+    "Beeson, Harold D."
+   ]
+  },
+  {
+   "id": "20040084025",
+   "title": "Reference Material Kydex(registered trademark)-100 Test Data Message for Flammability Testing",
+   "year": "2003",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Engel, Carl D.",
+    "Richardson, Erin",
+    "Davis, Eddie"
+   ]
+  },
+  {
+   "id": "20040142368",
+   "title": "Organizing Questions for Reduced-Gravity Flammability",
+   "year": "2004",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Miller, Fletcher"
+   ]
+  },
+  {
+   "id": "20070019871",
+   "title": "Technical Note: Some Issues Related to the Selection of Polymers for Aerospace Oxygen Systems",
+   "year": "2004",
+   "type": "PREPRINT",
+   "pdf": true,
+   "authors": [
+    "Hirsch, David",
+    "Beeson, Harold"
+   ]
+  },
+  {
+   "id": "20040084155",
+   "title": "A New Test Method for Material Flammability Assessment in Microgravity and Extraterrestrial Environments",
+   "year": "2004",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, S. L.",
+    "Beeson, H. D.",
+    "Haas, J. P.",
+    "Baas, J. S."
+   ]
+  },
+  {
+   "id": "20100015582",
+   "title": "Pressure Flammability Thresholds of Selected Aerospace Materials",
+   "year": "2010",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Hirsch, David B.",
+    "Williams, James H.",
+    "Harper, Susana A.",
+    "Beeson, Harold D."
+   ]
+  },
+  {
+   "id": "20050245285",
+   "title": "Promoted Metals Combustion at Ambient and Elevated Temperatures",
+   "year": "2005",
+   "type": "OTHER",
+   "pdf": true,
+   "authors": [
+    "Engel, Carl D.",
+    "Herald, Stephen D.",
+    "Davis, S. Eddie"
+   ]
+  },
+  {
+   "id": "19990036744",
+   "title": "Flammability, Odor, Offgassing, and Compatibility Requirements and Test Procedures for Materials in Environments that Support Combustion",
+   "year": "1998",
+   "type": "OTHER",
+   "pdf": true,
+   "authors": []
+  },
+  {
+   "id": "20040053558",
+   "title": "An Earth-Based Equivalent Low Stretch Apparatus to Assess Material Flammability for Microgravity and Extraterrestrial Fire-Safety Applications",
+   "year": "2003",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, S. L.",
+    "Beeson, H.",
+    "Haas, J. P."
+   ]
+  },
+  {
+   "id": "20040000104",
+   "title": "Upward Flammability Testing: A Probabilistic Measurement",
+   "year": "2003",
+   "type": "ABSTRACT",
+   "pdf": false,
+   "authors": [
+    "Davis, Samuel E.",
+    "Engel, Carl D.",
+    "Richardson, Erin R."
+   ]
+  },
+  {
+   "id": "20160009024",
+   "title": "Environmentally Friendly Corrosion Preventative Compounds",
+   "year": "2012",
+   "type": "OTHER",
+   "pdf": true,
+   "authors": [
+    "Calle, Luz Marina",
+    "Montgomery, Eliza",
+    "Kolody, Mark ",
+    "Curran, Jerry"
+   ]
+  },
+  {
+   "id": "20030061405",
+   "title": "Obtaining NASA Approval for use of Non-Metallic Materials in Manned Space Flight",
+   "year": "2003",
+   "type": "PREPRINT",
+   "pdf": true,
+   "authors": [
+    "Davis, Samuel E.",
+    "Wise, Harry L."
+   ]
+  },
+  {
+   "id": "20110012900",
+   "title": "An Experimental Study of Upward Burning Over Long Solid Fuels: Facility Development and Comparison",
+   "year": "2011",
+   "type": "TECHNICAL_MEMORANDUM",
+   "pdf": true,
+   "authors": [
+    "Kleinhenz, Julie",
+    "Yuan, Zeng-Guang"
+   ]
+  }
+ ]
+}

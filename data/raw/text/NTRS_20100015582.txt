@@ -1,0 +1,212 @@
+
+=== PAGE 1 ===
+Pressure Flammability Thresholds of
+Selected Aerospace Materials
+David B. Hirsch' ; James H. Williams 2, Susana A. Harper 3 , Harold D. Beeson4
+NASA White Sands Test Facility, Las Cruces, New Mexico, 88004
+Gary A. Ruffs
+NASA John H Glenn Research Center, Cleveland, OH, 44135
+and
+Michael D. Pedley6
+NASA Lyndon B. Johnson Space Center, Houston, TX, 77058
+I. 
+Abstract
+A test program was perfornied to determine the highest pressure in oxygen where materials used
+in the planned NASA Constellation Program Orion Crew Exploration Vehicle (CEV) Crew
+Module (CM) would not propagate a flame if an ignition source was present. The test
+methodology used was similar to that previously used to determine the maximum oxygen
+concentration (MOC) at which self-extinguishment occurs under constant total pressure
+conditions. An upward limiting pressure index (ULPI) was determined, where approximately
+50 percent of the materials self-extinguish in a given environment. Following this, the maximum
+total pressure (MTP) was identified; where all samples tested (at least five) self-extinguished
+following the NASA-STD-6001.A Test 1 burn length criteria. The results obtained on seven
+materials indicate that the non-metallic materials become flannnable in oxygen between 0.4 and
+0.9 psia.
+II. 
+Introduction
+The Environmental Control and Life Support Systems (ECLSS) of the Crew Exploration Vehicle (CEV) Crew
+Module (CM) is designed for a leak rate equivalent to a '/4-in. hole to maintain a cabin pressure of 8 psia for one
+hour, during which the astronauts would don their space suits. The crew would then breathe 100 percent oxygen
+from the space suit oxygen supply while the cabin is allowed to depressurize towards vacuum. Ultimately, the only
+gas in the CM cabin would be oxygen at near vacuum pressures from suit leakage. The concern is that cabin
+materials might be more flaminable in oxygen at near vacuum pressures than in the CEV cabin materials
+certification environment of 30 percent oxygen at 10.2 psia. Therefore, this program was conducted to determine the
+highest pressure in nearly 100 percent oxygen at which typical spacecraft materials are still self-extinguishing-
+1 Supervisor, Materials Components Testing, NASA Laboratories Department, WS-803, NASA White Sands Test
+Facility, Las Cruces, New Mexico, 88004
+2 Project Manager, NASA Laboratories Department WS-803, NASA White Sands Test Facility, Las Cruces, New
+Mexico, 88004
+3 Project Manager, NASA Laboratories Department WS-803, NASA White Sands Test Facility, Las Cruces, New
+Mexico, 88004
+4 Office Chief, NASA Laboratories Office, WS-201, NASA White Sands Test Facility, Las Cruces, New Mexico,
+88004
+s Physical Scientist, 77:128, NASA John H. Glenn Research Center, Cleveland, OH, 44135
+6 Materials Engineer, JSC: ES411, NASA Lyndon B. Johnson Space Center, Houston, TX, 77058
+
+=== PAGE 2 ===
+III. 
+Experimental Apparatus
+The materials evaluated included plastics (polysulfone and a polyvinylchloride/polymethylmethacrylate alloy),
+an epoxy/fiberglass laminate, an aramid fabric, films (polyetherinude and polyethylene terephtalate), and a
+polvimide foam. These are summarized in Table L All samples were 2.5-in. wide and 6-in. long." The Nomexef
+samples were tested as a single layer with a double-rolled hem on the bottom and side edges.
+The equipment used and the experimental approach were similar to previous experiments.'
+Pressure flammability threshold tests were conducted in a quiescent enviromnent in a closed 1400-L
+flammability chamber connected to vacuum, oxygen, and nitrogen supplies. The testing was conducted in
+99.8 percent oxygen, sequentially following the "up-and-down method for small samples" and using a step size of
+0.1 PSI 
+_2 The NASA-STD-6001 Test 1 3 burn length criterion was used; a sample was considered self-extinguishing if
+its bum length was less than 6 in. The upward flammnability limiting pressure indices (ULPIs) were evaluated
+statistically; the ULPI represents the total pressure at which a material passes the NASA-STD-6001 Test 1 burn
+length criteria approximately half the time. The maximum total pressures (MTPs) that consistently resulted in
+self-extinguishment, i.e., where all samples (at least five) pass the Test 1 burn length criterion, were also determined.
+To determine its suitability, the ignitibility of the standard chemical igniter used in NASA flammability tests
+under low pressure conditions was investigated. In 99.8 percent oxygen, the chemical igniter had an ULPI of
+0.783 psia and an MTP of 0.7 psia. Since testing needed to be conducted at pressures below 0.7 psia. a hot-wire
+ignition source was used instead. The ignition source consisted of a 6-in. long 20 AWG Ni Chrome wire wound into
+four coils oriented horizontally with two coils touching the bottom of the sample on each side. A 13.7 A current was
+applied and the igniter coil was maintained red-hot for approximately 25 s.
+IV. 
+Results and Discussion
+The data obtained are summarized in Table 2. For the materials tested, the flammability pressure threshold was
+in the range of 0.4 to 0.9 psia. The material with the lowest MOC at 10.2 psia (Melinex $ 515) also had the lowest
+MTP. Otherwise, for the materials tested (which had MOCs in the range of 24 to 32 at 10.2 psia), there was no
+correlation between the MOC and MTP. The results show that CEV CM materials may be flammable in oxygen at
+pressures as low as 0.4 psia and that the pressure should be kept below 0.4 psia to ensure they are still self-
+extinguishing. Although no data existed previously, this pressure threshold is appreciably lower than had been
+expected based on general testing experience, including the failure of the standard chemical igniter to burn below
+0.7 psia.
+V. CONCLUSIONS AND RECOMMENDATIONS
+Parametric flammability thresholds other than oxygen concentration can be determined with the methodology
+proposed for evaluating the maximum oxygen concentration (MOC) when extinguishment occurs under given
+conditions. ' In this case, -I
+ threshold in 99.8 percent oxygen was determined by the methodology and found
+to be 0.4 to 0.9 psia for typical spacecraft materials. Correlation of flammmability thresholds obtained with chemical,
+hot wire, and other ignition sources will be conducted to provide recommendations for using alternate ignition
+sources to evaluate flammability of aerospace materials.
+VI. Acknowledgments
+The authors would like to acknowledge the support provided by NASA WSTF Standard Materials Testing
+Branch: test coordination (Gary Peyton), sample preparation (Horatio Perez, Randy Rodriguez, and Steve Crowl)
+and testing (Sam Motto, Steve Bailey, Fred Juarez, and Joe Sellers).
+" NASA-STD-600 LA Test 1 uses a 12-in. long sample. Since insufficient material was available for all samples to
+be 12-in. long ; 6-in. samples were used, which won't impact the value of MTP. At the MTP, none of the samples
+burned more than 1-in.
+t Nomex is a registered trademark of E. I. du Pont de Nemours and Company, Wilmington, Delaware.
+$ Melinex is a registered trademark of Imperial Chemical Industries Limited Corporation, Great Britain Imperial
+Chenucal House, London, England.
+
+=== PAGE 3 ===
+VII. 
+Contact
+David Hirsch
+NASA JSC White Sands Test Facility
+P.O. Box 20
+Las Cruces, New Mexico 88004
+Email: david.b.hirschCanasa.gov
+VIII. 
+Notes
+*Any use of trade names in this publication is for descriptive purposes only and does not imply endorsement by the
+U.S. Government.
+
+=== PAGE 4 ===
+References
+'Hirsch, D.B. and Beeson, H.D., "Test Method to Determine Flammability of Aerospace Materials", Journal of
+Testing and Evaluation, JTEVA, Vol. 30, No. 2, March 2002, pp. 156-159.
+'Dixon, W., "Up-and-Down Method for Small Samples", Journal of American Statistical Association, Vol. 60,
+1965, pp. 967-970.
+'NASA. Flammability, Offgassing, and Compatibility Requirements and Test Procedures, NASA-STD-(I)-
+6001B, Test 1. NASA, Washington, DC (April 21, 2010).
+
+=== PAGE 5 ===
+Generic or Trade 
+acronym 
+Chemical Name or Composition 
+Additional Material Information
+Name
+Udel &'` P1700 
+PSU 
+polysulfone
+Kydex b 100 
+PVC + 
+polyvinylchloride and
+PMMA polymethylmethacrylate alloy
+Melinex ` 515 
+PET 
+polyethylene terephtalate
+Epoxy/glass 
+Epoxy/fiberglass
+Solimidjd TA-301 
+PI 
+polyimide
+Nomexe` HT90-40 
+PPTA 
+aramid
+Ultem'" 1000 
+PEI 
+polyetherimide
+plastic; Westlake Plastics; 0.06 in.
+thick
+plastic; Rohm & Haas Co.; 0.05 in.
+thick
+film; DuPont Teijin Films; 0.00.5 in.
+thick
+laminate, NEMA G-11, H-23842;
+Westinghouse, 0.06 in. thick
+foam; Inspec Foams; 0.12 in. thick
+fabric; Stem & Stern Industries, Inc.;
+0.013 in. thick
+film; Tekra Corp. P/N DLI1648; 0.01
+in. thick
+Udef^ is a registered trademark of Union Carbide Corporation, New York City, New York.
+b Kydex^ is a registered trademark of Kleerdex Company, Mount Laurel, New Jersey.
+Melinex2 is a registered trademark of Imperial Chemical Industries Limited Corporation, Great Britain Imperial Chemical House,
+London, England.
+a Sohinide is a registered trademark of Evonik Foams, Inc, Allen, Texas.
+e Nomee is a registered trademark of E.I. du Pont de Nemouis and Company, Wilmington, Delaware
+f Ultemt is a registered trademark of General Electric Company, Pittsfield. Massachusetts
+Table 1. Selected polymeric materials evaluated in this study.
+Material 
+L?LPP 
+it1TP 
+iJL01b 
+MOCb
+Epoxyiglass
+0.9
+0.8
+28.6
+24
+Udel P1700
+1.0
+0.9
+31.7
+29
+Kydex 100
+1.8
+0.6
+33.5
+32
+Solimide TA-301
+0.7
+0.5
+29.3
+28
+Melinex 515
+0.9
+0.4
+21.2
+20
+Nornex HT90-40
+0.6
+0.5
+28.5
+25
+Ulteu 1000
+1.5
+0.9
+26.5
+24
+a ULPIs and MTPs have units of psia and were determined in 99.8%
+oxygen
+b ULOIs and MOCs have units of ;% oxygen by volume and were
+detennined at 10.2 psia
+Table 2. Pressure and oxygen concentration flammability limits for selected materials.

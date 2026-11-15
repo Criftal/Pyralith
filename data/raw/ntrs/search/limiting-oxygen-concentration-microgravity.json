@@ -1,0 +1,138 @@
+{
+ "q": "limiting oxygen concentration microgravity",
+ "total": 11,
+ "results": [
+  {
+   "id": "20120016855",
+   "title": "Methanol Droplet Extinction in Oxygen/Carbon-dioxide/Nitrogen Mixtures in Microgravity: Results from the International Space Station Experiments",
+   "year": "2012",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Nayagam, Vedha",
+    "Dietrich, Daniel L.",
+    "Ferkul, Paul V.",
+    "Hicks, Michael C."
+   ]
+  },
+  {
+   "id": "20130014061",
+   "title": "Methanol Droplet Combustion in Oxygen-Inert Environments in Microgravity",
+   "year": "2013",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Nayagam, Vedha",
+    "Dietrich, Daniel L.",
+    "Hicks, Michael C.",
+    "Williams, Forman A."
+   ]
+  },
+  {
+   "id": "20080034883",
+   "title": "Microgravity Flame Spread in Exploration Atmospheres: Pressure, Oxygen, and Velocity Effects on Opposed and Concurrent Flame Spread",
+   "year": "2008",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, Sandra L.",
+    "Ruff, Gary A.",
+    "Fletcher, J. Miller"
+   ]
+  },
+  {
+   "id": "19880006471",
+   "title": "The Effect of Microgravity on Flame Spread over a Thin Fuel",
+   "year": "1987",
+   "type": "THESIS_DISSERTATION",
+   "pdf": true,
+   "authors": [
+    "Olson, Sandra L."
+   ]
+  },
+  {
+   "id": "19880014518",
+   "title": "Microgravity combustion discipline working group summary of requirements for noncontact temperature measurements",
+   "year": "1988",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Sacksteder, Kurt"
+   ]
+  },
+  {
+   "id": "19990053973",
+   "title": "Flow Effects on the Flammability Diagrams of Solid Fuels: Microgravity Influence on Ignition Delay",
+   "year": "1999",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Cordova, J. L.",
+    "Walther, D. C.",
+    "Fernandez-Pello, A. C.",
+    "Steinhaus, T."
+   ]
+  },
+  {
+   "id": "19990053976",
+   "title": "Preliminary Results of the Third Test Series of Nonmetal Material Flammability Evaluation In SKOROST Apparatus on the Space Station Mir",
+   "year": "1999",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Ivanov, A. V.",
+    "Alymov, V. F.",
+    "Smirnov, A. B.",
+    "Shalayev, S. P."
+   ]
+  },
+  {
+   "id": "20040161262",
+   "title": "Evaluation of CO2, N2 and He as Fire Suppression Agents in Microgravity",
+   "year": "2004",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Ruff, Gary A.",
+    "Hicks, Michael",
+    "Pettegrew, Richard"
+   ]
+  },
+  {
+   "id": "20040084186",
+   "title": "Transition from Forward Smoldering to Flaming in Small Polyurethane Foam Samples",
+   "year": "2004",
+   "type": "ABSTRACT",
+   "pdf": false,
+   "authors": [
+    "Bar-Ilan, A.",
+    "Putzeys, O.",
+    "Rein, G.",
+    "Fernandez-Pello, A. C."
+   ]
+  },
+  {
+   "id": "20000070853",
+   "title": "Spot Radiative Ignition and Subsequent Three Dimensional Flame Spread Over Thin Cellulose Fuels",
+   "year": "1999",
+   "type": "PREPRINT",
+   "pdf": true,
+   "authors": [
+    "Olson, Sandra L.",
+    "Kashiwagi, T.",
+    "Kikuchi, M.",
+    "Fujita, O."
+   ]
+  },
+  {
+   "id": "20030110578",
+   "title": "Lunar and Planetary Science XXXIV",
+   "year": "2003",
+   "type": "CONFERENCE_PROCEEDINGS",
+   "pdf": false,
+   "authors": [
+    "Lunar and Planetary Institute"
+   ]
+  }
+ ]
+}

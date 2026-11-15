@@ -1,0 +1,26 @@
+{
+ "TEST:1": {
+  "id": "TEST:1",
+  "kind": "web",
+  "title": "SYNTHETIC TEST SOURCE 1",
+  "authors": [
+   "Test Author"
+  ],
+  "year": 2000,
+  "url": "https://example.invalid/src",
+  "pdf_url": null,
+  "doc_type": "Test"
+ },
+ "TEST:2": {
+  "id": "TEST:2",
+  "kind": "web",
+  "title": "SYNTHETIC TEST SOURCE 2",
+  "authors": [
+   "Test Author"
+  ],
+  "year": 2000,
+  "url": "https://example.invalid/src",
+  "pdf_url": null,
+  "doc_type": "Test"
+ }
+}

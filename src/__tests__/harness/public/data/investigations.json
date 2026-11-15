@@ -1,0 +1,188 @@
+[
+ {
+  "psi_id": "PSI-1",
+  "name": "Synthetic investigation TINV-A",
+  "acronym": "TINV-A",
+  "doi": null,
+  "hardware_group": "MSG-SPICE-duct",
+  "platform": "ISS",
+  "years": "2000-2001",
+  "objectives": "Synthetic objectives text for layout checks only; not NASA data.",
+  "fuel_phase": [
+   "solid"
+  ],
+  "fuel": "test fuel",
+  "fuel_shape": "rod",
+  "sample_size": "1 cm",
+  "o2_range_percent": [
+   15,
+   21
+  ],
+  "pressure_range_kpa": [
+   50,
+   101.3
+  ],
+  "flow_range_cm_s": [
+   0,
+   20
+  ],
+  "gravity_g": 0,
+  "variables": [
+   "flow",
+   "O2"
+  ],
+  "within_investigation_differences": null,
+  "sensors": [
+   "camera",
+   "thermocouple",
+   "radiometer"
+  ],
+  "measurement_types": [
+   "spread rate",
+   "temperature"
+  ],
+  "safety_area": [
+   "prevention"
+  ],
+  "data_files": [
+   {
+    "name": "test_1_0.csv",
+    "format": "CSV",
+    "url": "https://example.invalid/f.csv"
+   },
+   {
+    "name": "test_1_1.csv",
+    "format": "CSV",
+    "url": "https://example.invalid/f.csv"
+   },
+   {
+    "name": "test_1_2.csv",
+    "format": "CSV",
+    "url": "https://example.invalid/f.csv"
+   }
+  ],
+  "publications": [
+   "NTRS:0"
+  ],
+  "source_url": "https://example.invalid/psi"
+ },
+ {
+  "psi_id": "PSI-2",
+  "name": "Synthetic investigation TINV-B",
+  "acronym": "TINV-B",
+  "doi": null,
+  "hardware_group": "ACME-CIR",
+  "platform": "ISS",
+  "years": "2000-2001",
+  "objectives": "Synthetic objectives text for layout checks only; not NASA data.",
+  "fuel_phase": [
+   "gas"
+  ],
+  "fuel": "test fuel",
+  "fuel_shape": "rod",
+  "sample_size": "1 cm",
+  "o2_range_percent": [
+   16,
+   40
+  ],
+  "pressure_range_kpa": null,
+  "flow_range_cm_s": null,
+  "gravity_g": 0,
+  "variables": [
+   "flow",
+   "O2"
+  ],
+  "within_investigation_differences": null,
+  "sensors": [
+   "camera",
+   "thermocouple",
+   "radiometer"
+  ],
+  "measurement_types": [
+   "spread rate",
+   "temperature"
+  ],
+  "safety_area": [
+   "detection"
+  ],
+  "data_files": [],
+  "publications": [
+   "NTRS:0"
+  ],
+  "source_url": "https://example.invalid/psi"
+ },
+ {
+  "psi_id": "PSI-3",
+  "name": "Synthetic investigation TINV-C",
+  "acronym": "TINV-C",
+  "doi": null,
+  "hardware_group": "MDCA-CIR",
+  "platform": "ISS",
+  "years": "2000-2001",
+  "objectives": "Synthetic objectives text for layout checks only; not NASA data.",
+  "fuel_phase": [
+   "liquid"
+  ],
+  "fuel": "test fuel",
+  "fuel_shape": "rod",
+  "sample_size": "1 cm",
+  "o2_range_percent": [
+   21,
+   40
+  ],
+  "pressure_range_kpa": [
+   50,
+   300
+  ],
+  "flow_range_cm_s": null,
+  "gravity_g": 0,
+  "variables": [
+   "flow",
+   "O2"
+  ],
+  "within_investigation_differences": null,
+  "sensors": [
+   "camera",
+   "thermocouple",
+   "radiometer"
+  ],
+  "measurement_types": [
+   "spread rate",
+   "temperature"
+  ],
+  "safety_area": [
+   "suppression"
+  ],
+  "data_files": [
+   {
+    "name": "test_3_0.csv",
+    "format": "CSV",
+    "url": "https://example.invalid/f.csv"
+   },
+   {
+    "name": "test_3_1.csv",
+    "format": "CSV",
+    "url": "https://example.invalid/f.csv"
+   },
+   {
+    "name": "test_3_2.csv",
+    "format": "CSV",
+    "url": "https://example.invalid/f.csv"
+   },
+   {
+    "name": "test_3_3.csv",
+    "format": "CSV",
+    "url": "https://example.invalid/f.csv"
+   },
+   {
+    "name": "test_3_4.csv",
+    "format": "CSV",
+    "url": "https://example.invalid/f.csv"
+   }
+  ],
+  "publications": [
+   "NTRS:0"
+  ],
+  "source_url": "https://example.invalid/psi"
+ }
+]

@@ -1,0 +1,431 @@
+
+=== PAGE 1 ===
+ 
+ 
+EVALUATION OF CO2, N2 AND HE AS FIRE SUPPRESSION 
+AGENTS IN MICROGRAVITY 
+ 
+Gary A. Ruff and Michael Hicks 
+NASA Glenn Research Center 
+ 
+Richard Pettegrew 
+National Center for Microgravity Research 
+ 
+ 
+The U.S. modules of the International Space Station use gaseous CO2 as the fire extinguishing agent. This 
+was selected as a result of extensive experience with CO2 as a fire suppressant in terrestrial applications, 
+trade studies on various suppressants, and experiments. The selection of fire suppressants and suppression 
+strategies for NASA’s Lunar and Martian exploration missions will be based on the same studies and 
+normal-gravity data unless reduced gravity fire suppression data is obtained. In this study, the suppressant 
+agent concentrations required to extinguish a flame in low velocity convective flows within the 20-sec of 
+low gravity on the KC-135 aircraft were investigated. Suppressant gas mixtures of CO2, N2, and He with 
+the balance being oxygen/nitrogen mixtures with either 21% or 25% O2 were used to suppress flames on a 
+19-mm diameter PMMA cylinder in reduced gravity. For each of the suppressant mixtures, limiting 
+concentrations were established that would extinguish the flame at any velocity. Similarly, concentrations 
+were established that would not extinguish the flame. The limiting concentrations were generally 
+consistent with previous studies but did suggest that geometry had an effect on the limiting conditions. 
+Between the extinction and non-extinction limits, the suppression characteristics depended on the 
+extinguishing agent, flow velocity, and O2 concentration. The limiting velocity data from the CO2, He, 
+and N2 suppressants were well correlated using an effective mixture enthalpy per mole of O2, indicating 
+that all act via O2 displacement and cooling mechanisms. In reduced gravity, the agent concentration 
+required to suppress the flames increased as the velocity increased, up to approximately 10 cm/s (the 
+maximum velocity evaluated in this experiment). The effective enthalpy required to extinguish flames at 
+velocities of 10 cm/s is approximately the same as the concentrations in normal gravity. A computational 
+study is underway to further evaluate these findings. 
+ 
+ 
+NASA/CP—2004-213205/VOL2
+355
+
+=== PAGE 2 ===
+Assessment of CO
+Assessment of CO2, N
+, N2, and He as 
+, and He as 
+Suppressants in Microgravity Environments
+Suppressants in Microgravity Environments
+Conference-Workshop on
+Strategic Research to Enable 
+NASA's exploration Missions
+June 22nd -23rd, 2004
+Gary A. Ruff  - NASA Glenn Research Center
+Michael C. Hicks - NASA Glenn Research Center
+Rick Pettegrew - National Center for Microgravity Research
+NASA/CP—2004-213205/VOL2
+356
+
+=== PAGE 3 ===
+Fire Suppression on ISS
+Fire Suppression on ISS
+Carbon Dioxide is the current suppressant of choice on the ISS. The requirements 
+were developed based on NFPA 12 Regulations that specify that a 50% concentration 
+by volume are required to extinguish smoldering fires (with a 20 minute hold). A 
+concentration of 30% by volume was required to extinguish flaming fires. Carbon 
+dioxide was selected through trade studies that evaluated suppressants based on:
+Normal-gravity tests were conducted by Sircar et al.
+(1992) that evaluated CO2, He, N2, and Halon in a NASA 
+STD 6001 Test 1 configuration (Upward Flame 
+Propagation) with quiescent delivery of the suppressant
+mixture. Halon was the most effective followed by CO2. N2
+and He were equally less effective.
+•
+Effectiveness on potential spacecraft fires
+•
+Reliability
+•
+Maintainability
+•
+System Weight
+•
+Required post-fire clean-up
+•
+Compatibility with other spacecraft systems
+•
+Toxicity of suppressant and/or post-fire suppression products 
+These studies generally conclude that CO2 and N2 are close
+in acceptability with the first choice depending on the
+weighting of the above criteria.  These studies also
+recommend use of a water-based suppressant should be
+used for smoldering fires.
+ISS Portable Fire Extinguisher
+(6 lbs of CO2 at 850 psi;
+discharges in 45 sec)
+NASA/CP—2004-213205/VOL2
+357
+
+=== PAGE 4 ===
+Motivation and Objectives
+Motivation and Objectives
+•
+Fire response procedure on ISS dictates that ventilation flow is ceased and power
+removed after annunciation of a fire alarm
+•
+Discharge of a fire extinguisher will induce flow with varying CO2 concentration
+•
+Effectiveness of these suppressants has never been evaluated in low-velocity 
+convective flows (up to 10-15 cm/s) in microgravity
+•
+Design of next generation, exploration spacecraft will ask the same questions with little 
+new data
+¾
+Determine the effectiveness of the flow of CO2, He, and N2 to suppress fires in 
+microgravity
+¾
+Conduct tests on the KC-135 on PMMA cylinders for a variety of suppressants and 
+suppressant mixtures
+•
+Combustion Chamber
+–
+(25.4 cm diam, 51 cm high)
+•
+Flows up to 17 cm/s
+–
+Three mass flow controllers
+• Two 500 slpm
+• 2000 slpm
+•
+Pressure up to 3 atm
+Spacecraft Fire Safety Facility
+Spacecraft Fire Safety Facility
+NASA/CP—2004-213205/VOL2
+358
+
+=== PAGE 5 ===
+Test Matrix and Samples
+Test Matrix and Samples
+•
+Chamber Pressure = 1 atm
+•
+Standard Air - 21% O2, 79% N2
+•
+Rich Air - 25% O2, 75% N2
+•
+Velocity: 1 – 10 cm/s
+Oxidizer
+Suppressant
+Concentrations
+(% vol)
+Standard Air
+CO2
+12.5%, 25%
+He
+12.5%, 25%
+N2
+25%
+Rich Air
+CO2
+12.5%, 25%
+He
+12.5%, 25%
+N2
+25%
+•
+19.1 mm diam x 25.4 mm long 
+PMMA cylinders
+•
+Cartridge heater through center
+•
+Surface and heater t/c
+•
+Hot wire igniter
+•
+Flow from bottom to top
+Sample
+Igniter
+Sample card with sample and
+cartridge heater
+1.1 cm/s
+3.2 cm/s
+4.2 cm/s
+5.2 cm/s
+7.6 cm/s
+Typical low-g flames for 25% O2, 75% N2
+NASA/CP—2004-213205/VOL2
+359
+
+=== PAGE 6 ===
+Microgravity Results
+Microgravity Results
+CO
+CO2,  He,  N
+,  He,  N2 Suppressants
+Suppressants
+0.0
+1.0
+2.0
+3.0
+0
+2
+4
+6
+8
+10
+12
+Velocity (cm/s)
+XCO2/XO2
+Ext with suppressant
+Ext by venting
+0.0
+1.0
+2.0
+3.0
+0
+2
+4
+6
+8
+10
+12
+Velocity (cm/s)
+XCO2/XO2
+Ext with suppressant
+Ext by venting
+Ext with suppressant
+Ext by venting
+• Suppressant mole fraction / mole fraction
+of O2 as a function of velocity ...
+–
+Extinguishment limits in slow flow regime (i.e.,
+less than 10 cm/s) show dependence on 
+velocity
+–
+Previous studies ... 
+CO2 :    XCO2 / XO2 = 0.62 (Prasad et al.)
+XCO2 / XO2 = 1.12 (Takahashi et al..)
+He :     XHe / XO2 = 2.1 (Takahashi et al.)
+N2:    XN2/XO2=2.92  (Takahashi et al.)
+CO2
+0.0
+1.0
+2.0
+3.0
+0
+2
+4
+6
+8
+10
+12
+Velocity (cm/s)
+XHe/XO2
+Ext with suppressant
+Ext by venting
+0.0
+1.0
+2.0
+3.0
+0
+2
+4
+6
+8
+10
+12
+Velocity (cm/s)
+XHe/XO2
+Ext with suppressant
+Ext by venting
+He
+0.0
+1.0
+2.0
+3.0
+0
+2
+4
+6
+8
+10
+12
+Velocity (cm/s)
+XN2/XO2
+Ext with suppressant
+Ext by venting
+Ext with suppressant
+Ext by venting
+N2
+NASA/CP—2004-213205/VOL2
+360
+
+=== PAGE 7 ===
+Effective Enthalpy/Mol O
+Effective Enthalpy/Mol O2
+•
+Huggett (1969, 1973) proposed a "threshold" heat capacity above 
+which organic fuels cease to burn
+–
+Showed that at a "mixture" specific heat greater than 40 – 50 cal/C-mol O2 a
+flame could not be sustained (at a pressure of 1.0 atm)
+–
+Determined from strained laminar diffusion flames
+•
+Sheinson et al. (1989) applied this concept to evaluate the physical 
+and chemical performance of various suppressant mixtures
+–
+Defined an effective mixture enthalpy as energy required to heat mixture from 
+298 K to 1600K
+•
+Calculated the effective enthalpy/mol O2 for each suppressant mixture
+•
+Established a limiting velocity at which there was a transition in 
+suppression characteristics
+–
+Averaged bounding velocities
+–
+Plotted highest velocity tested if no transition was observed
+dT
+Cp
+X
+X
+H
+i
+i
+O
+i ³
+¦
+ 
+c
+'
+1600
+298
+2
+NASA/CP—2004-213205/VOL2
+361
+
+=== PAGE 8 ===
+Correlation with Effective Enthalpy
+Correlation with Effective Enthalpy
+•
+Helium lies slightly below CO2 and N2 presumably because of higher thermal 
+conductivity
+•
+Microgravity flame on PMMA requires less suppressant to extinguish at lower
+velocities
+•
+Normal gravity suppression is at 63.2 kcal/mol O2
+0
+20
+40
+60
+80
+0
+2
+4
+6
+8
+10
+12
+Velocity (cm/s)
+Suppressant Effective Enthalpy
+(kcal/mol-O2)
+Carbon Dioxide
+Helium
+Nitrogen
+Best-Fit Line
+Extinguishes
+flame
+Does not
+extinguish
+flame
+0
+20
+40
+60
+80
+0
+2
+4
+6
+8
+10
+12
+Velocity (cm/s)
+Suppressant Effective Enthalpy
+(kcal/mol-O2)
+Carbon Dioxide
+Helium
+Nitrogen
+Best-Fit Line
+Extinguishes
+flame
+Does not
+extinguish
+flame
+NASA/CP—2004-213205/VOL2
+362
+
+=== PAGE 9 ===
+Conclusions
+Conclusions
+•
+Higher suppressant concentrations are required to extinguish flames 
+in microgravity as velocity increases
+–
+Up to 10 cm/s investigated in this experiment
+–
+Effective enthalpy/mol-O2 correlates limiting velocity fairly well
+–
+Effective enthalpy at 10 cm/s is nearly normal-gravity value
+•
+For these conditions, CO2, N2, and He all act as passive suppressants
+–
+O2 replacement and cooling
+•
+Procedures on ISS are reasonable for flaming fires
+–
+Specifications for CO2 concentrations are high enough for smoldering fires but no 
+provision for hold time
+–
+Use of water-based foam in U.S. modules is not “recommended”
+•
+Continue modeling of the CO2, He, and N2 suppression results
+–
+Can the suppression and limiting velocity boundaries be duplicated?
+•
+Complete analysis of partial gravity suppression data
+–
+Data obtained for CO2 at 0.1-go, 0.17-go(Lunar), 0.38-go (Martian), and 0.5-go
+Future Work
+Future Work
+NASA/CP—2004-213205/VOL2
+363

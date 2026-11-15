@@ -1,0 +1,248 @@
+{
+ "q": "exploration atmosphere flammability",
+ "total": 27,
+ "results": [
+  {
+   "id": "20260002050",
+   "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+   "year": "2026",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Brian K Alpert",
+    "Logan Kennedy",
+    "L Daren Welsh",
+    "Adam Young"
+   ]
+  },
+  {
+   "id": "20240008623",
+   "title": "Flammability of Materials on the Moon",
+   "year": "2024",
+   "type": "POSTER",
+   "pdf": true,
+   "authors": [
+    "Jennifer Zayac",
+    "Michael Johnston",
+    "Gary Ruff",
+    "Paul Ferkul"
+   ]
+  },
+  {
+   "id": "20260006059",
+   "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+   "year": "2026",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Logan Kennedy",
+    "Brian Alpert"
+   ]
+  },
+  {
+   "id": "20070021234",
+   "title": "ISO 14624 Series - Space Systems - Safety and Compatibility of Materials Flammability Assessment of Spacecraft Materials",
+   "year": "2007",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Hirsch, David B."
+   ]
+  },
+  {
+   "id": "20240003211",
+   "title": "Moon to Mars (M2M): Exploration Atmosphere",
+   "year": "2024",
+   "type": "PRESENTATION",
+   "pdf": false,
+   "authors": [
+    "Marlei Walton",
+    "Jason Norcross"
+   ]
+  },
+  {
+   "id": "20230015380",
+   "title": "Development, Validation and Approval of A Planetary Extravehicular Activity Prebreathe Protocol: NASA Exploration Atmosphere Tests 1 & 2",
+   "year": "2023",
+   "type": "PRESENTATION",
+   "pdf": false,
+   "authors": [
+    "A Garbino",
+    "M Y Hew-Yang",
+    "P Estep",
+    "B Siders"
+   ]
+  },
+  {
+   "id": "20110011524",
+   "title": "Ignition Delay of Combustible Materials in Normoxic Equivalent Environments",
+   "year": "2009",
+   "type": "OTHER",
+   "pdf": false,
+   "authors": [
+    "McAllister, Sara",
+    "Fernandez-Pello, Carlos",
+    "Ruff, Gary",
+    "Urban, David"
+   ]
+  },
+  {
+   "id": "20200002311",
+   "title": "Exploration Atmosphere & EVA Prebreathe Protocol Validation in the 20-Foot Chamber",
+   "year": "2019",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Orndoff, Evelyne",
+    "Marmolejo, Jose"
+   ]
+  },
+  {
+   "id": "20080013149",
+   "title": "Piloted Ignition Delay of PMMA in Space Exploration Atmospheres",
+   "year": "2007",
+   "type": "PREPRINT",
+   "pdf": true,
+   "authors": [
+    "McAllister, Sara",
+    "Fernandez-Pello, Carlos",
+    "Urban, David",
+    "Ruff, Gary"
+   ]
+  },
+  {
+   "id": "20010074096",
+   "title": "An Earth-Based Equivalent Low Stretch Apparatus to Assess Material Flammability for Microgravity & Extraterrestrial Fire-Safety Applications",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, S. L.",
+    "Beeson, H.",
+    "Haas, J."
+   ]
+  },
+  {
+   "id": "20070009850",
+   "title": "The Exploration Atmospheres Working Group's Report on Space Radiation Shielding Materials",
+   "year": "2006",
+   "type": "TECHNICAL_MEMORANDUM",
+   "pdf": true,
+   "authors": [
+    "Barghouty, A. F.",
+    "Thibeault, S. A."
+   ]
+  },
+  {
+   "id": "20260003925",
+   "title": "Impacts of Reduced Pressure Atmospheres on Environmental Control and Life Support Systems (ECLSS) Architectures",
+   "year": "2026",
+   "type": "TECHNICAL_MEMORANDUM",
+   "pdf": true,
+   "authors": [
+    "Morgan B Abney",
+    "Robert M. Bagdigian",
+    "Chase Hopkins",
+    "Ariel V Macatangay"
+   ]
+  },
+  {
+   "id": "20080026001",
+   "title": "Reduced Pressure Atmosphere Impacts on Life Support and Internal Thermal Systems",
+   "year": "2006",
+   "type": "ABSTRACT",
+   "pdf": false,
+   "authors": [
+    "Anderson, Molly"
+   ]
+  },
+  {
+   "id": "20240013238",
+   "title": "Nasa Exploration Atmosphere Tests 3 & 4: Development and Validation of Planetary Extravehicular Activity Prebreathe Protocols for Alternate Atmospheres and Suit Pressures",
+   "year": "2024",
+   "type": "ABSTRACT",
+   "pdf": false,
+   "authors": [
+    "A Garbino",
+    "M Y Hew-Yang",
+    "P Estep",
+    "B Siders"
+   ]
+  },
+  {
+   "id": "20250004535",
+   "title": "NASA Exploration Atmosphere Tests 3 and 4: Development and Validation of Planetary Extravehicular Activity Prebreathe Protocols for Alternate Atmospheres and Suit Pressures",
+   "year": "2025",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Alejandro Garbino",
+    "Monica Hew-Yang",
+    "Patrick Estep",
+    "Brett Siders"
+   ]
+  },
+  {
+   "id": "20080012607",
+   "title": "Effect of Pressure on Piloted Ignition Delay of PMMA",
+   "year": "2008",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "McAllister, Sara",
+    "Lai, Janice",
+    "Scott, Sarah",
+    "Ramirez-Correa, Amelia"
+   ]
+  },
+  {
+   "id": "20220015737",
+   "title": "Evaluation of Planetary Extravehicular Activity Prebreathe Protocols using a 56.5 kPa, 34% O2, 66% N2 Saturation Cabin Atmosphere in an 11-day Hypobaric Hypoxia Study",
+   "year": "2022",
+   "type": "PRESENTATION",
+   "pdf": false,
+   "authors": [
+    "Alejandro Garbino",
+    "E Lichar Dillon",
+    "Patrick Estep",
+    "Monica Hew"
+   ]
+  },
+  {
+   "id": "20220009546",
+   "title": "Results of a 3-day Pilot Study to Validate Planetary Prebreathe Protocols Using a 56.5 kPa 34% O2, 66% N2 Saturation Cabin Atmosphere ",
+   "year": "2022",
+   "type": "PRESENTATION",
+   "pdf": false,
+   "authors": [
+    "Alejandro Garbino",
+    "E Lichar Dillon",
+    "Patrick Estep",
+    "Monica Hew"
+   ]
+  },
+  {
+   "id": "20170001636",
+   "title": "The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Schoren, William",
+    "Ruff, Gary A.",
+    "Urban, David L."
+   ]
+  },
+  {
+   "id": "20170000230",
+   "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Ruff, Gary A.",
+    "Urban, David L."
+   ]
+  }
+ ]
+}

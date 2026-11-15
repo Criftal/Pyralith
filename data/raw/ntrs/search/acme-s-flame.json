@@ -1,0 +1,36 @@
+{
+ "q": "ACME s-Flame",
+ "total": 3,
+ "results": [
+  {
+   "id": "20220015583",
+   "title": "ACME: Advanced Combustion via Microgravity Experiments",
+   "year": "2022",
+   "type": "POSTER",
+   "pdf": true,
+   "authors": [
+    "Dennis P Stocker"
+   ]
+  },
+  {
+   "id": "20210022542",
+   "title": "Recent Research on Flames of Gaseous Fuel Aboard the International Space Station ",
+   "year": "2021",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Dennis P Stocker"
+   ]
+  },
+  {
+   "id": "20210021781",
+   "title": "Recent Research on Flames of Gaseous Fuel Aboard the International Space Station ",
+   "year": "2021",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Dennis P Stocker"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "q": "SAME smoke aerosol measurement",
+ "total": 13,
+ "results": [
+  {
+   "id": "20130000422",
+   "title": "Particle Morphology and Size Results from the Smoke Aerosol Measurement Experiment-2",
+   "year": "2012",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Urban, David L.",
+    "Ruff, Gary A.",
+    "Greenberg, Paul S.",
+    "Fischer, David"
+   ]
+  },
+  {
+   "id": "20070031686",
+   "title": "Particle and Smoke Detection on ISS for Next Generation Smoke Detectors",
+   "year": "2007",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Urban, David L.",
+    "Ruff, Gary",
+    "Yuan, Zeng-guang",
+    "Sheredy, William"
+   ]
+  },
+  {
+   "id": "20170007283",
+   "title": "Spacecraft Fire Safety Research at NASA Glenn Research Center",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Meyer, Marit"
+   ]
+  },
+  {
+   "id": "20210014195",
+   "title": "Assessment of urban aerosol pollution over the Moscow megacity by the MAIAC aerosol product",
+   "year": "2020",
+   "type": "REPRINT",
+   "pdf": true,
+   "authors": [
+    "Ekaterina Y. Zhadanova",
+    "Natalia Y. Chubarova",
+    "Alexei I. Lyapustin"
+   ]
+  },
+  {
+   "id": "20220014681",
+   "title": "A Comparison of Stratospheric Smoke Events Seen by SAGE II (1984-2005) and SAGE III (2017-2021)",
+   "year": "2022",
+   "type": "POSTER",
+   "pdf": true,
+   "authors": [
+    "L. W. Thomason"
+   ]
+  },
+  {
+   "id": "20260009884",
+   "title": "Assessing VIIRS aerosol data assimilation as a MODIS successor in the NASA GEOS system ",
+   "year": "2026",
+   "type": "PREPRINT",
+   "pdf": true,
+   "authors": [
+    "Virginie Buchard",
+    "Patricia Castellanos",
+    "Arlindo M Da Silva",
+    "Ravi Govindaraju"
+   ]
+  },
+  {
+   "id": "20130013403",
+   "title": "MODIS 3km Aerosol Product: Algorithm and Global Perspective",
+   "year": "2013",
+   "type": "REPRINT",
+   "pdf": true,
+   "authors": [
+    "Remer, L. A.",
+    "Mattoo, S.",
+    "Levy, R. C.",
+    "Munchak, L."
+   ]
+  },
+  {
+   "id": "20230002746",
+   "title": "Circular Polarization in Atmospheric Aerosols",
+   "year": "2022",
+   "type": "ACCEPTED_MANUSCRIPT",
+   "pdf": true,
+   "authors": [
+    "Santiago Gass\u00f3",
+    "Kirk D Knobelspiesse"
+   ]
+  },
+  {
+   "id": "20230003155",
+   "title": "Employing Relaxed Smoothness Constraints on Imaginary Part of Refractive Index in AERONET Aerosol Retrieval Algorithm",
+   "year": "2022",
+   "type": "REPRINT",
+   "pdf": true,
+   "authors": [
+    "Aliaksandr Siniuk",
+    "Brent N Holben",
+    "Thomas F Eck",
+    "David M Giles"
+   ]
+  },
+  {
+   "id": "20190032657",
+   "title": "Characterization and Measurement of Spacecraft Airborne Particulate Matter",
+   "year": "2019",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Meyer, Marit E."
+   ]
+  },
+  {
+   "id": "20240003929",
+   "title": "Increased Atmospheric PM<sub>2.5</sub> Events Due to Open Waste Burning in Qaanaaq, Greenland, Summer of 2022",
+   "year": "2024",
+   "type": "ACCEPTED_MANUSCRIPT",
+   "pdf": true,
+   "authors": [
+    "Teppei J Yasunari",
+    "Tomoki Kajikawa",
+    "Yutaka Matsumi ",
+    "Kyu-Myong Kim"
+   ]
+  },
+  {
+   "id": "20050215648",
+   "title": "Fundamental Research Applied To Enable Hardware Performance in Microgravity",
+   "year": "2005",
+   "type": "OTHER",
+   "pdf": true,
+   "authors": [
+    "Sheredy, William A."
+   ]
+  },
+  {
+   "id": "20150022260",
+   "title": "Fifth Conference on Laser Radar Studies of the Atmosphere, June 4-6, 1973, Hilton Inn, Williamsburg, Virginia: Conference Abstracts",
+   "year": "1973",
+   "type": "CONFERENCE_PROCEEDINGS",
+   "pdf": true,
+   "authors": []
+  }
+ ]
+}

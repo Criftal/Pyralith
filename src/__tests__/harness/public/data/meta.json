@@ -1,0 +1,17 @@
+{
+ "generated_at": "2000-01-01T00:00:00Z",
+ "verification": {
+  "candidates": 14,
+  "verified": 12,
+  "dropped_quote": 1,
+  "dropped_numbers": 1,
+  "dropped_schema": 0
+ },
+ "counts": {
+  "findings": 12,
+  "investigations": 3,
+  "sources": 2,
+  "experiments": 5,
+  "claims": 10
+ }
+}

@@ -1,0 +1,81 @@
+{
+ "q": "E-FIELD flames",
+ "total": 6,
+ "results": [
+  {
+   "id": "30580252934587",
+   "title": "Electric-field effects on methane coflow flames aboard the international space station (ISS): ACME E-FIELD flames",
+   "year": "2026",
+   "type": "REPRINT",
+   "pdf": false,
+   "authors": [
+    "Yu-Chien Chien",
+    "Dennis P. Stocker",
+    "Uday G. Hegde",
+    "Derek Dunn-Rankin"
+   ]
+  },
+  {
+   "id": "20010074026",
+   "title": "Characteristics of Non-Premixed Turbulent Flames in Microgravity",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Hegde, U.",
+    "Yuan, Z. G.",
+    "Stocker, D. P.",
+    "Bahadori, M. Y."
+   ]
+  },
+  {
+   "id": "19970028635",
+   "title": "Measurements and Modeling of Soot Formation and Radiation in Microgravity Jet Diffusion Flames",
+   "year": "1996",
+   "type": "REPRINT",
+   "pdf": true,
+   "authors": [
+    "Ku, Jerry C.",
+    "Tong, Li",
+    "Greenberg, Paul S."
+   ]
+  },
+  {
+   "id": "20040161242",
+   "title": "EPS (Electric Particulate Suspension) Microgravity Technology Provides NASA with New Tools",
+   "year": "2004",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Colver, Gerald M.",
+    "Greene, Nate",
+    "Xu, Hua"
+   ]
+  },
+  {
+   "id": "19930072469",
+   "title": "Gasdynamics of relativistically expanding gamma-ray burst sources - Kinematics, energetics, magnetic fields, and efficiency",
+   "year": "1993",
+   "type": "REPRINT",
+   "pdf": false,
+   "authors": [
+    "Meszaros, P.",
+    "Laguna, P.",
+    "Rees, M. J."
+   ]
+  },
+  {
+   "id": "20040053576",
+   "title": "Modeling Candle Flame Behavior In Variable Gravity",
+   "year": "2003",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Alsairafi, A.",
+    "Tien, J. S.",
+    "Lee, S. T.",
+    "Dietrich, D. L."
+   ]
+  }
+ ]
+}

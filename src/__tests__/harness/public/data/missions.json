@@ -1,0 +1,221 @@
+[
+ {
+  "id": "iss",
+  "name": "TEST ISS",
+  "gravity": {
+   "value": 0,
+   "unit": "g",
+   "display": "0 g",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "o2": {
+   "value": 21,
+   "unit": "%",
+   "display": "21 %",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "pressure": {
+   "value": 101.3,
+   "unit": "kPa",
+   "display": "101.3 kPa",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "flow": {
+   "value": 10,
+   "unit": "cm/s",
+   "display": "10 cm/s",
+   "qualifier": "about",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  }
+ },
+ {
+  "id": "artemis_habitat",
+  "name": "TEST Artemis habitat",
+  "gravity": {
+   "value": 0.17,
+   "unit": "g",
+   "display": "0.17 g",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "o2": {
+   "value": 34,
+   "unit": "%",
+   "display": "34 %",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "pressure": {
+   "value": 56.5,
+   "unit": "kPa",
+   "display": "56.5 kPa",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "flow": null
+ },
+ {
+  "id": "pressurized_rover",
+  "name": "TEST rover",
+  "gravity": {
+   "value": 0.17,
+   "unit": "g",
+   "display": "0.17 g",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "o2": {
+   "value": 30,
+   "unit": "%",
+   "display": "30 %",
+   "qualifier": "at_least",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "pressure": {
+   "value": 70.3,
+   "unit": "kPa",
+   "display": "70.3 kPa",
+   "qualifier": "at_most",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "flow": null
+ },
+ {
+  "id": "eva_suit",
+  "name": "TEST suit",
+  "gravity": {
+   "value": 0.17,
+   "unit": "g",
+   "display": "0.17 g",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "o2": {
+   "value": 100,
+   "unit": "%",
+   "display": "100 %",
+   "qualifier": "about",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "pressure": {
+   "value": 29.6,
+   "unit": "kPa",
+   "display": "29.6 kPa",
+   "qualifier": "about",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "flow": null
+ },
+ {
+  "id": "mars_transit",
+  "name": "TEST transit",
+  "gravity": {
+   "value": 0,
+   "unit": "g",
+   "display": "0 g",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "o2": {
+   "value": 21,
+   "unit": "%",
+   "display": "21 %",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "pressure": {
+   "value": 101.3,
+   "unit": "kPa",
+   "display": "101.3 kPa",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "flow": null
+ },
+ {
+  "id": "mars_habitat",
+  "name": "TEST Mars habitat",
+  "gravity": {
+   "value": 0.38,
+   "unit": "g",
+   "display": "0.38 g",
+   "qualifier": "stated",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "o2": {
+   "value": 34,
+   "unit": "%",
+   "display": "34 %",
+   "qualifier": "assumed",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": "Synthetic assumed-value note."
+  },
+  "pressure": {
+   "value": 56.5,
+   "unit": "kPa",
+   "display": "56.5 kPa",
+   "qualifier": "assumed",
+   "source_id": "TEST:1",
+   "page": 1,
+   "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+   "note": null
+  },
+  "flow": null
+ }
+]

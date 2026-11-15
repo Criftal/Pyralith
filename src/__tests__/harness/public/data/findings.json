@@ -1,0 +1,351 @@
+[
+ {
+  "id": "f_0001",
+  "source_id": "TEST:1",
+  "experiment": "TEST-EXP-A",
+  "psi_id": "PSI-1",
+  "platform": "ISS",
+  "gravity_g": 0,
+  "analogue_of_g": null,
+  "o2_percent": 21,
+  "pressure_kpa": 101.3,
+  "flow_cm_s": 10,
+  "reported": {
+   "gravity": "0 g",
+   "o2": "21%",
+   "pressure": "101.3 kPa",
+   "flow": "10 cm/s"
+  },
+  "material": "Material A",
+  "finding": "Synthetic finding 1 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "flammability_limit",
+  "direction": "more_flammable_than_1g",
+  "safety_area": [
+   "prevention"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 1,
+  "evidence_tier": 1,
+  "verified": true
+ },
+ {
+  "id": "f_0002",
+  "source_id": "TEST:2",
+  "experiment": "TEST-EXP-A",
+  "psi_id": "PSI-1",
+  "platform": "ISS",
+  "gravity_g": 0,
+  "analogue_of_g": null,
+  "o2_percent": 21,
+  "pressure_kpa": 101.3,
+  "flow_cm_s": 5,
+  "reported": {
+   "gravity": "0 g",
+   "o2": "21%",
+   "pressure": "101.3 kPa",
+   "flow": "5 cm/s"
+  },
+  "material": "Material A",
+  "finding": "Synthetic finding 2 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "spread_rate",
+  "direction": "n/a",
+  "safety_area": [
+   "prevention"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 2,
+  "evidence_tier": 1,
+  "verified": true
+ },
+ {
+  "id": "f_0003",
+  "source_id": "TEST:1",
+  "experiment": "TEST-EXP-B",
+  "psi_id": "PSI-2",
+  "platform": "ISS",
+  "gravity_g": 0,
+  "analogue_of_g": null,
+  "o2_percent": 15,
+  "pressure_kpa": null,
+  "flow_cm_s": 20,
+  "reported": {
+   "gravity": "0 g",
+   "o2": "15%",
+   "pressure": null,
+   "flow": "20 cm/s"
+  },
+  "material": "Material B",
+  "finding": "Synthetic finding 3 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "extinction",
+  "direction": "n/a",
+  "safety_area": [
+   "prevention"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 3,
+  "evidence_tier": 1,
+  "verified": true
+ },
+ {
+  "id": "f_0004",
+  "source_id": "TEST:2",
+  "experiment": "TEST-EXP-C",
+  "psi_id": "PSI-3",
+  "platform": "ISS",
+  "gravity_g": 0,
+  "analogue_of_g": null,
+  "o2_percent": 34,
+  "pressure_kpa": 56.5,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": "0 g",
+   "o2": "34%",
+   "pressure": "56.5 kPa",
+   "flow": null
+  },
+  "material": "Material C",
+  "finding": "Synthetic finding 4 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "ignition",
+  "direction": "n/a",
+  "safety_area": [
+   "detection"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 4,
+  "evidence_tier": 1,
+  "verified": true
+ },
+ {
+  "id": "f_0005",
+  "source_id": "TEST:1",
+  "experiment": "TEST-EXP-D",
+  "psi_id": "PSI-4",
+  "platform": "ISS",
+  "gravity_g": 0,
+  "analogue_of_g": 0.17,
+  "o2_percent": null,
+  "pressure_kpa": null,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": "0 g",
+   "o2": null,
+   "pressure": null,
+   "flow": null
+  },
+  "material": null,
+  "finding": "Synthetic finding 5 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "test_method",
+  "direction": "n/a",
+  "safety_area": [
+   "prevention"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 5,
+  "evidence_tier": 1,
+  "verified": true
+ },
+ {
+  "id": "f_0006",
+  "source_id": "TEST:2",
+  "experiment": "TEST-EXP-A",
+  "psi_id": null,
+  "platform": "parabolic",
+  "gravity_g": 0.16,
+  "analogue_of_g": null,
+  "o2_percent": 21,
+  "pressure_kpa": 101.3,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": "0.16 g",
+   "o2": "21%",
+   "pressure": "101.3 kPa",
+   "flow": null
+  },
+  "material": "Material A",
+  "finding": "Synthetic finding 6 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "flammability_limit",
+  "direction": "more_flammable_than_1g",
+  "safety_area": [
+   "prevention"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 6,
+  "evidence_tier": 2,
+  "verified": true
+ },
+ {
+  "id": "f_0007",
+  "source_id": "TEST:1",
+  "experiment": "TEST-EXP-E",
+  "psi_id": null,
+  "platform": "model",
+  "gravity_g": 0.17,
+  "analogue_of_g": null,
+  "o2_percent": 30,
+  "pressure_kpa": 70,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": "0.17 g",
+   "o2": "30%",
+   "pressure": "70 kPa",
+   "flow": null
+  },
+  "material": null,
+  "finding": "Synthetic finding 7 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "flammability_limit",
+  "direction": "more_flammable_than_1g",
+  "safety_area": [
+   "prevention"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 7,
+  "evidence_tier": 4,
+  "verified": true
+ },
+ {
+  "id": "f_0008",
+  "source_id": "TEST:2",
+  "experiment": "TEST-EXP-A",
+  "psi_id": null,
+  "platform": "parabolic",
+  "gravity_g": 0.38,
+  "analogue_of_g": null,
+  "o2_percent": 21,
+  "pressure_kpa": null,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": "0.38 g",
+   "o2": "21%",
+   "pressure": null,
+   "flow": null
+  },
+  "material": "Material B",
+  "finding": "Synthetic finding 8 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "spread_rate",
+  "direction": "n/a",
+  "safety_area": [
+   "prevention"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 8,
+  "evidence_tier": 2,
+  "verified": true
+ },
+ {
+  "id": "f_0009",
+  "source_id": "TEST:1",
+  "experiment": "TEST-EXP-A",
+  "psi_id": null,
+  "platform": "1g_lab",
+  "gravity_g": 1,
+  "analogue_of_g": null,
+  "o2_percent": 21,
+  "pressure_kpa": 101.3,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": "1 g",
+   "o2": "21%",
+   "pressure": "101.3 kPa",
+   "flow": null
+  },
+  "material": "Material A",
+  "finding": "Synthetic finding 9 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "test_method",
+  "direction": "n/a",
+  "safety_area": [
+   "prevention",
+   "suppression"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 9,
+  "evidence_tier": 3,
+  "verified": true
+ },
+ {
+  "id": "f_0010",
+  "source_id": "TEST:2",
+  "experiment": "TEST-EXP-A",
+  "psi_id": null,
+  "platform": "1g_lab",
+  "gravity_g": 1,
+  "analogue_of_g": null,
+  "o2_percent": 30,
+  "pressure_kpa": 70.3,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": "1 g",
+   "o2": "30%",
+   "pressure": "70.3 kPa",
+   "flow": null
+  },
+  "material": "Material C",
+  "finding": "Synthetic finding 10 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "flammability_limit",
+  "direction": "n/a",
+  "safety_area": [
+   "prevention"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 10,
+  "evidence_tier": 3,
+  "verified": true
+ },
+ {
+  "id": "f_0011",
+  "source_id": "TEST:1",
+  "experiment": "TEST-EXP-A",
+  "psi_id": null,
+  "platform": "1g_lab",
+  "gravity_g": 1,
+  "analogue_of_g": null,
+  "o2_percent": 85,
+  "pressure_kpa": null,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": "1 g",
+   "o2": "85%",
+   "pressure": null,
+   "flow": null
+  },
+  "material": null,
+  "finding": "Synthetic finding 11 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "suppression",
+  "direction": "n/a",
+  "safety_area": [
+   "suppression"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 11,
+  "evidence_tier": 3,
+  "verified": true
+ },
+ {
+  "id": "f_0012",
+  "source_id": "TEST:2",
+  "experiment": "TEST-EXP-A",
+  "psi_id": null,
+  "platform": "review",
+  "gravity_g": null,
+  "analogue_of_g": null,
+  "o2_percent": 21,
+  "pressure_kpa": null,
+  "flow_cm_s": null,
+  "reported": {
+   "gravity": null,
+   "o2": "21%",
+   "pressure": null,
+   "flow": null
+  },
+  "material": null,
+  "finding": "Synthetic finding 12 used to check the layout; it is not a real result and carries no meaning.",
+  "finding_type": "smoke_detection",
+  "direction": "n/a",
+  "safety_area": [
+   "detection"
+  ],
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "page": 12,
+  "evidence_tier": 4,
+  "verified": true
+ }
+]

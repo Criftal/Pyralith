@@ -1,0 +1,234 @@
+{
+ "q": "BASS-II",
+ "total": 18,
+ "results": [
+  {
+   "id": "20210011385",
+   "title": "Burning and Suppression of Solids\u2013II  (BASS-II) Summary Report",
+   "year": "2021",
+   "type": "TECHNICAL_MEMORANDUM",
+   "pdf": true,
+   "authors": [
+    "Sandra L. Olson",
+    "Paul V. Ferkul",
+    "Subrata Bhattacharjee",
+    "Fletcher J. Miller"
+   ]
+  },
+  {
+   "id": "20160000593",
+   "title": "Combustion of Solids in Microgravity: Results from the BASS-II Experiment",
+   "year": "2014",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Ferkul, Paul V.",
+    "Bhattacharjee, Subrata ",
+    "Fernandez-Pello, Carlos",
+    "Miller, Fletcher "
+   ]
+  },
+  {
+   "id": "20150019858",
+   "title": "Results from On-Board CSA-CP and CDM Sensor Readings During the Burning and Suppression of Solids II (BASS-II) Experiment in the Microgravity Science Glovebox (MSG)",
+   "year": "2015",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, Sandra L.",
+    "Ferkul, Paul V.",
+    "Bhattacharjee, Subrata",
+    "Miller, Fletcher J."
+   ]
+  },
+  {
+   "id": "20170006615",
+   "title": "Mixed Convection Blowoff Limits as a Function of Oxygen Concentration and Upward Forced Stretch Rate for Burning Pmma Rods of Various Sizes",
+   "year": "2017",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Marcum, Jeremy W.",
+    "Ferkul, Paul V.",
+    "Olson, Sandra L."
+   ]
+  },
+  {
+   "id": "20160012691",
+   "title": "Correlation of Normal Gravity Mixed Convection Blowoff Limits with Microgravity Forced Flow Blowoff Limits",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Marcum, Jeremy W.",
+    "Olson, Sandra L.",
+    "Ferkul, Paul V."
+   ]
+  },
+  {
+   "id": "20150008962",
+   "title": "Concurrent Flame Growth, Spread and Extinction over Composite Fabric Samples in Low Speed Purely Forced Flow in Microgravity",
+   "year": "2015",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Zhao, Xiaoyang",
+    "T'ien, James S.",
+    "Ferkul, Paul V.",
+    "Olson, Sandra L."
+   ]
+  },
+  {
+   "id": "20150008961",
+   "title": "Microgravity Flammability of PMMA Rods in Concurrent Flow",
+   "year": "2015",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, Sandra L.",
+    "Ferkul, Paul V."
+   ]
+  },
+  {
+   "id": "19750018595",
+   "title": "A gas flow indicator for portable life support systems",
+   "year": "1975",
+   "type": "CONTRACTOR_REPORT",
+   "pdf": true,
+   "authors": [
+    "Bass, R. L., III",
+    "Schroeder, E. C."
+   ]
+  },
+  {
+   "id": "19720017778",
+   "title": "Ultraviolet atomic emission detector",
+   "year": "1972",
+   "type": "OTHER",
+   "pdf": true,
+   "authors": [
+    "Braun, W.",
+    "Peterson, N. C.",
+    "Bass, A. M.",
+    "Kurylo, M. J., III"
+   ]
+  },
+  {
+   "id": "19710003606",
+   "title": "Flow-induced vibration of bellows with internal cryogenic fluid flows  Interim technical report",
+   "year": "1970",
+   "type": "CONTRACTOR_REPORT",
+   "pdf": true,
+   "authors": [
+    "Bass, R. L., III",
+    "Gerlach, C. R.",
+    "Holster, J. L.",
+    "Schroeder, E. C."
+   ]
+  },
+  {
+   "id": "19710013837",
+   "title": "Low velocity gas flow measurement  Final technical report",
+   "year": "1971",
+   "type": "CONTRACTOR_REPORT",
+   "pdf": true,
+   "authors": [
+    "Bass, R. L., III",
+    "Gerlach, C. R.",
+    "Owen, T. E.",
+    "Suhler, S. A."
+   ]
+  },
+  {
+   "id": "20050169992",
+   "title": "Overview of Athena Microscopic Imager Results",
+   "year": "2005",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Herkenhoff, K.",
+    "Squyres, S.",
+    "Arvidson, R.",
+    "Bass, D."
+   ]
+  },
+  {
+   "id": "20040057999",
+   "title": "First Results of the Athena Microscopic Imager Investigation",
+   "year": "2004",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Herkenhoff, K.",
+    "Squyres, S.",
+    "Archinal, B.",
+    "Arvidson, R."
+   ]
+  },
+  {
+   "id": "20040058035",
+   "title": "Pancam Imaging of the Mars Exploration Rover Landing Sites in Gusev Crater and Meridiani Planum",
+   "year": "2004",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Bell, J. F., III",
+    "Squyres, S. W.",
+    "Arvidson, R. E.",
+    "Arneson, H. M."
+   ]
+  },
+  {
+   "id": "20050151402",
+   "title": "Pancam multispectral imaging results from the Spirit Rover at Gusev Crater",
+   "year": "2004",
+   "type": "REPRINT",
+   "pdf": false,
+   "authors": [
+    "Bell, J. F., III",
+    "Squyres, S. W.",
+    "Arvidson, R. E.",
+    "Arneson, H. M."
+   ]
+  },
+  {
+   "id": "20050148620",
+   "title": "Pancam multispectral imaging results from the Opportunity Rover at Meridiani Planum",
+   "year": "2004",
+   "type": "REPRINT",
+   "pdf": false,
+   "authors": [
+    "Bell, J. F., III",
+    "Squyres, S. W.",
+    "Arvidson, R. E.",
+    "Arneson, H. M."
+   ]
+  },
+  {
+   "id": "18257426873745",
+   "title": "Coronal Heating as Determined by the Solar Flare Frequency Distribution Obtained by Aggregating Case Studies",
+   "year": "2023",
+   "type": "REPRINT",
+   "pdf": false,
+   "authors": [
+    "James Paul Mason",
+    "Alexandra Werth",
+    "Colin G. West",
+    "Allison Youngblood"
+   ]
+  },
+  {
+   "id": "20210024008",
+   "title": "All-sky search in early O3 LIGO data for continuous gravitational-wave signals from unknown neutron stars in binary systems",
+   "year": "2021",
+   "type": "ACCEPTED_MANUSCRIPT",
+   "pdf": true,
+   "authors": [
+    "R. Abbott",
+    "T.\u2009D. Abbott",
+    "S. Abraham",
+    "F. Acernese"
+   ]
+  }
+ ]
+}

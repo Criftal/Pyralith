@@ -1,0 +1,500 @@
+
+=== PAGE 1 ===
+55th International Conference on Environmental Systems 
+ICES-2026-301 
+12-16 July 2026, Rio Grande, Puerto Rico 
+1 Textile Materials Engineer, Crew & Thermal Systems Division, 2224 Bay Area Blvd, Houston, TX 77058. 
+2 Textile Materials Lead, Crew & Thermal Systems Division, 2224 Bay Area Blvd, Houston, TX 77058. 
+3 Associate Principal Engineer, NASA Engineering and Safety Center, NASA Stennis Space Center, MS 39579 
+4 Project Manager, Human Landing System Softgoods and Fire-resistant Textile Development, Crew & Thermal 
+Systems Division, 2101 NASA Parkway, Houston, TX, 77058. 
+  
+ 
+ 
+Fire-resistant Textile Development for Exploration Vehicles 
+with Enriched-Oxygen Cabin Environments 
+Karim Aly, Ph.D.[1], 
+Bastion Technologies, Inc., Houston, Texas 77058 
+ 
+Tianqi Gao[2],  
+Amentum, Houston, Texas 77058 
+ 
+Kamili Shaw, Ph.D.[3],  
+NASA Stennis Space Center, Stennis Space Center, MS 39529 
+and 
+ 
+Mary L. Walker[4],  
+NASA Johnson Space Center, Houston, Texas 77058   
+ 
+  
+Material selection is a key part of the National Aeronautics and Space Administration (NASA) 
+spacecraft fire safety management plan. Non-flammable textiles are necessary to ensure large-
+scale flame propagation events do not occur inside a spacecraft. An increased use of textiles 
+and other softgood material is crucial to the pursuit of exploration spaceflight to reduce mass 
+and volume. Exploration spaceflight missions benefit from enriched oxygen cabin 
+environments (>21% O2) by allowing a reduced prebreathe protocol before Extravehicular 
+Activity (EVA). However, materials become exponentially more flammable the higher the O2 
+levels become. Recent testing within the agency has revealed the lack of commercial-off-the-
+shelf (COTS) materials that can meet safety requirements in oxygen-enriched environments. 
+Most of the fibers and textiles developed during Apollo (100% O2 cabin environment) and 
+Skylab (>70% O2 cabin environment) are no longer commercially available due to those 
+Programs ending and the discontinuation of raw materials or closure of the original 
+manufacturers. As NASA returns to higher oxygen concentrations inside spacecraft, non-
+flammable textile development efforts have begun to meet the agency’s needs. This paper 
+discusses those efforts including overall fire safety approach, priorities, interactions with 
+industry, flammability testing and expected challenges.  
+ 
+ 
+ 
+Trade names and trademarks are used in this report for identification only. Their usage does not constitute an official 
+endorsement, either expressed or implied, by the National Aeronautics and Space Administration.
+
+=== PAGE 2 ===
+ 
+2 
+International Conference on Environmental Systems 
+I. Introduction 
+ 
+N 2021, a memorandum was issued by the Deputy Associate Administrator, Human Exploration and Operations 
+(HEO) Systems Engineering & Integration to establish a common habitable atmosphere across human exploration 
+atmospheres [1]. The atmosphere for operation on the lunar and Martian surfaces was designated as a total pressure 
+of 8.2 psia and a 33.7% volumetric fraction of O2. The goal was to reduce flammability risk while minimizing the 
+time needed for prebreathe before extravehicular activities (EVA), considering the short missions planned for the lunar 
+surface. This atmosphere is a significant departure from the current habitable volumes of other current NASA crewed 
+vehicles, which maintain an essentially Earth atmosphere, and has serious implications for flight materials currently 
+in use. In 2024, at the issuance of Revision B to the Moon to Mars Architecture Definition Document, Non-flammable 
+Materials, Additives, Coatings for Habitable Volumes were listed as an architecture-driven child gap and was included 
+in the overall gap of fire safety upgrades for surviving exploration mission environments, indicating that the need for 
+development of fire-resistant textiles persists [2]. 
+It is worth mentioning that Artemis is not the first program with an enriched O2 atmosphere. Human space 
+exploration in the Apollo Program started in 100% O2-rich environments and Skylab was operated at >70% O2-rich 
+environments. In these environments, materials that aren’t normally considered flammable will easily ignite and 
+propagate flame much more rapidly than they would do in Earth atmosphere. 
+Textiles have been historically used in many space applications, commonly known as softgoods, because of their 
+lightweight and flexible nature. However, textiles are known to have a flammability risk due to their inherent 
+construction and material flammability property, as evidenced by the United States (US) Flammable Fabrics Act and 
+the several National Fire Protection Association (NFPA) standards for textile flammability [3, 4, 5, 6, 7, 8]. 
+Nonetheless, fire-resistant textiles are used as a hazard control to protect more flammable materials from ignition. 
+Fire-resistant textiles are also necessary to protect against large-scale flame propagation events. 
+ Historically, the development of fire-resistant textiles for the Apollo Program was initiated after the fatal Apollo 
+1 cabin fire. The most probable ignition source was identified as electrical arcing of wires carrying spacecraft power. 
+The environment was 100% O2 atmosphere at 16.7 psia, 2 psia above standard sea-level atmospheric pressure, which 
+is more than five times the 3-psia (21-kPa) partial pressure of O2 in the Earth atmosphere. 
+As NASA proceeds toward Artemis missions that will use high-oxygen cabin environments (>30% O2 volumetric 
+fraction), there is significant need for improved fire-resistant textiles. Advancement in the area of fire-resistant textiles 
+for design of in-cabin softgoods will inhibit flame propagation in high O2 atmospheres and ensure mission safety in 
+the event of fire. Now, the agency focus is on certifying textiles for use in 34% O2 plus a 3% margin, resulting in a 
+target of 37% O2.  Nevertheless, the new exploration atmosphere is a significant departure from the current habitable 
+volumes of other current NASA crewed vehicles and other programs like International Space Station (ISS), which 
+maintain an essentially Earth atmosphere and has serious implications for flight materials currently in use. Now, the 
+current ISS mission relies mostly on Kevlar®, Nomex®, Vectran™ and hybrid blends for making nonclothing 
+softgood applications such as acoustic blankets, cargo transfer bags (CTBs), webbings and sleeping bags. On the other 
+hand, for clothing applications, cotton shirts are widely used for next-to-skin shirts. Most of the commonly used fabrics 
+on ISS in their current form may not be usable in the new exploration atmosphere due to the increased oxygen 
+concentration. 
+In the agency effort to address this technical gap for the first Artemis missions planned for the lunar surface, textile 
+and materials engineers have tested a significant number of textiles, both individually and in material layups that 
+correspond to specific applications. Overall, the testing efforts in the last three years found limited existing commercial 
+off-the-shelf (COTS) textiles that can be certified for use in up to 37% O2. This can be attributed to the fact that most 
+of the fibers and textiles developed during Apollo and Skylab are no longer commercially available due to those 
+programs ending and the discontinuation of raw materials or closure of the original manufacturers. Moreover, 
+commercial development of textiles with high flammability performance beyond 21% O2 is not typically economical 
+due to the limited customer base. The fire service market using high-performance textiles spans clothing for 
+firefighters, police and military. It also includes non-wearable applications like fire barriers on commercial airplanes 
+and in batteries. While these markets are strong, textiles for use in the extreme exploration atmosphere is a niche 
+market since the increased performance to 37% O2 is not required in commercial applications. 
+ 
+Given the fact that fire-resistant textiles are a key part of the fire prevention strategy that includes materials 
+selection and as NASA returns to higher oxygen concentrations inside spacecraft, efforts have begun for the 
+development of in-cabin textiles needed for the exploration atmosphere on the lunar and Martian surfaces. The focus 
+is on reducing the highest risks first and considering the development paths with the highest potential for success in 
+I 
+
+=== PAGE 3 ===
+ 
+ 
+3 
+International Conference on Environmental Systems 
+ 
+ 
+meeting flammability and application requirements. This paper discusses those efforts including overall fire safety 
+approach, priorities, interactions with industry, flammability testing and expected challenges. 
+II. Experimentation and Testing 
+NASA-STD-6001 Test 1 (Upward Flame Propagation) is currently being used to evaluate and certify the 
+flammability of materials intended for use in habitable environments of spacecrafts by NASA [9]. In this test, a 
+vertically oriented specimen (typical size 2.5 inch x 17 inch) is exposed to a chemical ignitor flame at its bottom for 
+approximately 25-30 seconds. The test is performed in a closed 1400 – liter chamber with a controlled O2 concentration 
+and pressure representative of spacecraft conditions. The passing criteria specify that no specimen of the five required 
+test specimens burns more than 6 inches, and no test specimen propagates a flame through the transfer of burning 
+debris. Moreover, the test can be done as a single setpoint test or a maximum oxygen concentration (MOC) test. When 
+performing a single setpoint test, the test specimen is placed at a set O2 concentration and pressure; five consecutive 
+samples were tested to verify whether the material passes the test at the set atmosphere. This test evaluates whether a 
+material can be certified for flight use at a specific atmosphere. When performing an MOC test, the test chamber 
+pressure is set and the O2 concentration is incrementally increased until the sample fails the test; the MOC is the 
+maximum O2 percentage at which the test material can pass the test. A higher MOC value indicates the material is 
+more fire-resistant. 
+The typical test configuration is Standard Edge Ignition. This is the most conservative method of testing where the 
+sample is oriented vertically and ignited on the bottom edge. This test configuration is suitable for all materials, 
+especially composites or hard panels, but may be unrealistically severe for textile type of material because raw edges 
+of textile typically are not directly exposed in softgoods assembly. In cases like a tether or tie-down strap, where the 
+edge of the textile will be directly exposed to the environment, this test configuration is recommended.  
+For most of the textile materials, which will be used as part of a softgoods assembly, a “J”-configuration” is more 
+frequently used. In this set up, test specimen is oriented vertically with a “J” shaped bend at the bottom. The ignitor is 
+placed at the bottom of the “J” to ignite surface of the specimen. This set up allows a fully vertical upwards flame 
+propagation without igniting the sample edge. Additionally, a metal fixture can be used to shield the vertical edges of 
+test specimen when materials are not anticipated to have exposed side or bottom edges in use configuration. This test 
+is suitable for non-metallic materials that don’t have any exposed raw edges in usage applications. When using this 
+set up, additional verification on seam configurations is needed. 
+Interestingly, testing has revealed the complexities of flammability at the exploration atmosphere which have been 
+captured in a memo issued by Dr. Emily Hacopian, NASA Cross Program Flammability Subject Matter Expert in July 
+2024 [10]. In summary, the memo cautioned that materials may be more flammable in the as-used configuration and 
+care must be taken in interpreting test results. Recent coupon-level flammability testing at 37% O2 shows a difference 
+in propagation with configuration and layup testing as compared with single material tests (unpublished data). This 
+means the combined performance of textile components (i.e., zipper, thread, hook and loop), rather than just the 
+outermost layer, must have good fire resistance performance. For example, a Polytetrafluoroethylene (PTFE) woven 
+fabric was tested at 36% 
+O2 and passed the test 
+with less than 6 in char 
+length with no drip or 
+melt but failed in a layup 
+configuration 
+with 
+a 
+cotton fabric as seen in 
+Figure 1. The two pieces 
+of material were placed 
+one on top of the other. It 
+can be seen that both 
+materials burned through 
+even though the PTFE 
+fabric is less flammable 
+than cotton. 
+ 
+Overall, recent testing revealed very few textiles capable of passing NASA-STD-6001 Test 1, the standard NASA 
+test for flammability, at 37% O2 and 8.2 psia and even when textiles do pass by themselves, they may not pass in 
+configuration with other textiles as described above. For hardware to be used as a fire hazard control during flight to 
+ 
+Figure 1. (a) PTFE woven fabric individually tested at 36% O2 8.2 psia; (b) PTFE 
+woven fabric with cotton (blue color) layup configuration tested at 36% O2 8.2 psia. 
+36% O2: Pass 
+a 
+34% O2: Fail 
+Front  Back 
+32% O2: Fail 
+Front  Back 
+36% O2: Fail 
+Front  Back 
+b 
+
+=== PAGE 4 ===
+ 
+ 
+4 
+International Conference on Environmental Systems 
+ 
+ 
+protect flammable materials from ignition, e.g. CTB, passing Fire Barrier Effectiveness Testing in addition to Test 1 
+is a mandatory requirement. In this light, it is worth mentioning that the development of Fire Barrier Effectiveness 
+method is currently on going. For the next section, several solutions that have already been developed by the textile 
+engineering and development team to meet NASA-STD-6001B Test 1 at 37% O2 will be discussed. 
+III. Results and Discussion 
+Since the agency has begun to explore and adopt additional materials, new fire-resistant materials have been 
+introduced to crew clothing, sleeping bags and CTBs. These softgood products will be used for the first time on the 
+coming Artemis missions. In this context, the textile engineering and development team has been sourcing existing 
+COTS textile products, modifying COTS textiles and developing custom fire-resistant solutions that meet NASA 
+flammability requirements at 37% O₂ and 8.2 psia. The summary of this effort can be outlined below: 
+A. COTS products solutions:  
+ 
+1. Crew clothing outer jacket and pants 
+Crew clothing refers to the specialized apparel and daily attire astronauts wears inside spacecraft cabin during 
+mission. It typically includes jacket, T-shirts, pants, etc.  Since the cabin atmosphere is the same as earth atmosphere, 
+current ISS crew clothing use polyester/cotton for daily wear and polyester/nylon for exercise clothing. Crew pants, 
+for example, are composed of 65% polyester and 35% cotton coated in Teflon for stain and wrinkle resistance. They 
+have multiple pockets, both zippered and with hook/loop closures to contain small items on-orbit. Due to the increased 
+oxygen concentration for exploration atmosphere, most of the softgoods currently used on ISS will not be usable for 
+Artemis missions.  
+The basis for the design and fabrication of the new crew clothing was to produce crew garments that maximize 
+agility, comfort and functionality while meeting flammability standards in a high oxygen environment. The top 
+property of concern after flammability was offgassing which can be problematic for applications in the closed 
+spacecraft interior environment, where low toxicity is critical for crew health. Accordingly, the fabric selected for the 
+fabrication of crew clothing was first tested for flammability and offgassing respectively in accordance with NASA-
+STD-6001 Tests 1 and 7 where it showed a passing flammability performance at 37% O2 and low volatile and toxic 
+compounds emission [9]. Besides flammability and offgassing, there are also unique sets of requirements for fabrics 
+used for crew garments such as soft handfeel, comfort and lightweight. These features were deemed critical when 
+different crew clothing fabric candidates were evaluated. The evaluation results showed that a commercially available 
+fabric product made of a blend of para-aramid, meta-aramid and antistatic fibers can be a suitable candidate for 
+developing outer garments like jacket and pants. Moreover, the flammability testing results revealed that the fabric 
+passed NASA-STD-6001B Test 1 at 37% O2 individually. Afterwards, the same fabric was tested in multiple seam 
+and zipper configurations similar to what to be found in the final garment. An example for passing flammability testing 
+results of a meta-aramid tape / brass teeth zipper configuration made a with commercially available PTFE sewing 
+thread is shown in Figure 2. Although this fabric performed well in flammability testing and is an adequate candidate 
+for short-duration outer garments, for long-duration missions (>9 days) a lighter, softer and more flexible fabric 
+candidate would be desired. 
+ 
+2. Cargo Transfer Bag  
+CTBs are softgoods containers used to stow, transport and protect hardware and supplies during mission. On the 
+ISS, CTBs have been used extensively for decades and are typically fabricated from meta-aramid and polyester 
+materials.  
+
+=== PAGE 5 ===
+ 
+ 
+5 
+International Conference on Environmental Systems 
+ 
+ 
+In oxygen-enriched spacecraft environments, CTBs represent a unique fire safety challenge because they also serve 
+as a fire hazard control to protect flammable content inside the bag from ignition and prevent large fire propagation 
+when exposed to external ignition sources. As 
+a result, in addition to flame propagation 
+testing per NASA-STD-6001B Test 1, fire 
+barrier effectiveness testing is conducted to 
+verify that the CTB materials provide 
+sufficient protection to internal contents when 
+exposed to an external ignition source. Beyond 
+fire performance, CTB materials must also be 
+strong, durable, light weight, and available in 
+multiple color options to support operational 
+and human-factors requirements. This poses 
+unique challenges in finding the suitable 
+textile materials for CTB in oxygen enriched 
+environments. The current CTB construction 
+approach consists primarily of a multilayer 
+construction, including an outer and inner 
+woven fabric layer sandwiching a felt layer. 
+For the woven fabric, multiple fabric 
+candidates are under evaluation, including 
+para-aramid, meta-aramid and antistatic blend 
+fabrics, 100% meta-aramid fabrics, and 
+polybenzimidazole 
+(PBI)/Kevlar® 
+blend 
+fabrics. For the felt layer, a range of materials is being assessed, including oxidized polyacrylonitrile (OPF), polyimide, 
+silica, polyetherimide, and various blended constructions.  
+It is of prime importance, to emphasize that flame propagation and effective fire barrier performances aren’t the 
+only criteria to be taken into consideration during the CTB layup material 
+down selection. Dimensional stability, minimal foreign object debris (FOD) 
+and the final CTB weight optimization are also among the considerations 
+during the development of CTBs. Given the large number of CTBs 
+manifested on certain missions, even modest increases in individual bag mass 
+can result in a significant system-level weight increase. As such, the ongoing 
+CTB material development effort seeks to balance fire safety performance 
+with mechanical robustness and mass efficiency to meet the unique demands 
+of oxygen-enriched spacecraft cabin environments.  
+ 
+3. Sleeping Bag 
+Similarly, the textile engineering and development team is currently in 
+the process of developing fire-resistant solutions for a sleeping bag that meets NASA flammability requirements at 
+37% O₂ and 8.2 psia. The current sleeping bag used on ISS has attachment loops made from Nomex® to securely tie-
+down the sleeping bag to multiple attachment points found inside the cabin using Vectran™ braid cord. Further, the 
+sleeping bag has an outer layer made from Nomex® and the inner layer is made from a replaceable cotton layer that 
+can be secured with hook and loop. Moreover, the ISS sleeping bag has a head strap for head restraining and there is 
+a pillow pocket that can be stuffed with soft items to create support. Additionally, there are arm and foot slits for 
+improved air flow and for allowing excess body heat and moisture to escape. 
+ 
+The fire-resistant sleeping bag fabrication approach mainly focuses on solutions that include a suitable layup with 
+a soft and comfortable interior, a covered COTS narrow woven elastic webbing to be employed as a head restraint, 
+and alternative fire-resistant attachment loops and braid cord. In this context, the textile engineering and development 
+team is currently partnering with different vendors to manufacture a braid cord capable of meeting NASA flammability 
+requirements at 37% O₂. Kevlar® EXO™, Poly-p- phenylenebenzioboxine (PBO), PTFE and Silicone-coated 
+fiberglass are among the braid cord materials assessed in the ongoing material down selection effort. For braid cord, 
+additional properties need to be considered to meet load requirements. 
+ 
+Figure 2. Crew clothing fabric individually tested at 37% O2 8.2 
+psia, (a) front side and (b) back side. Crew clothing fabric with 
+zipper assembly tested at 37% O2 8.2 psia, (c) front side and (d) 
+back side. 
+ 
+Figure 3. ISS 3rd Generation CTB 
+Size 0.5. 
+
+=== PAGE 6 ===
+ 
+ 
+6 
+International Conference on Environmental Systems 
+ 
+ 
+B. Developed flame resistant textile solutions:  
+ 
+4. Crew clothing next-to-skin shirt 
+Through the ongoing development effort, the textile engineering and development team partnered with vendors to 
+create a custom 100% PBI yarn and knit fabric to be used for next-to-skin crew T-shirt. The selected yarn spinning 
+vendor specializes in high-performance 
+fiber spun yarns used for the fire service 
+and safety protection markets in addition 
+to having a unique capability of worsted 
+spinning. Through various trials, another 
+vendor successfully knitted the 100% 
+PBI spun yarn into a soft, comfortable 
+and relatively lightweight 1x1 rib fabric 
+that was tested and has passed MOC 
+testing at 48% O2 and 8.2 psia as shown 
+in Figure 4. 
+The new PBI T-shirt is to replace the 
+ISS cotton next-to-skin shirts that are not 
+suitable from flammability standpoint 
+for the coming Artemis high oxygen 
+concentration missions. In addition to 
+the 
+outstanding 
+flammability 
+performance, other reasons that make PBI material a good candidate for next-to-skin clothing are good handfeel, soft 
+touch and high moisture absorption. However, PBI drawbacks are low fiber tenacity and reduced durability, leading 
+to a high tendency for pilling and lower abrasion resistance. 
+ 
+5. Fire-resistant Patches 
+Special fire-resistant sewn-on patches (e.g. NASA logo, American Flag and crew name tag) were also developed. 
+This effort was deemed necessary as the patches used currently by NASA’s different programs are made using a 
+Pellon™ polyester fabric and a thick polyurethane layer. A fire-
+resistant topical treatment was applied to the existing patches; 
+however, it did not pass Test 1 at 37% O2 and 8.2 psia. Another 
+effort involving printing patches using ink on fire-resistant 
+fabrics was completed but also did not pass the flammability 
+requirement. Custom, fire-resistant patches were developed 
+through a vendor using a multilayer stack of Polyimide felt, 
+100% meta-aramid fabric and meta-aramid embroidery thread. 
+The patches were sewn to the crew clothing outer jacket fabric 
+with PTFE sewing thread and passed Test 1 at 37% O2 8.2 psia 
+as depicted in Figure 5. 
+C. Fire-resistant Textile Strategy Approach: 
+In November 2022, the Exploration Atmosphere Issue 
+Resolution Team (ExAtm IRT) was created after concerns 
+about the challenges of operating at O2-rich environments were 
+raised to the agency management level. The ExAtm IRT 
+worked on finding the balance between many competing 
+mission variables such as vehicle atmosphere, flammability, 
+decompression sickness risk, suit pressure and EVA duration. 
+As a result, the NASA Engineering and Safety Center (NESC) 
+was requested by the ExAtm IRT to establish an assessment and develop a multi-program strategy for the development 
+of high priority nonflammable textiles for softgoods applications within the cabin at a minimum of 37% O2 at 8.2 psia. 
+Programs such as Human Landing System (HLS) and Extravehicular Activity and Human Surface Mobility Program 
+(EHP) can use these textiles to design hardware that inhibits flame propagation in enriched O2 and to ensure mission 
+safety in the event of a fire. The NESC assessment was not completed at the time of the abstract submission therefore 
+ 
+Figure 4. 100% PBI knit fabric MOC testing at 48% O2 and 8.2 psia, 
+(a) front and (b) back. 
+ 
+Figure 5. Custom fire-resistant patches sewn to 
+crew clothing outer jacket fabric at 37% O2 and 
+8.2 psia. 
+
+=== PAGE 7 ===
+ 
+ 
+7 
+International Conference on Environmental Systems 
+ 
+ 
+it is not mentioned, however, the methodology, findings and strategy are detailed in this paper to provide context for 
+how the fire-resistant textile gaps are being addressed. 
+ 
+Accordingly, the NESC team divided the assessment plan into four main tasks: 
+• 
+Identify stakeholders that require O2 enriched environments and collect stakeholder data including key 
+performance and safety parameters/metrics  
+• 
+Determine material requirements, applications and program priorities 
+• 
+Comprehensively assess the NASA and industry current state of the art and opportunities for fire-
+resistant textiles  
+• 
+Develop a prioritized strategy and implementation plan. 
+ 
+Stakeholders were broadly defined as anyone with input into the priorities of the strategy. The team considered 
+the project and program personnel from the areas of flight operations, health and medical, softgoods, textiles, O2 and 
+systems engineering. These stakeholders were queried during in-person meetings. Objectives included identifying the 
+possible applications in the cabin, identifying the needed material properties for those applications and discussing top 
+priorities for softgoods and textiles. The data was used to capture the comprehensive in-cabin textile needs at elevated 
+O2 for NASA. Textile priorities were evaluated by considering how many applications use that textile, how much area 
+or linear feet are used in the cabin, whether an adequate solution already exists, the impact to flammability risk, 
+whether the textile is needed for government furnished equipment (GFE) and whether the textile or the application 
+using that textile was identified as a stakeholder concern. The resulting priority list was divided into Tier 1, a group 
+of higher priority textiles and Tier 2, a group of lower priority textiles. 
+For the state-of-the-art investigation, it was accomplished by textile subject matter experts (SMEs) who used their 
+own knowledge, a review of Department of Defense (DoD), academic and textile association fire-resistant technology 
+developments, a contracted technology search; trade shows and approximately 30 vendor domestic visits to understand 
+the best-available fire-resistant products for a range of textiles. The textile development that occurred during the 
+Apollo and Space Shuttle time periods was also reviewed to understand the textiles still available today and identify 
+resources used in the past. It is worth mentioning that over 100 vendors were first identified as participants in the 
+supply chain. The NESC assessment team held a discussion with each vendor and followed up with brief interviews 
+of a reduced list to determine initial capability and interest in having a face-to-face meeting. The team down-selected 
+to approximately 30 high potential textile manufacturers in the US for on-site visits.  The primary consideration in 
+determining whether a mill was suited for spaceflight textile manufacturing was the textile capability of the vendor. 
+This capability was determined using a combination of the company’s market sector industrial scale and their 
+equipment versatility and R&D interests. The ability to provide a low minimum order quantity (MOQ) was also 
+considered. 
+  
+Finally, the NESC team generated a strategy for developing new fire-resistant textiles in O2-enriched environments 
+that could be separated into three phases for each individual textile:  
+• 
+Phase 1: Baseline Testing of Available COTS Products 
+o 
+The purpose of baseline testing is to evaluate and confirm whether COTS materials are available 
+that can be certified for use at 37% O2/8.2 psia for each textile. Certification testing will be 
+performed at White Sands Test Facility (WSTF) 
+• 
+Phase 2: Incremental Improvement over COTS Solutions 
+o 
+Based on Phase 1 testing, if no COTS solution can meet NASA-STD-6001B Test 1, but a 
+relatively low effort can be done to modify the COTS and increase the chance of passing, it is 
+recommended to pursue the incremental improvement/modification on the COTS solution and 
+assess the performance again. 
+• 
+Phase 3: Custom Textile Development 
+o 
+Based on Phase 1 testing, if no COTS solution can meet NASA-STD-6001B Test 1 and it is not 
+possible to do incremental improvement over COTS solutions, a custom major development 
+effort is required with an industrial partner to design and develop a suitable solution that can 
+meet NASA’s specific needs.  
+ 
+At the end of each phase, a decision will be made whether to continue to the next phase. All phases will not be 
+executed for all textiles. The first phase may be skipped if there are no COTS products available for the textile or the 
+
+=== PAGE 8 ===
+8 
+International Conference on Environmental Systems 
+available COTS products have already been tested. The second phase may be skipped if there is no method known to 
+modify a COTS product to meet requirements or a method has been identified and is in use. The third phase may not 
+be executed if there is no industrial partner willing to work with NASA on a particular textile or the need has been 
+satisfied by the first two phases. 
+IV.
+Future Work and Conclusions
+ 
+Fire-resistant textiles will remain a critical priority for the Agency as NASA seeks to reduce mass and volume in 
+exploration vehicles with enriched oxygen environments of up to 37% O2 at 8.2 psia. NASA’s textile engineering and 
+development team has made meaningful progress by identifying suitable commercial off-the-shelf (COTS) materials 
+and advancing new textile developments to address urgent fire-resistant softgoods needs, including crew clothing, 
+cargo transfer bags and sleeping bags. NASA’s textile engineering and development team has made meaningful 
+progress by identifying suitable commercial off-the-shelf (COTS) materials and advancing new textile developments 
+to address urgent fire-resistant softgoods needs, including crew clothing, cargo transfer bags and sleeping bags. 
+However, further material optimization is required to ensure durability, reliability, and performance for extended-
+duration exploration missions. To address these gaps, the NESC has recently completed an agency-wide assessment 
+and developed a multi-program strategy for the development of high-priority nonflammable textiles for softgoods 
+applications. The next phase of this effort will be the execution of the NESC’s three-phase strategy, beginning with 
+Tier 1, highest-priority textile systems, to systematically mature materials that enable safer and more sustainable 
+human exploration missions. 
+References 
+[1]
+M. Smith, "7. HEO-DM-1006 Human Exploration and Operations (HEO) Systems Engineering and Integration (SE&I)
+Decision Memorandum Updated Exploration Atmospheres," February 18, 2021.
+[2]
+"ESDMD-001, Moon to Mars Architecture Definition Document, Revision B," December 13, 2024.
+[3]
+"US Flammable Fabrics Act, 15 U.S.C. §§ 1191−1204," 1953.
+[4]
+"NFPA 701, Standard Methods of Fire Tests for Flame Propagation of Textiles and Films".
+[5]
+"NFPA 705, Recommended Practice for a Field Flame Test for Textiles and Films".
+[6]
+"NFPA 70E, Standard for Electrical Safety in the Workplace".
+[7]
+"NFPA 265, Standard Methods of Fire Tests for Evaluating Room Fire Growth Contribution of Textile or Expanded Vinyl 
+Wall Coverings on Full Height Panels and Walls".
+[8]
+"NFPA 2112, Standard on Flame-Resistant Clothing for Protection of Industrial Personnel Against Short-Duration Thermal
+Exposures from Fire".
+[9]
+"NASA-STD-6001 Flammability, Offgassing, and Compatibility Requirements and Test Procedures".
+[10] E. Hacopian, "21. ES-24-030 NASA-STD-6001 Clarification issued by Dr. Emily Hacopian, NASA Cross Program
+Flammability Subject Matter Expert," July 2024.

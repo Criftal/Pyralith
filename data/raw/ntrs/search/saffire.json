@@ -1,0 +1,253 @@
+{
+ "q": "Saffire",
+ "total": 32,
+ "results": [
+  {
+   "id": "20170000230",
+   "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Ruff, Gary A.",
+    "Urban, David L."
+   ]
+  },
+  {
+   "id": "20220002714",
+   "title": "Model Development of Large-Scale Spacecraft Fires During the Saffire-IV Experiments",
+   "year": "2022",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "John Brooker",
+    "Justin Niehaus"
+   ]
+  },
+  {
+   "id": "20250002675",
+   "title": "Vehicle Modeling During the Burn Events in the Saffire VI Experiments",
+   "year": "2025",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Justin Niehaus",
+    "John Brooker",
+    "David Urban",
+    "Gary Ruff"
+   ]
+  },
+  {
+   "id": "20260001600",
+   "title": "Spacecraft Fire Safety Predictions using Verified Saffire Model",
+   "year": "2026",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Justin Niehaus",
+    "David Urban",
+    "Gary Ruff",
+    "Gordon Berger"
+   ]
+  },
+  {
+   "id": "20240008602",
+   "title": "Vehicle Modeling During the Burning of Thermally Thick Samples in the Saffire V Experiments",
+   "year": "2024",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Justin Niehaus",
+    "John Brooker",
+    "David Urban",
+    "Gary Ruff"
+   ]
+  },
+  {
+   "id": "20240002981",
+   "title": "Preliminary Results from the Saffire VI Experiment",
+   "year": "2024",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "David L Urban",
+    "Gary A Ruff",
+    "Paul Ferkul",
+    "John Easton"
+   ]
+  },
+  {
+   "id": "20240007488",
+   "title": "Preliminary Results from the Saffire VI Experiment",
+   "year": "2024",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "David L. Urban",
+    "Gary A. Ruff",
+    "Paul Ferkul",
+    "John Easton"
+   ]
+  },
+  {
+   "id": "20170001636",
+   "title": "The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Schoren, William",
+    "Ruff, Gary A.",
+    "Urban, David L."
+   ]
+  },
+  {
+   "id": "20180005168",
+   "title": "Saffire: A Novel Approach to Study of Spacecraft Fire Safety Using Un-Manned Spacecraft",
+   "year": "2017",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Urban, David L.",
+    "Ferkul, Paul",
+    "Olson, Sandra",
+    "Ruff, Gary A."
+   ]
+  },
+  {
+   "id": "20150022421",
+   "title": "Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire)",
+   "year": "2015",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Niehaus, Justin E.",
+    "Ferkul, Paul V.",
+    "Gokoglu, Suleyman A.",
+    "Ruff, Gary A."
+   ]
+  },
+  {
+   "id": "20150022123",
+   "title": "Buoyant Effects on the Flammability of Silicone Samples Planned for the Spacecraft Fire Experiment (Saffire)",
+   "year": "2015",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Niehaus, Justin ",
+    "Ferkul, Paul V.",
+    "Gokoglu, Suleyman",
+    "Ruff, Gary"
+   ]
+  },
+  {
+   "id": "20160010292",
+   "title": "Spacecraft Fire Safety Demonstration",
+   "year": "2016",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Urban, David L.",
+    "Ruff, Gary A."
+   ]
+  },
+  {
+   "id": "20170002628",
+   "title": "Operation and Development Status of the Spacecraft Fire Experiment (Saffire)",
+   "year": "2016",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Ruff, Gary A.",
+    "Urban, David L."
+   ]
+  },
+  {
+   "id": "20210017343",
+   "title": "Evaluation of Combustion Products from Large-Scale Spacecraft Fires during the Saffire-IV and Saffire-V Experiments",
+   "year": "2021",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Claire Fortenberry",
+    "Michael Casteel",
+    "John Graf",
+    "John Easton"
+   ]
+  },
+  {
+   "id": "20150003025",
+   "title": "Saffire Offgas Testing Strategy, International Offgas Round Robin Status & Results",
+   "year": "2015",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Buchanan, Vanessa",
+    "Henry, Emily",
+    "Harper, Susana",
+    "Mast, Dion"
+   ]
+  },
+  {
+   "id": "20210012108",
+   "title": "The Combustion Product Monitor instrument for the spacecraft fire safety demonstration project",
+   "year": "2019",
+   "type": "PREPRINT",
+   "pdf": false,
+   "authors": [
+    "Briggs, Ryan M.",
+    "Bendig, Rudi M.",
+    "Fradet, Mathieu"
+   ]
+  },
+  {
+   "id": "20210012606",
+   "title": "Desko Inferno - Overcoming COVID Hurdles to Light Our Fire",
+   "year": "2021",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Danelle Fogle"
+   ]
+  },
+  {
+   "id": "20150000894",
+   "title": "Large-Scale Spacecraft Fire Safety Tests",
+   "year": "2014",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Urban, David",
+    "Ruff, Gary A.",
+    "Ferkul, Paul V.",
+    "Olson, Sandra"
+   ]
+  },
+  {
+   "id": "20260001992",
+   "title": "Heat and Smoke Emission from Tests on the Saffire VI Experiment",
+   "year": "2026",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "David L Urban",
+    "Gary A Ruff",
+    "Paul Ferkul",
+    "John Easton"
+   ]
+  },
+  {
+   "id": "20210011521",
+   "title": "Fire Safety Implications of Preliminary Results from Saffire IV and V Experiments on Large Scale Spacecraft Fires",
+   "year": "2021",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "David L. Urban",
+    "Gary A. Ruff",
+    "Paul Ferkul",
+    "John Easton"
+   ]
+  }
+ ]
+}

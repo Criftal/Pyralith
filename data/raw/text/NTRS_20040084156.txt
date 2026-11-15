@@ -1,0 +1,105 @@
+
+=== PAGE 1 ===
+Most Probable Fire Scenarios  
+in Spacecraft and Extraterrestrial Habitats 
+- Why NASA’s Current Test 1 Might Not Always Be Conservative 
+ 
+S.L. Olson, NASA Glenn Research Center 
+NASA’s current method of material screening determines fire resistance under conditions 
+representing a worst-case for normal gravity flammability - the Upward Flame Propagation Test 
+(Test 1[1]).  Its simple pass-fail criteria eliminates materials that burn for more than 12 inches 
+from a standardized ignition source.  In addition, if a material drips burning pieces that ignite a 
+flammable fabric below, it fails.    
+ 
+The applicability of Test 1 to fires in microgravity and extraterrestrial environments, 
+however, is uncertain because the relationship between this buoyancy-dominated test and actual 
+extraterrestrial fire hazards is not understood.   There is compelling evidence that the Test 1 may 
+not be the worst case for spacecraft fires, and we don’t have enough information to assess if it is 
+adequate at Lunar or Martian gravity levels. 
+Microgravity Flames do Strange Things 
+Flames in microgravity are known to preferentially spread upwind (ie opposed flow) [2], not 
+downwind (i.e. concurrent flow) as in the normal gravity upward flammability screening Test 1.   
+Over most of the range of air ventilation rates (5-20 cm/s) comparable to spacecraft ventilation, 
+upstream flame spread was the only viable flame.  Only when the flow becomes strong enough 
+(estimated to be ≥ 10 cm/s), will at least a partial downstream flame become viable.  Numerical 
+and experimental results [7] predict an upstream flame only at 5.0 cm/s, an upstream flame and 
+two localized edge flames propagating downstream at 10.0 cm/s, and both an upstream and 
+downstream flame at 20.0 cm/s.   
+ 
+This propensity to spread upwind does not only occur for thin materials, but also occurs 
+for thicker materials and other shapes.  For example, experiments were conducted aboard the Mir 
+space station using plastic cylinders. The intent was to burn them with a concurrent flame spread 
+similar to that of Test 1.  However, rather than spread along the rod, the flame stabilized at the 
+front tip of the rod and burned like a candle flame at the end of a fat wick [3,4] , 
+ 
+Under the right flow conditions in space, things will burn that won’t burn on Earth.  This 
+is most clearly demonstrated by a flammability map [5,6]. In the opposed flow flame spread 
+flammability map for a cellulose fuel, the LOI, or limiting oxygen index on Earth in opposed 
+flow is 16.5% O2.   However, if the flow is on the order of spacecraft ventilation (5-20 cm/s), 
+flames can be sustained even at 14 % O2.    Thus a normal gravity measure of flammability does 
+not guarantee that the material won’t burn in space. 
+ 
+Some preliminary work on independent opposed and concurrent flame spread was 
+conducted in a glovebox experiment [8].  The flame spread results in the cabin air (~21% O2) 
+show that the quenching region spans from +0.5 to -2 cm/s, so even correcting for the small 
+spread rate, the concurrent flame has a higher flow flammability boundary than the opposed flow 
+flame.   
+NASA/TM—2004-213114
+123
+
+=== PAGE 2 ===
+ 
+On the Moon or Mars (0.17g and 0.38 g, respectively),  where buoyant flows will be 
+greater than 20 cm/s, the concurrent flame spread will be viable simultaneously with any 
+opposed flow flame.  Experiments conducted aboard the KC-135 [9] demonstrate the faster 
+burning of concurrent flames in partial gravity environments.   These higher flow test conditions 
+are on the blowoff side of the flammability boundary. 
+ 
+If a fire is initiated, and the crew takes steps to extinguish it, the first line of defense is to 
+turn off the flow.  As demonstrated by the data above, the flame cannot survive indefinitely 
+without a supply of fresh oxygen. Once the fire is out, the crew would reactivate the flow to 
+clean up any residual smoke. 
+ 
+ However, experiments have shown that even a very slight air flow of a fraction of a cm/s 
+[4] is sufficient to allow the flame to survive.  These flames can become almost undetectable 
+(small, non-luminous) and yet persist for many minutes [10, 11] for a fingering flame spread 
+observed under very weak ventilation.  The tiny flamelet (~6 mm x 2mm) spread steadily, albeit 
+slowly, for 80 seconds.  When the flow was turned up 100-fold to 50 cm/s, the flame did not 
+blow out as one would expect, but flared up into a much larger spreading flame.  The fingering 
+behavior is unique to low gravity. The formation of these different flame structures is due to 
+changes in lateral diffusive flux of oxygen from the outer flow to the flame, convective flow 
+patterns and oxygen shadow caused by oxygen consumption at the upstream flamelet. These 
+types of behaviors must be known and understood so that the crew can watch for them. 
+References 
+1)D. Mulville, Flammability, Odor, Offgassing, and Compatibility Requirements and Test Procedures for Materials 
+in Environments that Support Combustion, NASA-STD-6001, 1998. 
+ 
+ 2) K.B. McGrattan, T. Kashiwagi, H.R.Baum, and S.L. Olson, S.L.;.Combust. Flame, 106, (1996) 377-391. 
+ 
+3) Y.Halli, and J.S. T’ien, , NBS-GCR-86-507, 1986. 
+ 
+4) A.V. Ivanov, et. al, NASA Contract NAS3-97160 final report, Russian Space Agency, Keldysh Research Center, 
+Moscow 1999, also NASA CP-1999-208917, pp. 47-50. 
+ 
+5) S.L. Olson,, Comb. Science and Tech. 76 (1991) 233-249. 
+ 
+6) T’ien, J.S., SIBAL Science Requirements Document, 2002. 
+ 
+7) Prasad, K., Olson, S.L., Nakamura, Y., and Kashiwagi, T.; "Effect of Wind Velocity on Flame Spread in 
+Microgravity", the Proceedings of the Combustion Institute, V. 29, pp 2553-2560, July, 2002. 
+ 
+8) Olson, S.L., Kashiwagi, T., Fujita, O., Kikuchi, M., and Ito, K.; “Experimental Observations of Spot Radiative 
+Ignition and Subsequent Three-Dimensional Flame Spread over Thin Cellulose Fuels”, Combustion and Flame,  V. 
+125, pp. 852-864, 2001. 
+ 
+9) Sacksteder, K.R., Ferkul, P.V., Feier, II, Kumar, A., and T’ien, J.S., “Upward and Downward Flame Spreading 
+and Extinction in Partial Gravity Environments, Seventh International Workshop on Microgravity Combustion and 
+Chemically Reacting Systems, NASA/CP-2003-212376/Rev1, pp141-144,  2003. 
+ 
+10) Wichman, I.S., ATHINA Science Requirements Document, 2004. 
+ 
+11) Olson, S.L., Baum, H.R., and Kashiwagi, T.; "Finger-like Smoldering over Thin Cellulosic Sheets in 
+Microgravity", Twenty-Seventh Symposium (International) on Combustion, pp. 2525-2533, 1998. 
+ 
+NASA/TM—2004-213114
+124

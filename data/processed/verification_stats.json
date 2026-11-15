@@ -1,0 +1,33 @@
+{
+ "candidates": 317,
+ "verified": 317,
+ "verified_findings": 174,
+ "verified_claims": 143,
+ "dropped_quote": 0,
+ "dropped_numbers": 0,
+ "dropped_schema": 0,
+ "duplicates_removed": 0,
+ "per_batch": {
+  "batch_a": {
+   "candidates": 94,
+   "verified": 94
+  },
+  "batch_b": {
+   "candidates": 73,
+   "verified": 73
+  },
+  "batch_c": {
+   "candidates": 63,
+   "verified": 63
+  },
+  "psi": {
+   "candidates": 31,
+   "verified": 31
+  },
+  "seed": {
+   "candidates": 56,
+   "verified": 56
+  }
+ },
+ "mission_errors": []
+}

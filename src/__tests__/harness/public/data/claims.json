@@ -1,0 +1,102 @@
+[
+ {
+  "id": "c_1",
+  "topic": "test1",
+  "label": null,
+  "text": "Synthetic test1 claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": null
+ },
+ {
+  "id": "c_2",
+  "topic": "incident",
+  "label": "TEST EVENT 1",
+  "text": "Synthetic incident claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": "https://example.invalid"
+ },
+ {
+  "id": "c_3",
+  "topic": "incident",
+  "label": "TEST EVENT 2",
+  "text": "Synthetic incident claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": "https://example.invalid"
+ },
+ {
+  "id": "c_4",
+  "topic": "incident",
+  "label": "TEST EVENT 3",
+  "text": "Synthetic incident claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": "https://example.invalid"
+ },
+ {
+  "id": "c_5",
+  "topic": "partial_g_gap",
+  "label": null,
+  "text": "Synthetic partial_g_gap claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": null
+ },
+ {
+  "id": "c_6",
+  "topic": "u_shape",
+  "label": null,
+  "text": "Synthetic u_shape claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": null
+ },
+ {
+  "id": "c_7",
+  "topic": "lunar_flammability",
+  "label": null,
+  "text": "Synthetic lunar_flammability claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": null
+ },
+ {
+  "id": "c_8",
+  "topic": "future_experiment",
+  "label": "TEST-FUT-1",
+  "text": "Synthetic future_experiment claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": "https://example.invalid"
+ },
+ {
+  "id": "c_9",
+  "topic": "future_experiment",
+  "label": "TEST-FUT-2",
+  "text": "Synthetic future_experiment claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": null
+ },
+ {
+  "id": "c_10",
+  "topic": "exploration_atmosphere",
+  "label": null,
+  "text": "Synthetic exploration_atmosphere claim text for layout checks.",
+  "source_id": "TEST:1",
+  "page": 1,
+  "quote": "SYNTHETIC TEST QUOTE for layout checks only; not NASA data.",
+  "link": null
+ }
+]

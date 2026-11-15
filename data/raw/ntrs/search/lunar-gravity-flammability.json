@@ -1,0 +1,246 @@
+{
+ "q": "lunar gravity flammability",
+ "total": 24,
+ "results": [
+  {
+   "id": "20250010653",
+   "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+   "year": "2025",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Paul V Ferkul",
+    "Michael C Johnston",
+    "Nathan Kralik",
+    "Ya-Ting Liao"
+   ]
+  },
+  {
+   "id": "20240008623",
+   "title": "Flammability of Materials on the Moon",
+   "year": "2024",
+   "type": "POSTER",
+   "pdf": true,
+   "authors": [
+    "Jennifer Zayac",
+    "Michael Johnston",
+    "Gary Ruff",
+    "Paul Ferkul"
+   ]
+  },
+  {
+   "id": "20260000646",
+   "title": "Material Flammability at Lunar and Martian Gravity",
+   "year": "2026",
+   "type": "EXTENDED_ABSTRACT",
+   "pdf": true,
+   "authors": [
+    "Paul Ferkul",
+    "Nathan Kralik",
+    "Ya-Ting Liao"
+   ]
+  },
+  {
+   "id": "20260001966",
+   "title": "Material Flammability at Lunar and Martian Gravity",
+   "year": "2026",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Paul Ferkul",
+    "Nathan Kralik",
+    "Ya-Ting Liao",
+    "Michael Johnston"
+   ]
+  },
+  {
+   "id": "20250010975",
+   "title": "Characterizing the Flammability of Nomex Fabric for the Preparation of FM<sup>2</sup>",
+   "year": "2025",
+   "type": "POSTER",
+   "pdf": true,
+   "authors": [
+    "Jocelyn Schechter",
+    "Jennifer Zayac",
+    "Paul Ferkul",
+    "Daniel Dietrich"
+   ]
+  },
+  {
+   "id": "20210020446",
+   "title": "Impact of Lunar Gravity on Material Flammability ",
+   "year": "2021",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Gary A. Ruff"
+   ]
+  },
+  {
+   "id": "20130010991",
+   "title": "Evaluating Material Flammability in Microgravity and Martian Gravity Compared to the NASA Standard Normal Gravity Test",
+   "year": "2012",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Oslon, Sandra. L.",
+    "Ferkul, Paul"
+   ]
+  },
+  {
+   "id": "20210020516",
+   "title": "Fire on the Moon: Solid Fuel Combustion Experiments",
+   "year": "2021",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Paul Ferkul",
+    "Ya-Ting Liao",
+    "Gary Ruff",
+    "Daniel Gotti"
+   ]
+  },
+  {
+   "id": "20240015307",
+   "title": "Flammability of Materials on the Moon",
+   "year": "2024",
+   "type": "POSTER",
+   "pdf": true,
+   "authors": [
+    "Jennifer Zayac",
+    "Michael Johnston",
+    "Gary Ruff",
+    "Paul Ferkul"
+   ]
+  },
+  {
+   "id": "20250002114",
+   "title": "Solid Fuel Ignition Testing for Lunar Applications, Theory and Experimental Results",
+   "year": "2025",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "David Urban",
+    "Sandra Olson",
+    "Daniel Dietrich",
+    "Dennis Stocker"
+   ]
+  },
+  {
+   "id": "20250006779",
+   "title": "Solid Fuel Ignition Testing for Lunar Applications, Theory and Experimental Results",
+   "year": "2025",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "David Urban",
+    "Sandra Olson",
+    "Daniel Dietrich",
+    "Dennis Stocker"
+   ]
+  },
+  {
+   "id": "20260002050",
+   "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+   "year": "2026",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Brian K Alpert",
+    "Logan Kennedy",
+    "L Daren Welsh",
+    "Adam Young"
+   ]
+  },
+  {
+   "id": "20010074096",
+   "title": "An Earth-Based Equivalent Low Stretch Apparatus to Assess Material Flammability for Microgravity & Extraterrestrial Fire-Safety Applications",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, S. L.",
+    "Beeson, H.",
+    "Haas, J."
+   ]
+  },
+  {
+   "id": "19930040901",
+   "title": "Downward Diffusion Flame Spread and Extinction in Variable Gravitational Fields - Lunar and Martian Simulations",
+   "year": "1993",
+   "type": "CONFERENCE_PAPER",
+   "pdf": false,
+   "authors": [
+    "Sacksteder, Kurt R.",
+    "Tien, James S."
+   ]
+  },
+  {
+   "id": "20260006059",
+   "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+   "year": "2026",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Logan Kennedy",
+    "Brian Alpert"
+   ]
+  },
+  {
+   "id": "20240015018",
+   "title": "Compartment Fire Modeling of a Crew Cabin in 1-g and Lunar-g",
+   "year": "2024",
+   "type": "POSTER",
+   "pdf": true,
+   "authors": [
+    "Justin Niehaus",
+    "David Urban"
+   ]
+  },
+  {
+   "id": "20010074003",
+   "title": "Three-Dimensional Upward Flame Spreading in Partial-Gravity Buoyant Flows",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Sacksteder, Kurt R.",
+    "Feier, Ioan I.",
+    "Shih, Hsin-Yi",
+    "T'ien, James S."
+   ]
+  },
+  {
+   "id": "20040161244",
+   "title": "Most Probable Fire Scenarios in Spacecraft and Extraterrestrial Habitats: Why NASA's Current Test 1 Might Not Always be Conservative",
+   "year": "2004",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, S. L."
+   ]
+  },
+  {
+   "id": "20040084156",
+   "title": "Most Probable Fire Scenarios in Spacecraft and Extraterrestrial Habitats: Why NASA's Current Test 1 Might Not Always Be Conservative",
+   "year": "2004",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, S. L."
+   ]
+  },
+  {
+   "id": "20010074098",
+   "title": "Physical and Chemical Aspects of Fire Suppression in Extraterrestrial Environments",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Takahashi, F.",
+    "Linteris, G. T.",
+    "Katta, V. R."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,232 @@
+{
+ "q": "spacecraft fire safety",
+ "total": 318,
+ "results": [
+  {
+   "id": "20150000894",
+   "title": "Large-Scale Spacecraft Fire Safety Tests",
+   "year": "2014",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Urban, David",
+    "Ruff, Gary A.",
+    "Ferkul, Paul V.",
+    "Olson, Sandra"
+   ]
+  },
+  {
+   "id": "20130000677",
+   "title": "Large Scale Experiments on Spacecraft Fire Safety",
+   "year": "2012",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Urban, David L.",
+    "Ruff, Gary A.",
+    "Minster, Olivier",
+    "Toth, Balazs"
+   ]
+  },
+  {
+   "id": "20130001713",
+   "title": "Large Scale Experiments on Spacecraft Fire Safety",
+   "year": "2012",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Urban, David",
+    "Ruff, Gary A.",
+    "Minster, Olivier",
+    "Fernandez-Pello, A. Carlos"
+   ]
+  },
+  {
+   "id": "20205000063",
+   "title": "Spacecraft Fire Safety Technology Development Plan For Exploration Missions",
+   "year": "2020",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Gary A Ruff",
+    "David L Urban",
+    "Daniel L Dietrich"
+   ]
+  },
+  {
+   "id": "19880003138",
+   "title": "Spacecraft Fire Safety",
+   "year": "1987",
+   "type": "CONFERENCE_PROCEEDINGS",
+   "pdf": true,
+   "authors": [
+    "Margle, Janice M."
+   ]
+  },
+  {
+   "id": "19890015042",
+   "title": "Fire safety applications for spacecraft",
+   "year": "1989",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Friedman, Robert",
+    "Olson, Sandra L."
+   ]
+  },
+  {
+   "id": "20140011433",
+   "title": "Large-Scale Spacecraft Fire Safety Experiments in ISS Resupply Vehicles",
+   "year": "2013",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Ruff, Gary A.",
+    "Urban, David"
+   ]
+  },
+  {
+   "id": "20140006578",
+   "title": "Development of Large-Scale Spacecraft Fire Safety Experiments",
+   "year": "2013",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Ruff, Gary A.",
+    "Urban, David",
+    "Fernandez-Pello, A. Carlos",
+    "T'ien, James S."
+   ]
+  },
+  {
+   "id": "20170000230",
+   "title": "Operation and Development Status of the Spacecraft Fire Experiments (Saffire)",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Ruff, Gary A.",
+    "Urban, David L."
+   ]
+  },
+  {
+   "id": "19720008780",
+   "title": "Manned spacecraft electrical fire safety",
+   "year": "1971",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Wardell, A. W."
+   ]
+  },
+  {
+   "id": "19930019549",
+   "title": "Risk-based Spacecraft Fire Safety Experiments",
+   "year": "1992",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Apostolakis, G.",
+    "Catton, I.",
+    "Issacci, F.",
+    "Paulos, T."
+   ]
+  },
+  {
+   "id": "20260001600",
+   "title": "Spacecraft Fire Safety Predictions using Verified Saffire Model",
+   "year": "2026",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Justin Niehaus",
+    "David Urban",
+    "Gary Ruff",
+    "Gordon Berger"
+   ]
+  },
+  {
+   "id": "19720008759",
+   "title": "Conference on Materials for Improved Fire Safety",
+   "year": "1970",
+   "type": "CONFERENCE_PROCEEDINGS",
+   "pdf": true,
+   "authors": []
+  },
+  {
+   "id": "20170007283",
+   "title": "Spacecraft Fire Safety Research at NASA Glenn Research Center",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Meyer, Marit"
+   ]
+  },
+  {
+   "id": "19880003144",
+   "title": "Aircraft fire safety research",
+   "year": "1987",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Botteri, Benito P."
+   ]
+  },
+  {
+   "id": "20030053427",
+   "title": "Spacecraft Fire Safety: A Human Space Flight Program Perspective",
+   "year": "2003",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Pedley, Michael D."
+   ]
+  },
+  {
+   "id": "19910029452",
+   "title": "Critical safety assurance factors for manned spacecraft - A fire safety perspective",
+   "year": "1990",
+   "type": "CONFERENCE_PAPER",
+   "pdf": false,
+   "authors": [
+    "Rodney, George A."
+   ]
+  },
+  {
+   "id": "19920004363",
+   "title": "Risks, designs, and research for fire safety in spacecraft",
+   "year": "1991",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Friedman, Robert",
+    "Sacksteder, Kurt R.",
+    "Urban, David"
+   ]
+  },
+  {
+   "id": "20170001636",
+   "title": "The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status",
+   "year": "2016",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Schoren, William",
+    "Ruff, Gary A.",
+    "Urban, David L."
+   ]
+  },
+  {
+   "id": "20020028886",
+   "title": "Spacecraft Fire Safety and Microgravity Combustion Research",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Tien, James S.",
+    "Ferkul, Paul"
+   ]
+  }
+ ]
+}

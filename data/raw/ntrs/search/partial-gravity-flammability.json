@@ -1,0 +1,251 @@
+{
+ "q": "partial gravity flammability",
+ "total": 23,
+ "results": [
+  {
+   "id": "20250010653",
+   "title": "Lunar Combustion Investigation: Flammability Results from a Rotating Sounding Rocket",
+   "year": "2025",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Paul V Ferkul",
+    "Michael C Johnston",
+    "Nathan Kralik",
+    "Ya-Ting Liao"
+   ]
+  },
+  {
+   "id": "19990054085",
+   "title": "Flame Spread and Extinction in Partial-Gravity Environments",
+   "year": "1999",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "K R Sacksteder",
+    "P V Ferkul",
+    "J S T'ien"
+   ]
+  },
+  {
+   "id": "20210020446",
+   "title": "Impact of Lunar Gravity on Material Flammability ",
+   "year": "2021",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Gary A. Ruff"
+   ]
+  },
+  {
+   "id": "20040053567",
+   "title": "Upward And Downward Flame Spreading And Extinction In Partial Gravity Environments",
+   "year": "2003",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Sacksteder, Kurt R.",
+    "Feier, Ioan I.",
+    "Ferkul, Paul V.",
+    "Kumar, Amit"
+   ]
+  },
+  {
+   "id": "20210020516",
+   "title": "Fire on the Moon: Solid Fuel Combustion Experiments",
+   "year": "2021",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Paul Ferkul",
+    "Ya-Ting Liao",
+    "Gary Ruff",
+    "Daniel Gotti"
+   ]
+  },
+  {
+   "id": "20010074003",
+   "title": "Three-Dimensional Upward Flame Spreading in Partial-Gravity Buoyant Flows",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Sacksteder, Kurt R.",
+    "Feier, Ioan I.",
+    "Shih, Hsin-Yi",
+    "T'ien, James S."
+   ]
+  },
+  {
+   "id": "20260002050",
+   "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+   "year": "2026",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Brian K Alpert",
+    "Logan Kennedy",
+    "L Daren Welsh",
+    "Adam Young"
+   ]
+  },
+  {
+   "id": "20210022402",
+   "title": "Topical: Solid Fuel Combustion in Partial and Micro-Gravity ",
+   "year": "2021",
+   "type": "WHITE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Michael Gollner",
+    "Indrek Wichman",
+    "Ya-Ting Liao",
+    "Luca Carmignani"
+   ]
+  },
+  {
+   "id": "20260006059",
+   "title": "Surface Vehicle Atmospheric Considerations for Moon to Mars Exploration",
+   "year": "2026",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Logan Kennedy",
+    "Brian Alpert"
+   ]
+  },
+  {
+   "id": "20250002114",
+   "title": "Solid Fuel Ignition Testing for Lunar Applications, Theory and Experimental Results",
+   "year": "2025",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "David Urban",
+    "Sandra Olson",
+    "Daniel Dietrich",
+    "Dennis Stocker"
+   ]
+  },
+  {
+   "id": "20250006779",
+   "title": "Solid Fuel Ignition Testing for Lunar Applications, Theory and Experimental Results",
+   "year": "2025",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "David Urban",
+    "Sandra Olson",
+    "Daniel Dietrich",
+    "Dennis Stocker"
+   ]
+  },
+  {
+   "id": "20050199445",
+   "title": "Ceiling Fires Studied to Simulate Low-Gravity Fires",
+   "year": "2001",
+   "type": "OTHER",
+   "pdf": true,
+   "authors": [
+    "Olson, Sandra L."
+   ]
+  },
+  {
+   "id": "19930040901",
+   "title": "Downward Diffusion Flame Spread and Extinction in Variable Gravitational Fields - Lunar and Martian Simulations",
+   "year": "1993",
+   "type": "CONFERENCE_PAPER",
+   "pdf": false,
+   "authors": [
+    "Sacksteder, Kurt R.",
+    "Tien, James S."
+   ]
+  },
+  {
+   "id": "20170003880",
+   "title": "Low Pressure Flame Blowoff from the Forward Stagnation Region of a Blunt-Nosed Cast PMMA Cylinder in Axial Mixed Convective Flow",
+   "year": "2017",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Marcum, J. W.",
+    "Rachow, P.",
+    "Ferkul, P. V.",
+    "Olson, S. L."
+   ]
+  },
+  {
+   "id": "20210017787",
+   "title": "Determining the Cause of Reduced Concurrent Flame Spread over Thin Solid Fuels in Low Pressure and Low Gravity",
+   "year": "2021",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Maria Thomsen",
+    "Luca Carmignani",
+    "Carlos Fernandez-Pello",
+    "Sonia Fereres"
+   ]
+  },
+  {
+   "id": "20210017837",
+   "title": "Determining the Cause of Reduced Concurrent Flame Spread over Thin Solid Fuels in Low Pressure and Low Gravity",
+   "year": "2021",
+   "type": "PRESENTATION",
+   "pdf": true,
+   "authors": [
+    "Maria Thomsen",
+    "Sonia Fereres ",
+    "Luca Carmignani",
+    "Carlos Fernandez-Pello"
+   ]
+  },
+  {
+   "id": "20010074017",
+   "title": "Low Stretch PMMA Burning in Microgravity: Status of the Ground-Based Program and New ISS Glovebox Experiment SALSA",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Olson, S. L.",
+    "T'ien, J. S.",
+    "Armstrong, J. B."
+   ]
+  },
+  {
+   "id": "20010074098",
+   "title": "Physical and Chemical Aspects of Fire Suppression in Extraterrestrial Environments",
+   "year": "2001",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Takahashi, F.",
+    "Linteris, G. T.",
+    "Katta, V. R."
+   ]
+  },
+  {
+   "id": "20240015018",
+   "title": "Compartment Fire Modeling of a Crew Cabin in 1-g and Lunar-g",
+   "year": "2024",
+   "type": "POSTER",
+   "pdf": true,
+   "authors": [
+    "Justin Niehaus",
+    "David Urban"
+   ]
+  },
+  {
+   "id": "20220009086",
+   "title": "Opposed-flow Spreading Flames: Effect of Sub-atmospheric Pressure on Spread and Burning Rates",
+   "year": "2022",
+   "type": "CONFERENCE_PAPER",
+   "pdf": true,
+   "authors": [
+    "Luca Carmignani",
+    "Priya Garg",
+    "Michael J Gollner",
+    "Carlos Fernandez-Pello"
+   ]
+  }
+ ]
+}

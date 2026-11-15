@@ -1,0 +1,860 @@
+
+=== PAGE 1 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Organizing Questions for Reduced-
+Gravity Flammability
+Strategic Research to Enable NASA’s 
+Exploration Missions
+Cleveland, OH June22-23, 2004
+Fletcher Miller &
+NASA and NCMR Project Scientists 
+for Combustion Flight Projects 
+Involving the Flammability of Solids
+NASA/CP—2004-213205/VOL1
+612
+
+=== PAGE 2 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Background
+Background
+•
+Currently there are six* combustion flight 
+projects involving  flammability of solids 
+at various stages of development
+–
+Combustion Integrated Rack
+–
+FEANICS insert
+•
+The objectives of many of these 
+experiments is to perform fundamental
+research in combustion aboard the 
+International Space Station
+•
+Relevance to spacecraft fire safety was 
+not the only factor in selecting flight 
+projects.
+–
+Recommendations by outside peer 
+review panels focused on science.
+* Plus one international project
+Combustion Integrated Rack (CIR)
+NASA/CP—2004-213205/VOL1
+613
+
+=== PAGE 3 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Background
+Background
+•
+A team consisting of of the Microgravity Flight Project Scientists for 
+solid flammability experiments has been reviewing and prioritizing a 
+set of organizing questions for fire prevention (material flammability).
+The ability to answer these questions will be the 
+major determinant in the selection of future flight 
+experiments
+In particular the team has been charged with determining:
+1.
+What experiments must be conducted to best answer these questions? 
+2.
+Can some of the questions be answered using existing/planned 
+hardware or experimental concepts?
+NASA/CP—2004-213205/VOL1
+614
+
+=== PAGE 4 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Microgravity Material Flammability 
+Acceptance Criteria
+1. Is the NASA STD 6001, Test 1 configuration conservative or non-
+conservative in assessing material flammability in reduced 
+gravity*?
+•
+NASA STD 6001, Test 1 is an upward 
+flammability test, considered the most 
+stringent test in normal gravity.
+•
+A material that passes this test would 
+most likely not burn in a quiescent
+microgravity environment
+¾ More research is needed on practical 
+but “exotic” materials to verify this.
+•
+The degree of conservatism varies with
+material and cannot be determined from 
+the test data
+* Reduced gravity is taken here to mean either 
+micro or partial gravity, though for today’s 
+session we will focus primarily on microgravity.
+Buoyant Flow
+Buoyant Flow
+Flame
+Flame
+Sample
+Sample
+gravity
+gravity
+NASA/CP—2004-213205/VOL1
+615 
+
+=== PAGE 5 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Quiescent
+Quiescent Microgravity?
+Microgravity?
+• In an emergency, totally quiescent conditions in microgravity ca
+In an emergency, totally quiescent conditions in microgravity cannot be 
+nnot be 
+assured.
+assured.
+• Possible sources of air movement:
+Possible sources of air movement:
+• Ventilation system if it cannot be turned off or decay time if i
+Ventilation system if it cannot be turned off or decay time if it can.
+t can.
+• Crew movements
+Crew movements
+• Use of fire extinguishers
+Use of fire extinguishers
+• Small leaks from the module, or venting
+Small leaks from the module, or venting
+• Residual g   (0.1 mg ~ 1 cm/s)
+Residual g   (0.1 mg ~ 1 cm/s)
+• The most flammable condition for some materials is at very low 
+The most flammable condition for some materials is at very low 
+velocities, below those for upward spread in normal gravity
+velocities, below those for upward spread in normal gravity
+• Experiments and models show that in very low speed flows the fla
+Experiments and models show that in very low speed flows the flame 
+me 
+prefers to spread upstream (opposed flow) compared to downstream
+prefers to spread upstream (opposed flow) compared to downstream.
+• The question of conservatism of Test 1 therefore may rest on the
+The question of conservatism of Test 1 therefore may rest on the
+determination of velocity and flow direction at which to compare
+determination of velocity and flow direction at which to compare.
+• In partial gravity, such as lunar or Martian conditions, there w
+In partial gravity, such as lunar or Martian conditions, there will 
+ill 
+always be buoyant flow.
+always be buoyant flow.
+NASA/CP—2004-213205/VOL1
+616
+
+=== PAGE 6 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Free stream velocity, U∞(cm/s)
+Oxygen molar fraction, XO2 (%)
+0
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+opposed (Xent=10cm)
+opposed (Xent=6cm)
+concurrent
+Ur (cm/s)
+XO2 (%)
+0
+1
+2
+3
+4
+5
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+opposed
+(6cm)
+concurrent
+Thermally thin solid 
+Thermally thin solid 
+(paper)
+(paper)
+Two
+Two-dimensional 
+dimensional 
+model with radiation
+model with radiation
+Two entrance lengths 
+Two entrance lengths 
+considered for 
+considered for 
+opposed flow
+opposed flow
+Calculated Concurrent vs. Opposed Extinction Limits
+Calculated Concurrent vs. Opposed Extinction Limits
+(Kumar, Shih, & T’ien, 
+(Kumar, Shih, & T’ien, Combustion and Flame
+Combustion and Flame, 2003)
+, 2003)
+NASA/CP—2004-213205/VOL1
+617
+
+=== PAGE 7 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Microgravity Material
+Flammability Acceptance Criteria
+2. Is there a normal gravity test that can quantify material 
+flammability in reduced gravity either by itself or in conjunction 
+with NASA-STD-6001,Test 1?
+• Attempts to relate Test 1 results to data 
+from other standard tests
+have met with limited success
+• Various methods have been (are being) 
+evaluated
+– limiting oxygen index (maximum 
+oxygen concentration to
+extinguish a flame)
+– Forced Ignition and Spread Test (FIST)
+– Equivalent Low Stretch Apparatus 
+(ELSA)
+• Desirable: Preserve Test 1 data base, 
+though it may need to be expanded to 
+cover other oxygen concentrations.
+Conceptual drawing of the apparatus to be tested in the 
+WSTF Controlled Atmosphere Cone Calorimeter.
+NASA/CP—2004-213205/VOL1
+618
+
+=== PAGE 8 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Forced Ignition and Spread Test
+Forced Ignition and Spread Test
+(FIST)
+(FIST)
+Principal Investigator:  Prof. Carlos Fernandez-Pello, Univ. of Cal. at Berkeley
+Sample Material
+Sample Holder
+Radiant 
+Panel
+Heat Flux
+Fire Spread Rate
+Time to Ignition
+Objectives:
+• Develop and verify a simplified theory for 
+LIFT-styled ignition and flame spread in 1-
+g and 0-g
+• Determine if 1-g and 0-g behaviors are 
+correlated
+• Develop a flammability test method to rank 
+the hazards of materials used on 
+spacecraft using time to ignition, fire 
+spread rate, material properties, critical 
+heat flux
+Critical Heat 
+Flux
+NASA/CP—2004-213205/VOL1
+619
+
+=== PAGE 9 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Microgravity Material
+Flammability Acceptance Criteria
+3. How can NASA Standard 6001, Test 1 results be quantified to 
+indicate flammability in reduced gravity? (Can additional, useful data 
+be gathered without changing the test procedure?)
+• Test 1 is normally a pass/no-pass test; no determination of passing margins.
+• On-going research by Buckley and Torero is quantifying flame stand-off
+distances from Test 1 to determine an experimental mass-transfer number
+• Comparison of experimental and analytical results allows ranking of
+flammability
+• Modeling of Test 1 has compared well with experiment for PMMA
+The laminar nature of both flames makes it possible to 
+use a simple formulation to correlate normal and 
+microgravity results.
+Microgravity flame
+with low flow velocity
+Upward Flame Spread Test
+B = net heat liberated by combustion
+heat input to fuel + heat loss
+NASA/CP—2004-213205/VOL1
+620
+
+=== PAGE 10 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Material Flammability and
+Material Flammability and
+Ignitability in Reduced gravity
+Ignitability in Reduced gravity
+4. How does the flammability, ignitability and Limiting Oxygen Index 
+(LOI) of a material change with gravitational level?
+Some Typical values 
+LOI
+Polyurethane foam 
+16.5
+PMMA (Perspex) 
+17.3
+Poly(ethylene)
+17.4
+Poly(propylene) 
+17.4 
+Poly(styrene)
+17.8
+Plywood 
+23.0 
+Nylon 6.6 
+24-29 
+Nomex 
+28.5 
+PVC (unplasticised) 
+45-49
+PTFE (Teflon)
+95
+O2/N
+/N2 Mixture
+Mixture
+tube
+tube
+sample
+sample
+flame
+flame
+LOI Apparatus
+LOI Apparatus
+gravity
+gravity
+NASA/CP—2004-213205/VOL1
+621
+
+=== PAGE 11 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+5.
+How can the results of small-scale experiments be used to 
+determine the behavior of large-scale fires? 
+a.
+Extend results to conditions and geometries that haven’t 
+been tested
+b.
+How will flames grow and spread in real situations?
+NASA Std. 6001 
+NASA Std. 6001 
+Test 1
+Test 1
+Other lab 
+Other lab 
+Tests
+Tests
+Understanding
+Understanding
+Microgravity Fire
+Microgravity Fire
+Large
+Large-Scale 
+Scale 
+µg Test?
+g Test?
+Fire in Microgravity
+Fire in Microgravity
+Numerical 
+Numerical 
+Models
+Models
+Flight
+Flight
+Experiments
+Experiments
+NASA/CP—2004-213205/VOL1
+622
+
+=== PAGE 12 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+6.
+How do the flammability and ignitability of materials change in 
+high-O2 mole fraction, low-pressure, reduced gravity 
+environments?
+Exploration Environments
+Exploration Environments
+• Exploration environments may have an enriched oxygen, low 
+pressure atmosphere.
+• Skylab 70% oxygen, 5 psia
+• Apollo 100 % oxygen, 5 psia
+• EVA Shuttle/ISS  30% oxygen
+• Test 1 is run at atmosphere of use, though data base is 
+smaller at higher oxygen concentrations.
+NASA/CP—2004-213205/VOL1
+623
+
+=== PAGE 13 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Smoldering, Transition and
+Flaming (STaF)
+PI:  Prof. Carlos Fernandez-Pello
+Univ. of Cal. at Berkeley
+Polyurethane
+Foam
+(5 cm x 5 cm
+x 125 cm long)
+Igniter
+Smolder
+Front
+7.
+How does the propensity for non-flaming/smoldering 
+combustion of materials change in high-O2 mole fraction, low-
+pressure, reduced gravity environments?
+Smoldering
+Smoldering
+• Smoldering not covered under 
+NASA Std. 6001, Test 1.
+• One planned flight experiment:
+NASA/CP—2004-213205/VOL1
+624
+
+=== PAGE 14 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Ignition & Products
+Ignition & Products
+8. What are the other credible ignition sources, other than electrical 
+overheating and electrical short circuits that will exist on exploration 
+vehicles? Do these sources increase or decrease the propensity for 
+ignition in reduced gravity?
+• Waste Storage
+• Solid Fuel Oxygen Generators
+• High pressure oxygen system
+• Laser use?
+NASA/CP—2004-213205/VOL1
+625
+
+=== PAGE 15 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Your Input
+Your Input
+Questions:
+•
+Are these the right questions?
+•
+How would you change them?
+•
+Are there other questions that should be considered?
+Concepts:
+Reiteration of what we need to determine:
+1.
+What experiments must be conducted to best answer 
+these questions? 
+2.
+Can some of the questions be answered using 
+existing/planned hardware or experimental concepts?
+NASA/CP—2004-213205/VOL1
+626
+
+=== PAGE 16 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Flow Enclosure Accommodating Novel 
+Investigations in Combustion of Solids 
+(FEANICS)
+June 23, 2004
+NASA/CP—2004-213205/VOL1
+627
+
+=== PAGE 17 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Combustion Integrated Rack Overview
+Fuel/Oxidizer
+Management
+Assembly (FOMA)
+Optics
+Bench
+Combustion
+Chamber
+Rack Closure
+Door
+International Standard 
+Payload Rack (ISPR)
+SAMS
+RTS
+Passive Rack
+Isolation
+Subsystem
+(PARIS)
+Environmental Control (ECS)
+• Air Thermal Control
+• Fire Detection & Suppression
+• Water Thermal Control
+• Gas Interfaces (GN2, VES, VRS)
+Input/Output
+Processor
+(IOP)
+Electrical Power
+Control Unit (EPCU)
+FOMA
+Control
+Unit
+(FCU)
+PI
+Avionics Box
+Image
+Processing and
+Storage Unit (2)
+(IPSU)
+FEANICS
+Chamber Insert
+Assembly
+Science Diagnostics
+• Color Camera
+• Illumination Package
+• Mid IR Camera
+• Low Light Level (2 Units)
+• High Bit Depth Multi-Spectral
+• High Frame Rate/High Resolution
+OR
+Experiment Specific Diagnostics
+Laptop
+Computer
+Optics
+Bench Slides
+NASA/CP—2004-213205/VOL1
+628
+
+=== PAGE 18 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+FEANICS
+FEANICS-1 Capabilities
+1 Capabilities
+•
+15 cm W x 12 cm H x 30 cm L flow tunnel test section
+15 cm W x 12 cm H x 30 cm L flow tunnel test section
+–
+Top surface of fuel flush with tunnel floor
+Top surface of fuel flush with tunnel floor
+–
+0-25% and 4
+25% and 4-96% O
+96% O2 sensors at tunnel inlet and outlet
+sensors at tunnel inlet and outlet
+–
+4  LEDs for illumination
+4  LEDs for illumination
+–
+Gas phase thermocouple for gas inlet and outlet temperature
+Gas phase thermocouple for gas inlet and outlet temperature
+•
+Quiescent or Flow tests with adjustable velocity up to 20 cm/s
+Quiescent or Flow tests with adjustable velocity up to 20 cm/s
+•
+Concurrent or Opposed flow testing
+Concurrent or Opposed flow testing
+•
+Pressures from ~0.5 to ~3.0 atm
+Pressures from ~0.5 to ~3.0 atm
+•
+Testing: 
+Testing: 
+–
+Flow tests below 27% O
+Flow tests below 27% O2; We can control O
+; We can control O2 and pressure. 
+and pressure. 
+–
+Flow tests above 27% O
+Flow tests above 27% O2; We can control O
+; We can control O2; but no pressure control
+; but no pressure control
+–
+Quiescent tests: No O
+Quiescent tests: No O2 or pressure control
+or pressure control
+•
+Ignition by hot wire (one per sample)
+Ignition by hot wire (one per sample)
+•
+Radiant Heater to heat/pyrolyze fuel (peak radiance ~20 kW/m
+Radiant Heater to heat/pyrolyze fuel (peak radiance ~20 kW/m2)
+•
+Carousel Fuel Sizes
+Carousel Fuel Sizes
+–
+Max: 11.5 cm W x 18 cm L x 1.2 cm thick for a 3
+Max: 11.5 cm W x 18 cm L x 1.2 cm thick for a 3-sided carousel
+sided carousel
+–
+Min: 3 cm W x 18 cm L x 1.2 cm thick for an 8
+Min: 3 cm W x 18 cm L x 1.2 cm thick for an 8-sided carousel
+sided carousel
+NASA/CP—2004-213205/VOL1
+629
+
+=== PAGE 19 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+FEANICS-1 Insert (w/Radiant Heater)
+Filter Section
+Blower
+Radiant Heater
+Venturi Inlet
+O2 Sensors
+Flow Direction
+Fuel Carousel
+Mounting Rail
+Guide
+Fuel Sample
+Shutter
+NASA/CP—2004-213205/VOL1
+630
+
+=== PAGE 20 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Fuel Samples
+Igniter
+Carousel 
+without 
+containment 
+cover
+FEANICS-1 Insert with 8-Sided Carousel
+Shutter 
+Motor
+NASA/CP—2004-213205/VOL1
+631 
+
+=== PAGE 21 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+FEANICS-1 Insert in Combustion Chamber
+Mounting 
+Rail Guide
+Tunnel 
+Window
+CIR 
+Chamber 
+Rail
+NASA/CP—2004-213205/VOL1
+632
+
+=== PAGE 22 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+FEANICS
+FEANICS-2 Capabilities
+2 Capabilities
+•
+Similar to FEANICS
+Similar to FEANICS-1 with the following exceptions
+1 with the following exceptions
+–
+Fuel located in center of tunnel section
+Fuel located in center of tunnel section
+–
+Split Flow inlet and exit
+Split Flow inlet and exit
+–
+15 cm W x 12 cm H x 26 cm L flow tunnel test section
+15 cm W x 12 cm H x 26 cm L flow tunnel test section
+–
+Ignition by 30 W CO
+Ignition by 30 W CO2 laser
+laser
+•
+Fuel Sizes (Max)
+Fuel Sizes (Max)
+–
+13 cm W x ~ 800 cm L x ~ 0.4 mm thick on a continuous fuel roll.
+13 cm W x ~ 800 cm L x ~ 0.4 mm thick on a continuous fuel roll.
+–
+10 cm W x 16.9 cm L x 1 cm thick in an end loader (7 max).
+10 cm W x 16.9 cm L x 1 cm thick in an end loader (7 max).
+•
+Plan for Fuel Roll was to use a camera to track flame position a
+Plan for Fuel Roll was to use a camera to track flame position and 
+nd 
+feed fuel into the flame to keep flame position fixed.  CIR lost
+feed fuel into the flame to keep flame position fixed.  CIR lost
+capability to process video real time. 
+capability to process video real time. 
+NASA/CP—2004-213205/VOL1
+633
+
+=== PAGE 23 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+FEANICS-2 Insert with Fuel Rolls
+Fuel Supply Roll
+Fuel Take-up Roll
+Venturi Inlet 
+(top and bottom)
+Windows
+Blowers 
+(top and bottom)
+Mounting Rail Guide
+Insert Cover
+NASA/CP—2004-213205/VOL1
+634 
+
+=== PAGE 24 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+FEANICS-2 Insert with End Loader
+Fuel End 
+Loader
+Venturi Inlet 
+(top and bottom)
+Insert Cover
+Filter Section
+Blowers
+Mounting Rail Guide
+Windows
+NASA/CP—2004-213205/VOL1
+635
+2
+
+=== PAGE 25 ===
+National Aeronautics and
+Space Administration
+John H. Glenn Research Center
+Diagnostics Capabilities
+Diagnostics Capabilities
+3000
+3000-5000
+5000
+120
+120
+12
+12
+256x
+256x
+256
+256
+Mid
+Mid-IR
+IR
+400
+400-700
+700
+30
+30
+8
+640x
+640x
+480
+480
+Color
+Color
+650
+650-950
+950
+15
+15
+12
+12
+512x
+512x
+512
+512
+High Bit 
+High Bit 
+Multispectral
+Multispectral
+250
+250-700
+700
+30
+30
+12
+12
+512x
+512x
+512
+512
+Low Light Level
+Low Light Level-UV
+UV
+400
+400-900
+900
+30
+30
+12
+12
+512x
+512x
+512
+512
+Low Light Level
+Low Light Level-IR
+IR
+Spectrum 
+Spectrum 
+(nm)
+(nm)
+Frames Per 
+Frames Per 
+Second
+Second
+Bit Depth
+Bit Depth
+(bits)
+(bits)
+Pixels 
+Pixels 
+Array
+Array
+Camera System
+Camera System
+NASA/CP—2004-213205/VOL1
+636

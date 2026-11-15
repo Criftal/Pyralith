@@ -1,0 +1,169 @@
+[
+ {
+  "id": "iss",
+  "name": "ISS",
+  "gravity": {
+   "reported": "microgravity",
+   "qualifier": "stated",
+   "source_id": "PSI:PSI-25",
+   "page": 1,
+   "quote": "microgravity combustion tests were performed aboard the International Space Station",
+   "note": null
+  },
+  "o2": {
+   "reported": "21% oxygen",
+   "qualifier": "stated",
+   "source_id": "NTRS:20240003211",
+   "page": 1,
+   "quote": "the sea level atmosphere of 14.7 psia, 21% oxygen (O2) found on the International Space Station",
+   "note": null
+  },
+  "pressure": {
+   "reported": "14.7 psia",
+   "qualifier": "stated",
+   "source_id": "NTRS:20240003211",
+   "page": 1,
+   "quote": "the sea level atmosphere of 14.7 psia, 21% oxygen (O2) found on the International Space Station",
+   "note": null
+  },
+  "flow": {
+   "reported": "5-20 cm/s",
+   "qualifier": "stated",
+   "source_id": "NTRS:20040084156",
+   "page": 1,
+   "quote": "Over most of the range of air ventilation rates (5-20 cm/s) comparable to spacecraft ventilation, upstream flame spread was the only viable flame.",
+   "note": "Spacecraft ventilation range; no single value is stated."
+  }
+ },
+ {
+  "id": "artemis_habitat",
+  "name": "Artemis lunar habitat",
+  "gravity": {
+   "reported": "0.17g",
+   "qualifier": "stated",
+   "source_id": "NTRS:20040084156",
+   "page": 2,
+   "quote": "On the Moon or Mars (0.17g and 0.38 g, respectively), where buoyant flows will be greater than 20 cm/s, the concurrent flame spread will be viable simultaneously with any opposed flow flame.",
+   "note": null
+  },
+  "o2": {
+   "reported": "34% oxygen",
+   "qualifier": "stated",
+   "source_id": "NTRS:20260002050",
+   "page": 3,
+   "quote": "NASA Artemis requirements for sustained missions are targeting an average pressure of 8.2 psi (56.5 kPa) and a 34% oxygen concentration",
+   "note": null
+  },
+  "pressure": {
+   "reported": "8.2 psi",
+   "qualifier": "stated",
+   "source_id": "NTRS:20260002050",
+   "page": 3,
+   "quote": "NASA Artemis requirements for sustained missions are targeting an average pressure of 8.2 psi (56.5 kPa) and a 34% oxygen concentration",
+   "note": null
+  },
+  "flow": null
+ },
+ {
+  "id": "pressurized_rover",
+  "name": "Pressurized rover",
+  "gravity": {
+   "reported": "0.17g",
+   "qualifier": "stated",
+   "source_id": "NTRS:20040084156",
+   "page": 2,
+   "quote": "On the Moon or Mars (0.17g and 0.38 g, respectively), where buoyant flows will be greater than 20 cm/s, the concurrent flame spread will be viable simultaneously with any opposed flow flame.",
+   "note": null
+  },
+  "o2": {
+   "reported": "30% or greater",
+   "qualifier": "at_least",
+   "source_id": "WEB:brief",
+   "page": 1,
+   "quote": "The intermediate oxygen concentration used on the Moon will likely be 30% or greater, with a corresponding pressure of 10.2 psi or less.",
+   "note": "Challenge brief band. Ferkul et al. 2026 (slide 25) give the nominal rover atmosphere as 8.2 psia / 34% O2."
+  },
+  "pressure": {
+   "reported": "10.2 psi or less",
+   "qualifier": "at_most",
+   "source_id": "WEB:brief",
+   "page": 1,
+   "quote": "The intermediate oxygen concentration used on the Moon will likely be 30% or greater, with a corresponding pressure of 10.2 psi or less.",
+   "note": null
+  },
+  "flow": null
+ },
+ {
+  "id": "eva_suit",
+  "name": "EVA suit (lunar surface)",
+  "gravity": {
+   "reported": "0.17g",
+   "qualifier": "assumed",
+   "source_id": "NTRS:20040084156",
+   "page": 2,
+   "quote": "On the Moon or Mars (0.17g and 0.38 g, respectively), where buoyant flows will be greater than 20 cm/s, the concurrent flame spread will be viable simultaneously with any opposed flow flame.",
+   "note": "Assumes a lunar-surface EVA."
+  },
+  "o2": {
+   "reported": "100% oxygen",
+   "qualifier": "stated",
+   "source_id": "WEB:brief",
+   "page": 1,
+   "quote": "To enable flexibility, spacesuits are filled with 100% oxygen to only 4.3 psi (pounds per square inch), where the Earth's pressure at sea level is 14.7 psi.",
+   "note": null
+  },
+  "pressure": {
+   "reported": "4.3 psi",
+   "qualifier": "stated",
+   "source_id": "WEB:brief",
+   "page": 1,
+   "quote": "To enable flexibility, spacesuits are filled with 100% oxygen to only 4.3 psi (pounds per square inch), where the Earth's pressure at sea level is 14.7 psi.",
+   "note": null
+  },
+  "flow": null
+ },
+ {
+  "id": "mars_transit",
+  "name": "Mars transit",
+  "gravity": {
+   "reported": "microgravity",
+   "qualifier": "assumed",
+   "source_id": "WEB:brief",
+   "page": 1,
+   "quote": "Compared to Earth, flames in free fall (i.e., in microgravity) are often dramatically different because of the absence of buoyancy and thus rising hot gases.",
+   "note": "Assumes a coasting, non-rotating transit vehicle (free fall). No source in our corpus specifies the transit cabin atmosphere."
+  },
+  "o2": null,
+  "pressure": null,
+  "flow": null
+ },
+ {
+  "id": "mars_habitat",
+  "name": "Mars habitat",
+  "gravity": {
+   "reported": "0.38 g",
+   "qualifier": "stated",
+   "source_id": "NTRS:20040084156",
+   "page": 2,
+   "quote": "On the Moon or Mars (0.17g and 0.38 g, respectively), where buoyant flows will be greater than 20 cm/s, the concurrent flame spread will be viable simultaneously with any opposed flow flame.",
+   "note": null
+  },
+  "o2": {
+   "reported": "34% oxygen",
+   "qualifier": "assumed",
+   "source_id": "NTRS:20260002050",
+   "page": 3,
+   "quote": "NASA Artemis requirements for sustained missions are targeting an average pressure of 8.2 psi (56.5 kPa) and a 34% oxygen concentration",
+   "note": "Assumed same as the Artemis Exploration Atmosphere; no source in our corpus gives a Mars habitat value."
+  },
+  "pressure": {
+   "reported": "8.2 psi",
+   "qualifier": "assumed",
+   "source_id": "NTRS:20260002050",
+   "page": 3,
+   "quote": "NASA Artemis requirements for sustained missions are targeting an average pressure of 8.2 psi (56.5 kPa) and a 34% oxygen concentration",
+   "note": "Assumed same as the Artemis Exploration Atmosphere; no source in our corpus gives a Mars habitat value."
+  },
+  "flow": null
+ }
+]

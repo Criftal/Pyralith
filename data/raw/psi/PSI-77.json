@@ -1,0 +1,1181 @@
+{
+ "accession": "PSI-77",
+ "acknowledgments": "",
+ "added": [
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170834940
+   },
+   "date_modified": {
+    "$date": 1743170834940
+   },
+   "file_name": "PSI-77_Science Documents_Science and Procedures.doc",
+   "file_size": 744960.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/7291/125/ISSI Science and Procedures.doc",
+   "remote_path": "/Home/psi-data/PSI-77/Science Documents/PSI-77_Science Documents_Science and Procedures.doc",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/70327/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65eb50812ec0b0961f8f9a45"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Science Documents/PSI-77_Science Documents_Science and Procedures.doc",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835028
+   },
+   "date_modified": {
+    "$date": 1743170835028
+   },
+   "file_name": "PSI-77_Raw Data_ISSI ISS VC3 2_2.mp4",
+   "file_size": 367270683.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI ISS VC3 2_2.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI ISS VC3 2_2.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378599/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI ISS VC3 2_2.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835114
+   },
+   "date_modified": {
+    "$date": 1743170835114
+   },
+   "file_name": "PSI-77_Raw Data_ISSI 01-04-05 Ref.Mstr. 719051.zip",
+   "file_size": 98596687.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI 01-04-05 Ref.Mstr. 719051.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 01-04-05 Ref.Mstr. 719051.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378600/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 01-04-05 Ref.Mstr. 719051.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835201
+   },
+   "date_modified": {
+    "$date": 1743170835201
+   },
+   "file_name": "PSI-77_Raw Data_ISSI 02-06-05 Exp 10.zip",
+   "file_size": 94876634.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI 02-06-05 Exp 10.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 02-06-05 Exp 10.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378601/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 02-06-05 Exp 10.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835288
+   },
+   "date_modified": {
+    "$date": 1743170835288
+   },
+   "file_name": "PSI-77_Raw Data_ISSI 12-08-04 Ref.Mstr. 719035.zip",
+   "file_size": 532674314.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI 12-08-04 Ref.Mstr. 719035.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 12-08-04 Ref.Mstr. 719035.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378602/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 12-08-04 Ref.Mstr. 719035.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835378
+   },
+   "date_modified": {
+    "$date": 1743170835378
+   },
+   "file_name": "PSI-77_Raw Data_ISSI ISS VC3 1_2.zip",
+   "file_size": 760143207.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI ISS VC3 1_2.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI ISS VC3 1_2.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378603/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI ISS VC3 1_2.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835465
+   },
+   "date_modified": {
+    "$date": 1743170835465
+   },
+   "file_name": "PSI-77_Raw Data_ISSI Science 13 1_3.zip",
+   "file_size": 528972349.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI Science 13 1_3.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science 13 1_3.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378604/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science 13 1_3.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835550
+   },
+   "date_modified": {
+    "$date": 1743170835550
+   },
+   "file_name": "PSI-77_Raw Data_ISSI Science 13 3_3.zip",
+   "file_size": 109989589.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI Science 13 3_3.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science 13 3_3.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378605/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science 13 3_3.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835635
+   },
+   "date_modified": {
+    "$date": 1743170835635
+   },
+   "file_name": "PSI-77_Raw Data_ISSI Macros.zip",
+   "file_size": 13036234.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37615/226/ISSI Macros.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Macros.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378628/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Macros.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Macros",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835721
+   },
+   "date_modified": {
+    "$date": 1743170835721
+   },
+   "file_name": "PSI-77_Raw Data_ISSI 12-08-04 Ref.Mstr. 719035.mp4",
+   "file_size": 538948934.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI 12-08-04 Ref.Mstr. 719035.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 12-08-04 Ref.Mstr. 719035.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652528/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 12-08-04 Ref.Mstr. 719035.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835809
+   },
+   "date_modified": {
+    "$date": 1743170835809
+   },
+   "file_name": "PSI-77_Raw Data_ISSI ISS VC3 1_2.mp4",
+   "file_size": 771573864.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI ISS VC3 1_2.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI ISS VC3 1_2.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652529/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI ISS VC3 1_2.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835895
+   },
+   "date_modified": {
+    "$date": 1743170835895
+   },
+   "file_name": "PSI-77_Raw Data_ISSI Science #13 3_3.mp4",
+   "file_size": 111952686.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI Science #13 3_3.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science #13 3_3.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652530/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science #13 3_3.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170835980
+   },
+   "date_modified": {
+    "$date": 1743170835980
+   },
+   "file_name": "PSI-77_Raw Data_ISSI 01-04-05 Ref.Mstr. 719051.mp4",
+   "file_size": 100375882.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI 01-04-05 Ref.Mstr. 719051.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 01-04-05 Ref.Mstr. 719051.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652531/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 01-04-05 Ref.Mstr. 719051.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170836065
+   },
+   "date_modified": {
+    "$date": 1743170836065
+   },
+   "file_name": "PSI-77_Raw Data_ISSI Science #13 1_3.mp4",
+   "file_size": 536735755.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI Science #13 1_3.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science #13 1_3.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652532/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science #13 1_3.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170836150
+   },
+   "date_modified": {
+    "$date": 1743170836150
+   },
+   "file_name": "PSI-77_Raw Data_ISSI 02-06-05 Exp 10.mp4",
+   "file_size": 95786633.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI 02-06-05 Exp 10.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 02-06-05 Exp 10.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652533/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI 02-06-05 Exp 10.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170836235
+   },
+   "date_modified": {
+    "$date": 1743170836235
+   },
+   "file_name": "PSI-77_Raw Data_ISSI Science Videos.zip",
+   "file_size": 2483071857.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/14632/ISSI Science Videos.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science Videos.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652534/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/PSI-77_Raw Data_ISSI Science Videos.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "Reduced Gravity/Test Session 1_Samples 1-9/Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1743170836319
+   },
+   "date_modified": {
+    "$date": 1743170836319
+   },
+   "file_name": "PSI-77_Science Documents_README.pdf",
+   "file_size": 74383.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/7291/11572/DLD_ISSI.pdf",
+   "remote_path": "/Home/psi-data/PSI-77/Science Documents/PSI-77_Science Documents_README.pdf",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/12660796/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65eb50812ec0b0961f8f9a45"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Science Documents/PSI-77_Science Documents_README.pdf",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "psi-repo-prod",
+   "date_created": {
+    "$date": 1743170836408
+   },
+   "date_modified": {
+    "$date": 1743170836408
+   },
+   "file_name": "PSI-77_Reports_Final.pdf",
+   "file_size": 41257499,
+   "organization": "shared",
+   "remote_path": "/Home/psi-data/PSI-77/Reports/PSI-77_Reports_Final.pdf",
+   "remote_url": "/datamanager/file/Home/psi-data/PSI-77/Reports/PSI-77_Reports_Final.pdf",
+   "resource_id": {
+    "$oid": "65f8b3442ec0b0961f8fa20a"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Reports/PSI-77_Reports_Final.pdf",
+   "s3_version_id": "SVEoMuSRi3_G4.1jakhTv2Z0vtntI6Q1",
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "",
+   "version": 1,
+   "visible": true
+  }
+ ],
+ "approach": "The proposed experiments basically consisted of taking pieces of silver-coated copper wire and bending/twisting them into simple configurations for test coupons. Selected lengths of Kester \u201c44\u201d\u00ae 60-40 rosin core solder (5 and 10 cm) were then cut and wrapped around a selected portion of the coupon, to be later melted by heat conduction through the wire using the kit\u2019s soldering iron. A second set of experiments involved feeding 5 and 10 cm lengths of solder onto similar shaped coupons that were being heated by the iron. In principle, the soldering iron was never meant to come in contact with the molten solder. All in all, five soldering sessions were conducted on the ISS that culminated in 86 samples comprising seven different wire configurations, two different solder lengths (5 and 10 cm), and two different melt procedures (conduction melting of wrapped solder and conduction melting of solder being fed onto the wire). The melting experiments took place in the flame retardant Maintenance Work Area, a portable facility in the ISS used to make repairs and conduct other operations in the ISS. A digital camera is placed behind the samples to record the melting and subsequent solidification experiments. Video footage and still pictures were down linked after each experimental session.",
+ "assays": [],
+ "contacts": [
+  {
+   "@id": "",
+   "address": "",
+   "affiliation": "",
+   "comments": [
+    {
+     "name": "Study Person REF",
+     "value": ""
+    }
+   ],
+   "email": "richard.n.grugel@nasa.gov",
+   "fax": "",
+   "firstName": "Richard N.",
+   "lastName": "Grugel",
+   "midInitials": "",
+   "phone": "",
+   "roles": [
+    {
+     "@id": "gfOkkU2TkngzkMVdmzd506O4fupTQYNbgTIc0Swy",
+     "annotationValue": "Principal Investigator (PI)",
+     "comments": [],
+     "termAccession": "https://www.psi.nasa.gov",
+     "termSource": ""
+    }
+   ]
+  },
+  {
+   "@id": "",
+   "address": "",
+   "affiliation": "MSFC",
+   "comments": [
+    {
+     "name": "Study Person REF",
+     "value": ""
+    }
+   ],
+   "email": "louise.s@nasa.gov",
+   "fax": "",
+   "firstName": "Littles",
+   "lastName": "Louise",
+   "midInitials": "",
+   "phone": "",
+   "roles": [
+    {
+     "@id": "kfz08T0a0FCLgRF0Bl3BUXBQ6lVxSTaT3AAF2uaR",
+     "annotationValue": "Project Scientist",
+     "comments": [],
+     "termAccession": "https://www.psi.nasa.gov",
+     "termSource": ""
+    }
+   ]
+  }
+ ],
+ "description": "",
+ "dirty": false,
+ "doi": "10.60555/dc58-7a75",
+ "experimentHardware": "Microgravity Workbench Area",
+ "experimentHardwareLink": "https://arc.aiaa.org/doi/epdf/10.2514/6.2006-521",
+ "experimentalTable": [
+  {
+   "_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5a"
+   },
+   "date_created": {
+    "$date": 1735251826045
+   },
+   "date_modified": {
+    "$date": 1735251826045
+   },
+   "file_name": "PSI-77_Experimental table_ExperimentalTable_ISSI.csv",
+   "file_size": 2736,
+   "remote_path": "/Home/psi-data/PSI-77/Experimental table/PSI-77_Experimental table_ExperimentalTable_ISSI.csv",
+   "remote_url": "/datamanager/file/Home/psi-data/PSI-77/Experimental table/PSI-77_Experimental table_ExperimentalTable_ISSI.csv",
+   "resource_id": {
+    "$oid": "66cf53d46f1142c964b2e0a8"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Experimental table/PSI-77_Experimental table_ExperimentalTable_ISSI.csv",
+   "s3_version_id": "vyu1zPfZm4A_dX22162upjr3sUvzHq5o",
+   "study_id": {
+    "$oid": "67e6ad14a7725ce1235c5d83"
+   },
+   "subcategory": "",
+   "version": 1,
+   "visible": true
+  }
+ ],
+ "experiments": [],
+ "factors": [],
+ "filesDisabled": null,
+ "flightProgram": "ISS",
+ "funding": "NASA",
+ "hypothesis": "Due to minimized buoyancy in the microgravity environment, it is hypothesized that one would expect additional porosity and enhanced surface tension contributions to porosity shape and mobility. Brazing, soldering, and welding operations in microgravity can be influenced greatly by both wetting and surface tension-driven flows, primary factors in achieving or not achieving a sound joint. For example, processes that rely on gravity-driven separations in the terrestrial environment, such as the removal of gas bubbles from a liquid, may rely on completely different interfacial phenomenon in microgravity.",
+ "identifiers": [],
+ "images": [],
+ "investigationAcronym": "ISSI",
+ "investigationEndDate": "22-Dec-2004",
+ "investigationStartDate": "10-Jul-2004",
+ "licenseIdentifier": "CC0-1.0",
+ "licenseLink": "https://spdx.org/licenses/CC0-1.0.html",
+ "licenseName": "Creative Commons Zero v1.0 Universal",
+ "managingNasaCenter": "Marshall Space Flight Center (MSFC)",
+ "missionEnd": "",
+ "missionLink": "",
+ "missionName": "",
+ "missionStart": "",
+ "modified": [
+  {
+   "bucket": "psi-repo-prod",
+   "date_created": {
+    "$date": 1735251825958
+   },
+   "date_modified": {
+    "$date": 1735251825958
+   },
+   "file_name": "PSI-77_metadata_PSI-143_ISSI.zip",
+   "file_size": 8405,
+   "organization": "OSD",
+   "remote_path": "/Home/psi-data/PSI-77/metadata/PSI-77_metadata_PSI-143_ISSI.zip",
+   "remote_url": "/datamanager/file/Home/psi-data/PSI-77/metadata/PSI-77_metadata_PSI-143_ISSI.zip",
+   "resource_id": {
+    "$oid": "65e0a4d4931988043eebcd6e"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/metadata/PSI-77_metadata_PSI-143_ISSI.zip",
+   "s3_version_id": "Polf_5NLQfDr.lynhU0rqqHs.Aia75we",
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "version": 3,
+   "visible": true
+  }
+ ],
+ "modifiedDate": "28-Mar-2025",
+ "objective": "The primary objective is to better understand the quality of solders in a microgravity environment.  In microgravity, gas bubbles, or void spaces are found in the solder joint and at contact surfaces.  These voids reduce the thermal and electrical conductivity and also provide sites for crack initiation.  Bubbles have less chance to escape in the reduced gravity environment of space. Hence, by designing a systematic series of simple experiments, the objective was to investigate and better understand porosity development, surface wetting, and equilibrium shape formation while soldering in a reduced gravity environment.",
+ "organizations": [],
+ "payloads": [],
+ "projectIdentifier": "",
+ "projectLink": "",
+ "projectTitle": "",
+ "projectType": "Microgravity Investigation",
+ "proposalTitle": "",
+ "public": true,
+ "publications": [
+  {
+   "authorList": "RN Grugel, LJ Cotton, PN Segre, JA Ogle, G Funkhouser, F Parris, L Murphy, D Gillies, F Hua, AV Anilkumar",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "The In-Space Soldering Investigation (ISSI): Melting and Solidification Experiments Aboard the International Space Station"
+  },
+  {
+   "authorList": "SR Morrissey",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "Space Lab Still Open for Business"
+  },
+  {
+   "authorList": "",
+   "comments": [],
+   "doi": "",
+   "pubMedID": "",
+   "status": {
+    "@id": "l87xqHQEQuC4rNfO31zRSVlRomoXfQjaWFyzxZZZ",
+    "annotationValue": "published",
+    "comments": [],
+    "termAccession": "http://www.ebi.ac.uk/efo/EFO_0001796",
+    "termSource": ""
+   },
+   "title": "Expedition 8 Removes Unneeded Equipment, Prepares for Experiment"
+  }
+ ],
+ "related_glds": "",
+ "releaseDate": "22-Dec-2004",
+ "removed": [
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472543
+   },
+   "date_modified": {
+    "$date": 1726715472543
+   },
+   "file_name": "ISSI Science and Procedures.doc",
+   "file_size": 744960.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/7291/125/ISSI Science and Procedures.doc",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI Science and Procedures.doc",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/70327/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI Science and Procedures.doc",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472544
+   },
+   "date_modified": {
+    "$date": 1726715472544
+   },
+   "file_name": "ISSI ISS VC3 2_2.mp4",
+   "file_size": 367270683.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI ISS VC3 2_2.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI ISS VC3 2_2.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378599/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI ISS VC3 2_2.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472545
+   },
+   "date_modified": {
+    "$date": 1726715472545
+   },
+   "file_name": "ISSI 01-04-05 Ref.Mstr. 719051.zip",
+   "file_size": 98596687.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI 01-04-05 Ref.Mstr. 719051.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI 01-04-05 Ref.Mstr. 719051.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378600/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI 01-04-05 Ref.Mstr. 719051.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472545
+   },
+   "date_modified": {
+    "$date": 1726715472545
+   },
+   "file_name": "ISSI 02-06-05 Exp 10.zip",
+   "file_size": 94876634.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI 02-06-05 Exp 10.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI 02-06-05 Exp 10.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378601/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI 02-06-05 Exp 10.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472546
+   },
+   "date_modified": {
+    "$date": 1726715472546
+   },
+   "file_name": "ISSI 12-08-04 Ref.Mstr. 719035.zip",
+   "file_size": 532674314.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI 12-08-04 Ref.Mstr. 719035.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI 12-08-04 Ref.Mstr. 719035.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378602/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI 12-08-04 Ref.Mstr. 719035.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472547
+   },
+   "date_modified": {
+    "$date": 1726715472547
+   },
+   "file_name": "ISSI ISS VC3 1_2.zip",
+   "file_size": 760143207.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI ISS VC3 1_2.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI ISS VC3 1_2.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378603/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI ISS VC3 1_2.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472548
+   },
+   "date_modified": {
+    "$date": 1726715472548
+   },
+   "file_name": "ISSI Science 13 1_3.zip",
+   "file_size": 528972349.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI Science 13 1_3.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI Science 13 1_3.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378604/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI Science 13 1_3.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472548
+   },
+   "date_modified": {
+    "$date": 1726715472548
+   },
+   "file_name": "ISSI Science 13 3_3.zip",
+   "file_size": 109989589.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/1406/ISSI Science 13 3_3.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI Science 13 3_3.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378605/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI Science 13 3_3.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472549
+   },
+   "date_modified": {
+    "$date": 1726715472549
+   },
+   "file_name": "ISSI Macros.zip",
+   "file_size": 13036234.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37615/226/ISSI Macros.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI Macros.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/2378628/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI Macros.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI - STES Macro",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": {
+    "$date": 1726715472550
+   },
+   "date_modified": {
+    "$date": 1726715472550
+   },
+   "file_name": "ISSI 12-08-04 Ref.Mstr. 719035.mp4",
+   "file_size": 538948934.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI 12-08-04 Ref.Mstr. 719035.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI 12-08-04 Ref.Mstr. 719035.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652528/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI 12-08-04 Ref.Mstr. 719035.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": "",
+   "file_name": "ISSI ISS VC3 1_2.mp4",
+   "file_size": 771573864.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI ISS VC3 1_2.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI ISS VC3 1_2.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652529/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI ISS VC3 1_2.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": "",
+   "file_name": "ISSI Science #13 3_3.mp4",
+   "file_size": 111952686.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI Science #13 3_3.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI Science #13 3_3.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652530/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI Science #13 3_3.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": "",
+   "file_name": "ISSI 01-04-05 Ref.Mstr. 719051.mp4",
+   "file_size": 100375882.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI 01-04-05 Ref.Mstr. 719051.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI 01-04-05 Ref.Mstr. 719051.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652531/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI 01-04-05 Ref.Mstr. 719051.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": "",
+   "file_name": "ISSI Science #13 1_3.mp4",
+   "file_size": 536735755.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI Science #13 1_3.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI Science #13 1_3.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652532/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI Science #13 1_3.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": "",
+   "file_name": "ISSI 02-06-05 Exp 10.mp4",
+   "file_size": 95786633.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/224/ISSI 02-06-05 Exp 10.mp4",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI 02-06-05 Exp 10.mp4",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652533/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI 02-06-05 Exp 10.mp4",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": "",
+   "file_name": "ISSI Science Videos.zip",
+   "file_size": 2483071857.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/37601/14632/ISSI Science Videos.zip",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/ISSI Science Videos.zip",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/7652534/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/ISSI Science Videos.zip",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/ISSI Test Session 01, Samples 01-09/ISSI Videos",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": "",
+   "file_name": "FinalReport_ISSI.pdf",
+   "file_size": 41257499.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/21587/244/FinalReport_ISSI.pdf",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/FinalReport_ISSI.pdf",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/12653450/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/FinalReport_ISSI.pdf",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/Final Report_ISSI",
+   "version": 1,
+   "visible": true
+  },
+  {
+   "bucket": "",
+   "date_created": "",
+   "file_name": "DLD_ISSI.pdf",
+   "file_size": 74383.0,
+   "organization": "shared",
+   "psi_legacy": true,
+   "psi_legacy_s3_path": "legacy/7291/11572/DLD_ISSI.pdf",
+   "remote_path": "/Home/psi-data/PSI-77/Raw Data/DLD_ISSI.pdf",
+   "remote_url": "https://psi.ndc.nasa.gov/mpglobal/api/athena/file/12660796/?inline=1&log=1",
+   "resource_id": {
+    "$oid": "65e739c18e263688e9f9200d"
+   },
+   "restricted": false,
+   "s3_path": "psi-data/PSI-77/Raw Data/DLD_ISSI.pdf",
+   "s3_version_id": null,
+   "study_id": {
+    "$oid": "676dd772b7b6ff8e6500ef5b"
+   },
+   "subcategory": "Legacy/",
+   "version": 1,
+   "visible": true
+  }
+ ],
+ "researchArea": "Materials Science",
+ "researchImpacts": "An investigation of soldering practices and behavior in a microgravity environment is relevant to our technological needs, particularly with regard to in-space fabrication and repair. The ISSI payload provides unique insight into microgravity soldering methods, which could play a fundamental role in maintaining the International Space Station as well as provide understanding of repair capabilities on future missions to the Moon and to Mars. The study of soldering in space could lead to better soldering techniques here on Earth.",
+ "restricted": false,
+ "sourceAccession": "",
+ "sourceLink": "",
+ "spaceProgram": "National Aeronautics and Space Administration (NASA)",
+ "subResearchArea": "Soldering",
+ "submissionDate": "22-Dec-2004",
+ "title": "In Space Soldering Investigation",
+ "totalFileSize": 7186093291.0,
+ "version": 4,
+ "versionMessage": "",
+ "versionMessageLevel": "",
+ "versionMessageLocations": [],
+ "versionReason": "Metadata update"
+}
