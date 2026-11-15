@@ -52,7 +52,7 @@ Full list with links: REFERENCES.md in the repository.
 
 ## Use of SI (Super Intelligence) tools
 
-Yes. Claude Code (Claude Opus 5.5) wrote the code (data pipeline, tests, web app and 3D scene) and extracted findings and claims from the NASA documents, working from our research question, design direction and review checkpoints. We did not use SI to come up with the idea. Every extracted quote and condition number is machine-checked against the source page by our verification gate, and records that fail are dropped. The one-line finding summaries in the app are SI-written and labelled "AI summary". The optional Ask mode uses Claude to summarise only retrieved, verified records, and labels its answers as SI-generated. Screenshots and renders in our slides are labelled "built with SI assistance". The README's AI-use section and the site footer carry the same disclosure.
+Yes. Claude Code (Claude Opus 5.5) wrote the code (data pipeline, tests, web app and 3D scene) and extracted findings and claims from the NASA documents, working from our research question, design direction and review checkpoints. We did not use SI to come up with the idea. Every extracted quote and condition number is machine-checked against the source page by our verification gate, and records that fail are dropped. The one-line finding summaries in the app are SI-written and labelled "AI summary". The optional Ask mode uses Claude to summarise only retrieved, verified records, and labels its answers as SI-generated. Screenshots and renders in our slides are labelled "built with SI assistance". The README's AI-use section carries the same disclosure.
 
 ## Resources used
 
