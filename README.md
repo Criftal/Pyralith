@@ -163,7 +163,7 @@ How live mode behaves:
 
 ## Team
 
-*Team name and members to be added.*
+**Team Pyralith**: Aahaan Sharma and Michael Asabere.
 
 ## References
 

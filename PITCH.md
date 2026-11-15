@@ -21,7 +21,7 @@ Then FIREBREAK says where NASA should light the next fire: lunar gravity, 30 to 
 
 ## 7-slide deck (if submitting slides)
 
-1. **Title:** FIREBREAK. *Passed on Earth. Safe on the Moon?* Team name, members, challenge: Flame in Freefall.
+1. **Title:** FIREBREAK. *Passed on Earth. Safe on the Moon?* Team Pyralith (Aahaan Sharma, Michael Asabere), challenge: Flame in Freefall.
 2. **The gap:** Test 1 runs at 1 g. Artemis cabins run 8.2 psia / 34% O₂. PSI has no partial-gravity combustion data. (Gap Map screenshot.)
 3. **Why you can't interpolate:** the U-shaped flammability boundary, lunar gravity near the most flammable point, and the BASS-II PMMA example (13.6% vs 16% O₂). Cite Ferkul et al. 2026 and Olson 2004.
 4. **How it works:**
