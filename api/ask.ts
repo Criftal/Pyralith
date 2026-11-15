@@ -14,6 +14,8 @@ import Anthropic from "@anthropic-ai/sdk";
 import { buildContext, groundAnswer, SYSTEM, NO_EVIDENCE, type CorpusRecord, type Mode } from "./_lib/grounding.js";
 
 const MODEL = "claude-opus-5-5";
+// ANTHROPIC_API_KEY is the standard name; the deployed project stores the key as "claudeapikey".
+const apiKey = (): string | undefined => process.env.ANTHROPIC_API_KEY || process.env.claudeapikey || undefined;
 const MAX_IDS = 12;
 const MAX_QUESTION = 500;
 const ID_RE = /^(f_\d{4}|c_[a-z0-9_]+)$/;
@@ -88,11 +90,12 @@ function bad(message: string, status = 400): Response {
 }
 
 export function GET(): Response {
-  return Response.json({ live: Boolean(process.env.ANTHROPIC_API_KEY), model: MODEL });
+  return Response.json({ live: Boolean(apiKey()), model: MODEL });
 }
 
 export async function POST(request: Request): Promise<Response> {
-  if (!process.env.ANTHROPIC_API_KEY) return bad("live_mode_unavailable", 503);
+  const key = apiKey();
+  if (!key) return bad("live_mode_unavailable", 503);
 
   let body: { mode?: unknown; question?: unknown; target?: unknown; ids?: unknown };
   try {
@@ -119,7 +122,7 @@ export async function POST(request: Request): Promise<Response> {
       ? `Target finding to argue against: [${target}]. Use the other records as your evidence.`
       : `Question: ${question}`;
 
-  const client = new Anthropic();
+  const client = new Anthropic({ apiKey: key });
   try {
     const response = await client.beta.messages.create({
       model: MODEL,

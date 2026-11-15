@@ -115,7 +115,7 @@ Deploy: `npx vercel build --prod && npx vercel deploy --prebuilt --prod`.
 
 The Ask page works without any key, using client-side MiniSearch retrieval. To turn on Claude answers:
 
-1. In the Vercel project settings, add the environment variable `ANTHROPIC_API_KEY`.
+1. In the Vercel project settings, add the environment variable `ANTHROPIC_API_KEY`. The function also accepts `claudeapikey`, the name the deployed project uses.
 2. Redeploy.
 
 How live mode behaves:
