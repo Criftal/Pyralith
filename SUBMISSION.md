@@ -2,7 +2,7 @@
 
 Team **Pyralith** (Aahaan Sharma, Michael Asabere) · Challenge: **Flame in Freefall: SI-Powered Fire Safety Insights from Microgravity Combustion Data**
 
-Field names follow the 2026 Project Submission Guide; check them against the live form. Fill in the two links marked TODO before submitting.
+Field names follow the 2026 Project Submission Guide; check them against the live form. Fill in the deck link marked TODO before submitting.
 
 ---
 
@@ -21,7 +21,7 @@ TODO: public Google Drive link to the 7-slide PDF (export it from the deck's Sha
 ## Link to final project
 
 - Live site: https://firebreak-two.vercel.app
-- Code: TODO public GitHub repository link
+- Code: https://github.com/Criftal/Pyralith
 
 ## Detailed project description
 
