@@ -2,7 +2,7 @@
 
 Team **Pyralith** (Aahaan Sharma, Michael Asabere) · Challenge: **Flame in Freefall: SI-Powered Fire Safety Insights from Microgravity Combustion Data**
 
-Field names follow the 2026 Project Submission Guide; check them against the live form. Fill in the deck link marked TODO before submitting.
+Field names follow the 2026 Project Submission Guide; check them against the live form. All links are filled in.
 
 ---
 
@@ -16,7 +16,7 @@ FIREBREAK asks one question NASA has not yet answered: a material passed NASA's 
 
 ## Link to project demo
 
-TODO: public Google Drive link to the 7-slide PDF (export it from the deck's Share menu; set "Anyone with the link can view")
+https://github.com/Criftal/Pyralith/blob/main/docs/FIREBREAK-demo-deck.pdf
 
 ## Link to final project
 

@@ -4,7 +4,7 @@
 
 FIREBREAK is a research dashboard for the NASA Space Apps 2026 challenge *Flame in Freefall*. It maps where NASA has microgravity combustion evidence, ranks it for a chosen crewed mission, and shows where NASA should light the next fire. Every number and claim is tied to a NASA source, a page and a machine-verified quote.
 
-**Live demo:** https://firebreak-two.vercel.app
+**Live demo:** https://firebreak-two.vercel.app · **Demo deck (7 slides, PDF):** [docs/FIREBREAK-demo-deck.pdf](docs/FIREBREAK-demo-deck.pdf)
 
 > Research exploration prototype, not for flight safety decisions.
 
